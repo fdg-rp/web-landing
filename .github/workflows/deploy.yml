@@ -46,5 +46,38 @@ jobs:
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
         source: .output/public/*
-        target: /root/FDG_Panel/sites/landing
+        target: FDG_Panel/sites/landing
+        rm: true
+        
+    - name: Copy generated files 2
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.DEPLOY_HOST }}
+        username: ${{ secrets.DEPLOY_USERNAME }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        port: ${{ secrets.DEPLOY_PORT }}
+        source: .output/public/*
+        target: test2
+        rm: true
+
+    - name: Copy generated files 3
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.DEPLOY_HOST }}
+        username: ${{ secrets.DEPLOY_USERNAME }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        port: ${{ secrets.DEPLOY_PORT }}
+        source: .output2/public2/*
+        target: test3
+        rm: true
+        
+    - name: Copy generated files 4
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.DEPLOY_HOST }}
+        username: ${{ secrets.DEPLOY_USERNAME }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        port: ${{ secrets.DEPLOY_PORT }}
+        source: README.md
+        target: test4
         rm: true
