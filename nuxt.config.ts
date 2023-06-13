@@ -1,3 +1,5 @@
+const path = require('path');
+
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   extends: '@nuxt-themes/docus',
@@ -7,5 +9,11 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
-  ]
+  ],
+
+  nitro: {
+    output: {
+      publicDir: path.join(__dirname, 'built/public')
+    }
+  },
 })
