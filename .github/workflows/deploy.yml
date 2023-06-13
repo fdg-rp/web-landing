@@ -45,7 +45,7 @@ jobs:
         username: ${{ secrets.DEPLOY_USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
-        source: .output/public/*
+        source: ".output/public/*"
         target: FDG_Panel/sites/landing
         strip_components: 2
         rm: true
