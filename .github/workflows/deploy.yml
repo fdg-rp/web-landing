@@ -45,29 +45,7 @@ jobs:
         username: ${{ secrets.DEPLOY_USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
-        source: ".output/public/index.html"
+        source: .output/public/*
         target: FDG_Panel/sites/landing
         strip_components: 2
         rm: true
-        
-    - name: Copy generated files 2
-      uses: appleboy/scp-action@v0.1.4
-      with:
-        host: ${{ secrets.DEPLOY_HOST }}
-        username: ${{ secrets.DEPLOY_USERNAME }}
-        key: ${{ secrets.DEPLOY_KEY }}
-        port: ${{ secrets.DEPLOY_PORT }}
-        source: ".output/public/index.html"
-        target: test69
-        strip_components: 2
-
-    - name: Copy generated files 3
-      uses: appleboy/scp-action@v0.1.4
-      with:
-        host: ${{ secrets.DEPLOY_HOST }}
-        username: ${{ secrets.DEPLOY_USERNAME }}
-        key: ${{ secrets.DEPLOY_KEY }}
-        port: ${{ secrets.DEPLOY_PORT }}
-        source: components/Logo.vue
-        target: test68
-        strip_components: 1
