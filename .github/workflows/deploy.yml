@@ -59,7 +59,7 @@ jobs:
         source: .output/public/*
         target: test2
         rm: true
-
+        
     - name: Copy generated files 3
       uses: appleboy/scp-action@v0.1.4
       with:
@@ -67,17 +67,6 @@ jobs:
         username: ${{ secrets.DEPLOY_USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
-        source: .output2/public2/*
-        target: test3
-        rm: true
-        
-    - name: Copy generated files 4
-      uses: appleboy/scp-action@v0.1.4
-      with:
-        host: ${{ secrets.DEPLOY_HOST }}
-        username: ${{ secrets.DEPLOY_USERNAME }}
-        key: ${{ secrets.DEPLOY_KEY }}
-        port: ${{ secrets.DEPLOY_PORT }}
         source: README.md
-        target: test4
+        target: test3
         rm: true
