@@ -36,7 +36,7 @@ jobs:
         cmd: generate # will run `yarn install` command
         
     - name: List files
-      run: ls .output/public
+      run: ls built/public
         
     - name: Copy generated files
       uses: appleboy/scp-action@v0.1.4
@@ -47,5 +47,17 @@ jobs:
         port: ${{ secrets.DEPLOY_PORT }}
         source: built/public/*
         target: test10
+        strip_components: 2
+        rm: true
+        
+    - name: Copy generated files
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.DEPLOY_HOST }}
+        username: ${{ secrets.DEPLOY_USERNAME }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        port: ${{ secrets.DEPLOY_PORT }}
+        source: built/public/index.html
+        target: test11
         strip_components: 2
         rm: true
