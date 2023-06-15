@@ -7,6 +7,13 @@ export default defineAppConfig({
     socials: {
       // twitter: "nuxtstudio",
       github: "fdg-rp/web-landing",
+      discord: {
+        label: 'Discord',
+        icon: 'simple-icons:discord',
+        href: 'https://discord.gg/fatduckgaming',
+        rel: 'noopener noreferrer'
+      },
+      tiktok: "@officialfatduckgaming",
     },
     github: {
       dir: "/content",
