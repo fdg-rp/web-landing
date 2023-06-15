@@ -2,16 +2,16 @@ export default defineAppConfig({
   docus: {
     title: "Fat Duck Gaming",
     description: "Australia's favourite FiveM community",
-    image:
-      "https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png",
+    url: "https://docs.fatduckgaming.com",
+    image: "https://imgur.com/a/XouW01e",
     socials: {
       // twitter: "nuxtstudio",
       github: "fdg-rp/web-landing",
       discord: {
-        label: 'Discord',
-        icon: 'simple-icons:discord',
-        href: 'https://discord.gg/fatduckgaming',
-        rel: 'noopener noreferrer'
+        label: "Discord",
+        icon: "simple-icons:discord",
+        href: "https://discord.gg/fatduckgaming",
+        rel: "noopener noreferrer",
       },
       tiktok: "@officialfatduckgaming",
     },
@@ -43,23 +43,17 @@ export default defineAppConfig({
       iconLinks: [],
       textLinks: [
         {
-          text: 'Support',
-          href: 'https://support.fatduckgaming.com',
-          target: '_blank',
-          rel: 'noopener'
+          text: "Support",
+          href: "https://support.fatduckgaming.com",
+          target: "_blank",
+          rel: "noopener",
         },
         {
-          text: 'Discord',
-          href: 'https://discord.gg/fatduckgaming',
-          target: '_blank',
-          rel: 'noopener'
+          text: "Discord",
+          href: "https://discord.gg/fatduckgaming",
+          target: "_blank",
+          rel: "noopener",
         },
-        {
-          text: 'Forums',
-          href: 'https://fatduckgaming.com',
-          target: '_blank',
-          rel: 'noopener'
-        }
       ],
     },
   },
