@@ -37,6 +37,15 @@ jobs:
         
     - name: List files
       run: ls built/public
+      
+    - name: Remove remote files
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.DEPLOY_HOST }}
+        username: ${{ secrets.DEPLOY_USERNAME }}
+        key: ${{ secrets.DEPLOY_KEY }}
+        port: ${{ secrets.DEPLOY_PORT }}
+        script: cd FDG_Panel/sites/landing && rm -rf *
         
     - name: Copy generated files
       uses: appleboy/scp-action@v0.1.4
@@ -48,4 +57,3 @@ jobs:
         source: built/public/*
         target: FDG_Panel/sites/landing
         strip_components: 2
-        rm: true
