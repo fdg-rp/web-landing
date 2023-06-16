@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: "Fat Duck Gaming",
     description: "Australia's favourite FiveM community",
     url: "https://docs.fatduckgaming.com",
-    image: "https://imgur.com/a/XouW01e",
+    image: "https://i.imgur.com/eKCrYP0.png",
     socials: {
       // twitter: "nuxtstudio",
       github: "fdg-rp/web-landing",
