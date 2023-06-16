@@ -3,6 +3,13 @@ const path = require("path");
 export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   extends: "@nuxt-themes/docus",
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en'
+      }
+    }
+  },
   modules: [
     // https://github.com/nuxt-modules/plausible
     "@nuxtjs/plausible",
