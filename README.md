@@ -6,6 +6,8 @@
 
 Welcome to the Fat Duck Gaming (FDG) Documentation Site repository! This repository serves as the central hub for the development and maintenance of the FDG documentation site, an essential resource for our FiveM roleplay server.
 
+**Join our community! https://discord.gg/fatduckgaming**
+
 ## About FDG
 Fat Duck Gaming, commonly referred to as FDG, is a thriving community-driven Australian-themed FiveM roleplay server. We strive to create an immersive and enjoyable gaming experience for our players, and this documentation site plays a crucial role in achieving that goal. By providing comprehensive information and step-by-step guides, we aim to assist both newcomers and seasoned players in navigating and making the most of our server's features.
 
