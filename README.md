@@ -1,4 +1,6 @@
-# Fat Duck Gaming Documentation Site
+# FDG Docs
+
+![FDG Logo Text](https://app.fatduckgaming.com/assets/logos/fdg_text.png)
 
 **https://docs.fatduckgaimng.com**
 
