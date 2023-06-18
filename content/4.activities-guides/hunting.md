@@ -8,7 +8,7 @@ toc: true
 
 # Hunting Guide
 
-:icon{name="noto:building-construction"} Author - **basedgod**
+By **basedgod**
 
 ![Hunting Guide](https://i.imgur.com/Pbmws0j.png)
 

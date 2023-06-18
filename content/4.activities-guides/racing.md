@@ -8,7 +8,7 @@ toc: true
 
 # Racing Guide
 
-:icon{name="noto:building-construction"} Author - **basedgod**
+By **basedgod**
 
 ![Racing Scene](https://i.imgur.com/CxHRcK6.jpeg)
 
@@ -78,5 +78,3 @@ Making quality races for beginners might be tricky at first but there’s some t
 - Bring multiple patch kits when racing or have 100% armour on your vehicle to avoid totalling your car mid race. Refueling and getting repairs between races is ideal.
 
 - Keep in mind street racing is illegal and you may attract cop attention. Make sure you adhere to all server rules including accidentally running someone over.
-
-:icon{name="noto:building-construction"} Under construction! Author - **Base**
