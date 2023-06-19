@@ -21,14 +21,9 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, "built/public"),
     },
     prerender: {
-      routes: ["/sitemap.xml"],
+      routes: ["/sitemap.xml", "/alldocs.json"],
     },
   },
   runtimeConfig: {},
   ssr: true,
-  hooks: {
-    "builder:generateApp": (opts) => {
-      console.log('haha')
-    }
-  }
 });

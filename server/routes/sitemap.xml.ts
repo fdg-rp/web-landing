@@ -7,7 +7,6 @@ export default defineEventHandler(async (event) => {
   const sitemap = new SitemapStream({
     hostname: "https://docs.fatduckgaming.com",
   });
-
   for (const doc of docs) {
     sitemap.write({
       url: doc._path,
@@ -15,6 +14,5 @@ export default defineEventHandler(async (event) => {
     });
   }
   sitemap.end();
-
   return streamToPromise(sitemap);
 });
