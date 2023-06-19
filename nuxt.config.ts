@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, "built/public"),
     },
     prerender: {
-      routes: ["/sitemap.xml", "/api/_content/query"],
+      routes: ["/sitemap.xml"],
     },
   },
   runtimeConfig: {},
