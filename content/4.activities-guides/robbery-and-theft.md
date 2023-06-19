@@ -15,7 +15,11 @@ by **basedgod**
 ## About
 Looking to live a life of high risk and high reward? Robbery & Theft is the exhilarating gateway to a life of crime. Everyone wants to live a life of luxury and committing crime is the fastest way to get there but it also comes at a cost. Now you’ve got to make the decision, are you willing to risk your freedom for a lifestyle of pure adrenaline and infamy?
 
-# Store Robbery
+::alert{type="warning"}
+In the city, robbery and theft are **crimes**. If you're caught by the Police you may be arrested, given a fine or even sent to jail. See the [San Andreas Register of Law](https://law.fatduckgaming.com).
+::
+
+## Store Robbery
 Store robberies are the first step to becoming a professional thief and they’re quite easy to do however it’s also the least rewarding.
 
 1. First step to robbing stores is to get a firearm and a getaway vehicle. Having another person as a getaway driver and lookout is the most ideal. You can have a **MAXIMUM** of `6` people in store robberies.
@@ -26,17 +30,14 @@ Store robberies are the first step to becoming a professional thief and they’r
 
 4. Watch out for the cops because now you’re on the radar and it’s getaway time! Good luck you filthy criminal.
 
-
-
-
-# Burglary
+## Burglary
 
 ![House Robberies](https://i.imgur.com/BTTWuw2.png)
 
 Looking to level up to a more profitable and competitive style of robbery? Time to try some house robberies! Just be careful, no one likes having their belongings stolen.
 
  
-## How to Rob Houses
+### How to Rob Houses
 
 1. First step to robbing houses is to get some tools to do so. There are many ways to get your hands on them. Try asking some seasoned criminals how to get your hands on the right gear for the job.
 
@@ -49,7 +50,7 @@ Looking to level up to a more profitable and competitive style of robbery? Time 
 
 
 
-# Bank Heists
+## Bank Heists
 Bank Heists are the final test to graduate as a Professional Criminal. This is the most profitable form of robbery and is by far the most rewarding with the most risk. It takes a lot of skill and teamwork to pull off a successful bank heist. Make sure you plan out your heist well and ask other criminals what equipment you need to finish the job. You can have a **MAXIMUM** of `6` people in bank heists.
 
 

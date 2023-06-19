@@ -6,9 +6,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: 'en'
-      }
-    }
+        lang: "en",
+      },
+    },
   },
   modules: [
     // https://github.com/nuxt-modules/plausible
@@ -21,9 +21,14 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, "built/public"),
     },
     prerender: {
-      routes: ["/sitemap.xml"],
+      routes: ["/sitemap.xml", "/api/_content/query"],
     },
   },
   runtimeConfig: {},
   ssr: true,
+  hooks: {
+    "builder:generateApp": (opts) => {
+      console.log('haha')
+    }
+  }
 });

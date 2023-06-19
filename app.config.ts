@@ -43,7 +43,7 @@ export default defineAppConfig({
       iconLinks: [],
       textLinks: [
         {
-          text: "Support",
+          text: "Support Portal",
           href: "https://support.fatduckgaming.com",
           target: "_blank",
           rel: "noopener",
@@ -51,6 +51,12 @@ export default defineAppConfig({
         {
           text: "Discord",
           href: "https://discord.gg/fatduckgaming",
+          target: "_blank",
+          rel: "noopener",
+        },
+        {
+          text: "Donate",
+          href: "https://donate.fatduckgaming.com",
           target: "_blank",
           rel: "noopener",
         },
