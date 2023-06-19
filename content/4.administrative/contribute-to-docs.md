@@ -50,7 +50,7 @@ The content of a doc is written in extended Markdown. A full list of the extende
 |--|--|
 |Headings|`# Heading One (largest)`<br>`## Heading Two`<br>`### Heading Three`<br>`#### Heading Four (smallest)`|
 |Bold|`**This text will be bold**`|
-|Italic|`*This text will be bold*`|
+|Italic|`*This text will be italic*`|
 |Blockquote|`> This will be a blockquote`|
 |Ordered List|`1. Element One`<br>`2. Element Two`<br>`3. Element Three`|
 |Unordered List|`- Element One`<br>`- Element Two`<br>`- Element Three`|
