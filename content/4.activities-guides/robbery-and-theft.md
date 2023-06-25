@@ -8,7 +8,7 @@ toc: true
 
 # Robbery & Theft
 
-by **basedgod**
+By **basedgod**
 
 ![Store Robberies](https://i.imgur.com/PdpXlvl.png)
 
