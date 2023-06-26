@@ -62,6 +62,12 @@ const streamers = [
     href: "https://www.twitch.tv/azzablake",
   },
   {
+    title: "@DeverauxAus",
+    subtitle: "Server Owner",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/05b54cca-0abf-4d09-9354-ba4816ecebd3-profile_image-150x150.png",
+    href: "https://www.twitch.tv/deverauxaus",
+  },
+  {
     title: "@PureRiffery900",
     subtitle: "Endorsed Creator",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/abccf441-c928-4c3c-9bc1-e455ba3cbd84-profile_image-70x70.png",
