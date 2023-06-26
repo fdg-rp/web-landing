@@ -5,7 +5,6 @@ export default defineAppConfig({
     url: "https://docs.fatduckgaming.com",
     image: "https://i.imgur.com/eKCrYP0.png",
     socials: {
-      // twitter: "nuxtstudio",
       github: "fdg-rp/web-landing",
       discord: {
         label: "Discord",
@@ -23,7 +22,7 @@ export default defineAppConfig({
       edit: true,
     },
     aside: {
-      level: 0,
+      level: 1,
       collapsed: false,
       exclude: [],
     },

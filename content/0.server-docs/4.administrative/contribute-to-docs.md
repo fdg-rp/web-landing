@@ -23,7 +23,7 @@ You can contribute by **creating new** documents, **updating old** documents or 
 4. **Visual Aids and Examples:** Incorporate visuals such as screenshots, diagrams, or videos to enhance understanding and demonstrate concepts or processes. Provide relevant examples to illustrate how to implement certain features or resolve common issues.
 5. **Cross-Referencing and Linking:** Include cross-references and internal links to related documents, guides, or tutorials within your website. This enables users to easily navigate between different resources, promoting a seamless and interconnected learning experience.
 
-6. **Conformity with Rules:** The contents of a document should comply with the [FDG Community rules](/rules) and these design principles.
+6. **Conformity with Rules:** The contents of a document should comply with the [FDG Community rules](/server-docs/rules) and these design principles.
 
 ## Syntax
 

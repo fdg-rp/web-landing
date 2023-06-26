@@ -1,10 +1,15 @@
 <template>
-  <div style="padding-bottom: 128px;">
+  <div style="padding-bottom: 128px">
     <ContentSlot :use="$slots.default" />
     <ClientOnly>
-      <MarqueeText :duration="40">
+      <MarqueeText
+        :duration="40"
+        :paused="isPaused"
+        @mouseenter="isPaused = !isPaused"
+        @mouseleave="isPaused = false"
+      >
         <div style="display: flex">
-          <div class="streamer-card" v-for="s in streamers" :key="s.href">
+          <div class="streamer-card" v-for="s in streamers" :key="s.href" @click="gotoStreamer(s.href)">
             <div>
               <img :src="s.img" class="streamer-card-img" />
             </div>
@@ -23,6 +28,10 @@
 
 <script setup>
 import MarqueeText from "vue-marquee-text-component";
+
+const isPaused = ref(false);
+
+function gotoStreamer(href) {window.open(href)}
 
 const streamers = [
   {
@@ -117,14 +126,19 @@ css({
         marginLeft: '2rem',
         display: 'flex',
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        '&:hover': {
+          background: '#9146FF88',
+          cursor: 'pointer',
+          transition: 'background 0.25s'
+        }
     },
     '.streamer-card-title': {
         marginBottom: '0.5rem',
         fontSize: '1.125rem',
         lineHeight: '1.75rem',
         fontWeight: '600',
-        color: '#FBFBFB'
+        // color: '#FBFBFB'
     },
     '.streamer-card-subtitle': {
         marginBottom: '0.5rem',
@@ -139,5 +153,6 @@ css({
         marginRight: '1rem',
         borderRadius: '50px'
     }
+
 })
 </style>

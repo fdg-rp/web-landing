@@ -8,6 +8,10 @@ toc: true
 
 # How to Appeal an Administrative Decision
 
+::alert{type="danger"}
+The appeals process is **currently under review** and may change soon. We'll keep you posted.
+::
+
 ## Administrative Appeals
 
 FDG has high standards and treats all situations with objectivity. If you believe your administrative action was placed in error you are well within your right to appeal the decision. All administrative appeals are reviewed by senior staff members and are placed under scrutiny where all information is assessed as a decision is concluded.

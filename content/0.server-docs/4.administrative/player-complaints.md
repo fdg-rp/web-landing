@@ -8,7 +8,7 @@ toc: true
 
 # Player Complaints
 
-FDG has [rules](/rules) in place to ensure a fair and enjoyable gaming experience for all. We understand some may fall victim to a rule breach. Therefore we offer multiple avenues to submit a report against a player. Staff assess all situations objectively to ensure a fair and just outcome is concluded. 
+FDG has [rules](/server-docs/rules) in place to ensure a fair and enjoyable gaming experience for all. We understand some may fall victim to a rule breach. Therefore we offer multiple avenues to submit a report against a player. Staff assess all situations objectively to ensure a fair and just outcome is concluded. 
 
 ## Submitting an In-Game Report 
 1. While in-game press `T` to open chat. 
