@@ -45,11 +45,11 @@ Commissioner | $20,000
 
 ---
 
-# Departments
+## Departments
 The police force consists of several sub-departments with each being responsible for a specific area. Each department has their own unique style, vehicles, equipment, and command structure. Each Department is commanded by a highly experienced Superintendent and Inspector.
 
 
-## General Duties
+### General Duties
 ![GD](https://i.imgur.com/Ry1Mi6y.png)
 
 General Duties officers are the backbone of the police force, they are often the first responders to a variety of incidents and will be where all new recruits start their policing journey. 
@@ -67,7 +67,7 @@ Forensics is a great way to close murder cases around Los Santos. A Forensics un
 ---
 
 
-## Criminal Investigation Branch
+### Criminal Investigation Branch
 
 ![CIB](https://i.imgur.com/mJBBQMH.png)
 
@@ -78,7 +78,7 @@ The CIB often conduct raids in cooperation with the Tactical Operations Unit in 
 ---
 
 
-## Tactical Operations Unit
+### Tactical Operations Unit
 
 ![TOU](https://i.imgur.com/Uh1AXWv.png)
 
@@ -91,7 +91,7 @@ TOU plan and execute high risk tactical operations such as civilian and gang pro
 ---
 
 
-## Highway Patrol
+### Highway Patrol
 
 ![RSS](https://i.imgur.com/SalAOy5.png)
 
@@ -104,10 +104,10 @@ Highway run Road & Safety operations such as double demerits periods where they 
 ---
 
 
-# Application Process
+## Application Process
 
 
-## Eligibility
+### Eligibility
 To apply to be a police officer you must meet the following requirements:
 
 ::list{type="primary"}
@@ -118,7 +118,7 @@ To apply to be a police officer you must meet the following requirements:
 - Valid Driver’s License
 ::
 
-## How to Apply
+### How to Apply
 
 If you meet the requirements and applications are open you may apply at any city job center. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
 Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
