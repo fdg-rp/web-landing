@@ -25,9 +25,9 @@ By supporting FDG, you enable us to:
 - Support [Cfx.re](https://cfx.re/), the creators of FiveM. A percentage of every payment goes directly to them.
 ::
 
-## Donation & Subscription Options
+## Donation Options
 
-There are several options available to those who wish to support FDG.
+There are several options available to those who wish to support FDG. Our Fat Duck Family Donation is the highest donation amount we accept, about 5 years ago we introduced a hard limit as some people were a tad too generous and money is hard to come by, we're stoked you choose to donate but we'd prefer most of your money stays in your pocket.
 
 ::list
 - Tier 1 Subscription
@@ -36,7 +36,7 @@ There are several options available to those who wish to support FDG.
 
 ::
 
-For up-to-date pricings, check out the [FDG donation site](https://donate.fatduckgaming.com).
+Check out the [FDG donation site](https://donate.fatduckgaming.com).
 
 ## How to Donate or Subscribe
 
