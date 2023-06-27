@@ -24,6 +24,9 @@ export default defineNuxtConfig({
       routes: ["/sitemap.xml", "/alldocs.json"],
     },
   },
-  runtimeConfig: {},
+  colorMode: {
+    preference: 'dark',
+    fallback: 'dark'
+  },
   ssr: true,
 });
