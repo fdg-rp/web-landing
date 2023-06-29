@@ -121,4 +121,7 @@ To apply to be a police officer you must meet the following requirements:
 ### How to Apply
 
 If you meet the requirements and applications are open you may apply at any city job center. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
+
+::alert{type="info"}
 Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
+::
