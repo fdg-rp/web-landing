@@ -41,7 +41,7 @@ Check out the [FDG donation site](https://donate.fatduckgaming.com).
 ## How to Donate or Subscribe
 
 ::alert{type="warning"}
-Be sure to check out the [Tebex terms and conditions](https://donate.fatduckgaming.com/terms/checkout).
+Be sure to check out the [Tebex terms and conditions](https://donate.fatduckgaming.com/terms/checkout) and the [FDG Donations & Tebex Guidelines](/server-docs/rules/service-guidelines).
 ::
 
 Visit our dedicated donations site, https://donate.fatduckgaming.com. Note, you'll need to log in with your [Cfx.re account](https://forum.cfx.re/categories). Need one? Head to the [Cfx.re forums](https://forum.cfx.re/categories) and create an account.
