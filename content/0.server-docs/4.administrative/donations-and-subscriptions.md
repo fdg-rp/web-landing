@@ -9,7 +9,7 @@ toc: true
 # Donations & Subscriptions
 
 ::alert{type="info"}
-Looking for the link? Visit https://donate.fatduckgaming.com.
+Looking for the link? To donate, visit https://donate.fatduckgaming.com.
 ::
 
 As FDG continues to expand and thrive, the support of its dedicated players and enthusiasts becomes vital in sustaining its growth, maintaining high-quality resources, and ensuring seamless gameplay experiences. Supporting FDG is an **entirely voluntary endeavor**, allowing individuals to contribute in ways that align with their interests and capabilities. By donating or subscribing to FDG, you not only enhance your own gaming experience but also play a pivotal role in fostering a thriving and engaging gaming community for all players to enjoy.
@@ -47,3 +47,7 @@ Be sure to check out the [Tebex terms and conditions](https://donate.fatduckgami
 Visit our dedicated donations site, https://donate.fatduckgaming.com. Note, you'll need to log in with your [Cfx.re account](https://forum.cfx.re/categories). Need one? Head to the [Cfx.re forums](https://forum.cfx.re/categories) and create an account.
 
 ![Donations home page](https://cdn.discordapp.com/attachments/565524491841568832/1123069203805655080/image.png)
+
+## How to Cancel Subscriptions
+
+To cancel your Tebex subscription(s), check out the [Cancel Tebex Subscription guide](/server-docs/troubleshooting/cancel-tebex-subscription).
