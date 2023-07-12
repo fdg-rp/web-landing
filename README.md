@@ -2,7 +2,7 @@
 
 ![FDG Logo Text](https://app.fatduckgaming.com/assets/logos/fdg_text.png)
 
-**https://preview.fatduckgaimng.com**
+**https://preview.fatduckgaming.com**
 
 Welcome to the Fat Duck Gaming (FDG) Documentation Site repository! This repository serves as the central hub for the development and maintenance of the FDG documentation site, an essential resource for our FiveM roleplay server.
 
