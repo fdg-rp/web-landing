@@ -35,10 +35,10 @@ function gotoStreamer(href) {window.open(href)}
 
 const streamers = [
   {
-    title: "@DeverauxAus",
+    title: "@Deveraux",
     subtitle: "Server Owner",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/05b54cca-0abf-4d09-9354-ba4816ecebd3-profile_image-150x150.png",
-    href: "https://www.twitch.tv/deverauxaus",
+    href: "https://www.twitch.tv/deveraux",
   },
   {
     title: "@METRITIS_",
@@ -71,10 +71,10 @@ const streamers = [
     href: "https://www.twitch.tv/azzablake",
   },
   {
-    title: "@DeverauxAus",
+    title: "@Deveraux",
     subtitle: "Server Owner",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/05b54cca-0abf-4d09-9354-ba4816ecebd3-profile_image-150x150.png",
-    href: "https://www.twitch.tv/deverauxaus",
+    href: "https://www.twitch.tv/deveraux",
   },
   {
     title: "@PureRiffery900",
