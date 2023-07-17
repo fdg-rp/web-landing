@@ -27,7 +27,7 @@ toc: true
 : An in-character way of refering to viewers on a player's live stream. Often used as a question, i.e. *'Have you got flies?*', or a warning, i.e. *'Heads up, i've got flies.'*
 
 **Fly In/Out**
-: An in-character was of saying connect (fly in) to or disconnect (fly out) from the server.
+: An in-character way of saying connect (fly in) to or disconnect (fly out) from the server.
 
 ## G
 
