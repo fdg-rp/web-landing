@@ -19,6 +19,9 @@ toc: true
 
 ## D
 
+**Deported**
+An in-character way of referring to a player who has been banned. I.e. "Billy got deported for a month"
+
 ## E
 
 ## F
