@@ -20,7 +20,7 @@ toc: true
 ## D
 
 **Deported**
-An in-character way of referring to a player who has been banned. I.e. "Billy got deported for a month"
+: An in-character way of referring to a player who has been banned. I.e. "Billy got deported for a month"
 
 **Danny**
 : An in-character way of referring to a player who is new within the community or server I.e. *"There is a danny at pillbox running around"*
@@ -71,7 +71,7 @@ An in-character way of referring to a player who has been banned. I.e. "Billy go
 ## V
 
 **Vacation**
-An in-character phrase used to say you have recently come back from a ban. I.e. "I just came back from a week vacation"
+: An in-character phrase used to say you have recently come back from a ban. I.e. "I just came back from a week vacation"
 
 ## W
 
