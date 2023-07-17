@@ -17,7 +17,8 @@
     "@types/node": "^20.2.5",
     "eslint": "^8.42.0",
     "nuxt": "^3.6.1",
-    "sitemap": "^7.1.1"
+    "sitemap": "^7.1.1",
+    "nuxt-og-image": "^2.0.10"
   },
   "dependencies": {
     "vue-marquee-text-component": "^2.0.1"

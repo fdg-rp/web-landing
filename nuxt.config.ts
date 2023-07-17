@@ -15,6 +15,8 @@ export default defineNuxtConfig({
     "@nuxtjs/plausible",
     // https://github.com/nuxt/devtools
     "@nuxt/devtools",
+    // https://nuxt-seo.netlify.app/og-image
+    "nuxt-og-image",
   ],
   nitro: {
     output: {
@@ -29,4 +31,7 @@ export default defineNuxtConfig({
     fallback: "dark",
   },
   ssr: true,
+  site: {
+    url: "https://preview.fatduckgaming.com",
+  },
 });
