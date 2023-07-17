@@ -30,4 +30,6 @@ If you are experiencing performance issues or server/fivem issues clearing your 
 
 ![Instruction image](https://i.imgur.com/8Pu2NfX.png)
 
-`Clearing FiveM cache will make you have to redownload server assets upon joining Fat Duck Gaming`
+::alert{type="info"} 
+Clearing FiveM cache will make you have to redownload server assets upon joining **Fat Duck Gaming**
+::
