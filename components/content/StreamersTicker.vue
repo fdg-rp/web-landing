@@ -35,10 +35,10 @@ function gotoStreamer(href) {window.open(href)}
 
 const streamers = [
   {
-    title: "@DeverauxAus",
+    title: "@Deveraux",
     subtitle: "Server Owner",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/05b54cca-0abf-4d09-9354-ba4816ecebd3-profile_image-150x150.png",
-    href: "https://www.twitch.tv/deverauxaus",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/b2fd776a-6805-4c96-a348-df90ae1657f6-profile_image-70x70.png",
+    href: "https://www.twitch.tv/deveraux",
   },
   {
     title: "@METRITIS_",
@@ -59,6 +59,12 @@ const streamers = [
     href: "https://www.twitch.tv/martibors",
   },
   {
+    title: "@OzNat1",
+    subtitle: "Endorsed Creator",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/e884069e-3477-4474-bf2a-163c600ccf82-profile_image-70x70.png",
+    href: "https://www.twitch.tv/oznat1",
+  },
+  {
     title: "@RichoPOV",
     subtitle: "Endorsed Creator",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/8900a195-116b-4973-836e-7989d47b08ff-profile_image-70x70.png",
@@ -71,10 +77,10 @@ const streamers = [
     href: "https://www.twitch.tv/azzablake",
   },
   {
-    title: "@DeverauxAus",
+    title: "@Deveraux",
     subtitle: "Server Owner",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/05b54cca-0abf-4d09-9354-ba4816ecebd3-profile_image-150x150.png",
-    href: "https://www.twitch.tv/deverauxaus",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/b2fd776a-6805-4c96-a348-df90ae1657f6-profile_image-70x70.png",
+    href: "https://www.twitch.tv/deveraux",
   },
   {
     title: "@PureRiffery900",
