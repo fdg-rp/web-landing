@@ -67,6 +67,9 @@ An in-character way of referring to a player who has been banned. I.e. "Billy go
 
 ## V
 
+**Vacation**
+An in-character phrase used to say you have recently come back from a ban. I.e. "I just came back from a week vacation"
+
 ## W
 
 **Wizard**, a
