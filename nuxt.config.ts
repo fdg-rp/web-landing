@@ -22,11 +22,12 @@ export default defineNuxtConfig({
     },
     prerender: {
       routes: ["/sitemap.xml", "/alldocs.json"],
+      ignore: ["/api"],
     },
   },
   colorMode: {
-    preference: 'dark',
-    fallback: 'dark'
+    preference: "dark",
+    fallback: "dark",
   },
   ssr: true,
 });
