@@ -65,6 +65,18 @@ const streamers = [
     href: "https://www.twitch.tv/oznat1",
   },
   {
+    title: "@BaileyG",
+    subtitle: "Endorsed Creator",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/a82b6e4b-89e3-4991-af9a-6574c28cc830-profile_image-70x70.png",
+    href: "https://www.twitch.tv/baileyg",
+  },
+  {
+    title: "@Kaiium_",
+    subtitle: "Endorsed Creator",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/f404ad2e-ddbf-40b8-8608-186505827000-profile_image-70x70.png",
+    href: "https://www.twitch.tv/kaiium_",
+  },
+  {
     title: "@RichoPOV",
     subtitle: "Endorsed Creator",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/8900a195-116b-4973-836e-7989d47b08ff-profile_image-70x70.png",
