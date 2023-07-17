@@ -11,15 +11,15 @@ toc: true
 If you are experiencing texture loss here are some tips to get rid of it so you can enjoy **Fat Duck Gaming** to the fullest.
 
 ### Increase Texture Budget
-Increasing your texture budget is by far one of the most important tips as it usually is the main one to help prevent it and heres hpw you can do it
+Increasing your texture budget is by far one of the most important tips as it usually is the main one to help prevent it and heres how you can do it
 
 1. Once inside Fivem Open up the `ESC` Menu and navigate to the `settings` page
 
-2. Once inside the `settings` page navigate to the `graphics` page and click on it
+2. Once inside the `SETTINGS` page navigate to the `GRAPHICS` page and click on it
 
-3. When in the `graphics` page scroll down a tiny bit till you find `Extended Texture Budget`
+3. When in the `GRAPHICS` page scroll down a tiny bit till you find `Extended Texture Budget`
 
-4. Click on `Extended Texture Budget` and increase it i recommend having the bar around `75$` full but you can set it to whatever *setting it to 100% can sometimes cause issues and to much load on your device*
+4. Click on `Extended Texture Budget` and increase it, i recommend having the bar around `75%` full but you can set it to whatever *setting it to 100% can sometimes cause issues and to much load on your device*
 
 ::alert{type="success"}
 YAY! you have increased your texture budget and should see a drastic change if not check out some other tips to see if they help.
