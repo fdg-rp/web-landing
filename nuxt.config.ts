@@ -22,7 +22,6 @@ export default defineNuxtConfig({
     },
     prerender: {
       routes: ["/sitemap.xml", "/alldocs.json"],
-      ignore: ["/api"],
     },
   },
   colorMode: {
