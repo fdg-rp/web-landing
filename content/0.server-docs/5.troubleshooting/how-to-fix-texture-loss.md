@@ -32,7 +32,7 @@ Clear out your Fivem cache which can be found in a guide [here](/server-docs/tro
 
 ### Always Exit A Server Properly
 ::list{type="info"}
-Always fully quit fivem when rejoining a server so the game isnt having any texture conflictions
+Always fully quit fivem when rejoining a server so the game isnt having any texture conflicts
 ::
 
 ### Quality Settings
@@ -43,8 +43,8 @@ Instead of giving your computer a run for its money and having your texture qual
 ::list{type="info"}
 Reasons why texture loss may occur
 - Corrupted or outdated [cache](/server-docs/troubleshooting/how-to-clear-fivem-cache) files
-- Poor performance
-- Mod conflicts
+- Poor performance *poo pc💩*
+- Mod conflicts 
 - FiveM Server issues
 - Game or system glitches
 ::
