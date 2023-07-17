@@ -9,7 +9,15 @@
     >
       <ContentSlot :use="$slots.default" />
     </ProseP>
-    <ClientOnly fallback-tag="span" fallback="Loading contributors..." v-once>
+    <ClientOnly>
+      <ProseP
+        style="color: var(--elements-text-secondary-color-static) !important"
+      >
+        A special shoutout to the
+        <ProseStrong> {{ data ? data.length : "" }} </ProseStrong> contributors
+        of this site on
+        <ProseA href="https://github.com/fdg-rp/web-landing">GitHub</ProseA>.
+      </ProseP>
       <div class="contributors">
         <div v-for="i in data">
           <a :href="i.html_url" target="_blank" rel="noopener noreferrer">
