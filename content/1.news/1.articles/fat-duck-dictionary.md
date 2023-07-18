@@ -22,6 +22,9 @@ toc: true
 **Deported**
 : An in-character way of referring to a player who has been banned. I.e. "Billy got deported for a month"
 
+**Danny**
+: An in-character way of referring to a player who is new within the community or server I.e. *"There is a danny at pillbox running around"*
+
 ## E
 
 ## F
