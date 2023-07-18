@@ -73,6 +73,9 @@ toc: true
 **Vacation**
 : An in-character phrase used to say you have recently come back from a ban. i.e. "*I just came back from a week vacation.*"
 
+**Voicebox**
+: An in-character phrase used to refer to a player's voice chat. Often used to inform a player of issues with their voice chat, i.e. *Reset your voicebox, can't hear you.*
+
 ## W
 
 **Wizard**, a
