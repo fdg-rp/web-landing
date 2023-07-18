@@ -15,15 +15,15 @@ toc: true
 ## C
 
 **Code Zero**
-: An in-character phrase used to tell other players your game previously crashed. I.e. *'Sorry guys I'm back, code zero'ed.'*
+: An in-character phrase used to tell other players your game previously crashed. i.e. *'Sorry guys I'm back, code zero'ed.'*
 
 ## D
 
-**Deported**
-: An in-character way of referring to a player who has been banned. I.e. "Billy got deported for a month"
-
 **Danny**
-: An in-character way of referring to a player who is new within the community or server I.e. *"There is a danny at pillbox running around"*
+: An in-character way of referring to a player who is new within the community or server i.e. *"There is a danny at pillbox running around!"*
+
+**Deported**
+: An in-character way of referring to a player who has been banned. i.e. "Billy got deported for a month."
 
 ## E
 
@@ -71,7 +71,7 @@ toc: true
 ## V
 
 **Vacation**
-: An in-character phrase used to say you have recently come back from a ban. I.e. "I just came back from a week vacation"
+: An in-character phrase used to say you have recently come back from a ban. i.e. "*I just came back from a week vacation.*"
 
 ## W
 
