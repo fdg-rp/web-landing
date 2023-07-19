@@ -64,6 +64,9 @@ toc: true
 
 ## S
 
+**Spider on your foot**, You have got
+: An in-character way of letting another player know that their character is teleporting around, rather than walking. I.e. *'You have a spider on your foot'*
+
 ## T
 
 ## U
