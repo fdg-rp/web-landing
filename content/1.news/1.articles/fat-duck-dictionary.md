@@ -12,6 +12,9 @@ toc: true
 
 ## B
 
+**Brain**
+: An in-character phrase used to describe your system people may also use the word [Head](#h) . i.e. *'My Brain/Head is being really slow tonight.'*
+
 ## C
 
 **Code Zero**
@@ -26,6 +29,9 @@ toc: true
 : An in-character way of referring to a player who has been banned. i.e. *'Billy got deported for a month.'*
 
 ## E
+
+**Eyes**
+: An in-character way of referring to what a player is seeing through there screen. i.e. *'I don't see that in my eyes.'* 
 
 ## F
 
@@ -42,7 +48,19 @@ toc: true
 
 ## H
 
+**Head Pop/Popping**
+: Another way of saying [Code Zero](#c) describing your/someones game crashed/crashing. I.e. *'I think he head popped.'*
+
+**Headache**
+: An in-character way of saying your experiencing FPS lag/stutters. I.e. *'Im having a really bad headache right now.'*
+
+**Head**
+: An in-character phrase used to describe your system people may also use the word [Brain](#b) . i.e. *'My Brain/Head is being really slow tonight.'*
+
 ## I
+
+**In My Head**
+: An in-character way of referring to being AFK or Non Responsive in game. I.e. *'Im going in my head for a few minutes.'*
 
 ## J
 
@@ -50,9 +68,18 @@ toc: true
 
 ## L
 
+**Locals**
+: An in-character way of referring to NPCs. I.e. *'Im going to go sell drugs to the locals.'*
+
 ## M
 
+**Muscles**
+: An in-character way of referring to your keys on your keyboard. I.e. *'Press the E muscle.'*
+
 ## N
+
+**Nap**
+: An in-character way of saying your going reconnect usually to fix a bug. I.e. *'Im just going to take a quick ***Nap** ill be right back.'*
 
 ## O
 
@@ -67,7 +94,13 @@ toc: true
 **Spider on your foot**, You have got
 : An in-character way of letting another player know that their character is teleporting around, rather than walking. I.e. *'You have a spider on your foot'*
 
+**Sleep**, Going to
+: An in-character way of letting another player know that your logging off for the night. I.e. *'Im going to sleep for the rest of the night ill be on tomorrow'*
+
 ## T
+
+**Tsunami**
+: An in-character way of referring to a Server Restart. I.e. *'Tsunamis in 5 minutes'*
 
 ## U
 
