@@ -40,3 +40,6 @@ The whole Ocean! Large bodies of water are a great spot to scavenge. Think of pl
 ## What can I get?
 
 Scavenging can be quite profitable as there is little to no investment to get started, you’ll be able to find items ranging from Shells & Crabs, Broken iPhones & GoPro’s to Diamond Rings & Golden Coins. You MIGHT be lucky enough to find yourself a Locked Hardcase or a Briefcase! But they are VERY rare.
+
+## How do I scavenge for loot?
+While at the bottom of the ocean you will need to press `G`. Once the timer is up, you will be presented with a **maximum of 3 items** all of varying rarity. Keep in mind that it is **completely random**, and don't be surprised if you get nothing! Happy scavenging!
