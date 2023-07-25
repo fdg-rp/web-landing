@@ -15,6 +15,9 @@ toc: true
 **Brain**
 : An in-character phrase used to describe your system people may also use the word [Head](#h) . i.e. *'My Brain/Head is being really slow tonight.'*
 
+**Bubble**
+: An in-character phrase commonly known as a desync bubble it's a common way to say you're having bad desync. i.e *'I have a really bad bubble around me right now'*
+
 ## C
 
 **Code Zero**
