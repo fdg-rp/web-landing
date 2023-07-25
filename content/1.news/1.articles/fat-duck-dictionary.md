@@ -26,6 +26,9 @@ toc: true
 **Code Zero**
 : An in-character phrase used to tell other players your game previously crashed. i.e. *'Sorry guys I'm back, code zero'ed.'*
 
+**City**
+: An in-character way of referring to the server. i.e. *'The city of Fat Duck.'*
+
 ## D
 
 **Danny**
