@@ -13,10 +13,13 @@ toc: true
 ## B
 
 **Brain**
-: An in-character phrase used to describe your system people may also use the word [Head](#h) . i.e. *'My Brain/Head is being really slow tonight.'*
+: An in-character phrase used to describe your system people may also use the word [Head](#h). i.e. *'My Brain/Head is being really slow tonight.'*
 
 **Bubble**
 : An in-character phrase commonly known as a desync bubble it's a common way to say you're having bad desync. i.e *'I have a really bad bubble around me right now'*
+
+**Blackout**
+: An in-character way of referring to a server restart people may also use the word [Tsnunami](#t). i.e *'Blackout is at 2:00am'*
 
 ## C
 
@@ -35,6 +38,9 @@ toc: true
 
 **Eyes**
 : An in-character way of referring to what a player is seeing through there screen. i.e. *'I don't see that in my eyes.'* 
+
+**Ears**
+: An in-character way of referring to what a player is hearing or referring to their headset/sound device. i.e. *'My ears are playing up and i cant hear anything.'* 
 
 ## F
 
