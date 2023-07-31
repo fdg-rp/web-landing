@@ -61,7 +61,7 @@ const streamers = [
   {
     title: "@OzNat1",
     subtitle: "Endorsed Creator",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/e884069e-3477-4474-bf2a-163c600ccf82-profile_image-70x70.png",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/3115ceb6-98bc-4fd4-b86e-2d88713570d0-profile_image-70x70.png",
     href: "https://www.twitch.tv/oznat1",
   },
   {
