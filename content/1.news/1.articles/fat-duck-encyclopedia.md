@@ -80,7 +80,7 @@ FiveM is a third-party multiplayer modification for [Grand Theft Auto V](#grand-
 
 GitHub is a web-based platform that offers hosting for software development and version control using Git. It provides a platform for developers and software projects to share, collaborate, and contribute to open-source projects. GitHub is characterized by social coding, allowing developers to work together, share knowledge and solve problems while contributing or creating open-source projects. It features a robust set of collaborative tools, including bug tracking, wikis, access control, and scalability to enable efficient and effective software development.
 
-> The *Fat Duck Gaming* docs are an *open source* project on *Github* that anyone can contribute to even you! want to learn how and were you can contribute? find out [**here**](/server-docs/administrative/contribute-to-docs).
+> The *Fat Duck Gaming* docs are an *open source* project on *Github*, that anyone can contribute to - even you! Want to learn how and where you can contribute? Find out [**here**](/server-docs/administrative/contribute-to-docs).
 
 <!-- H -->
 
