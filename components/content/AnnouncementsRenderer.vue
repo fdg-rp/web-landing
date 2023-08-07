@@ -23,6 +23,9 @@
         <ProseEm> {{ a.authorName }} </ProseEm> in
         <ProseStrong> Community Announcements </ProseStrong>
       </ProseP>
+      <ProseP v-if="a.image">
+        <img :src="a.image" alt="Discord Image" />
+      </ProseP>
       <ProseP>
         {{ a.content }}
       </ProseP>
