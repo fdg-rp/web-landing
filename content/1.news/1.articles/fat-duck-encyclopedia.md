@@ -26,6 +26,8 @@ Citizen FX is a community-driven platform for the development of mods, content, 
 
 ## **Content Creators**
 
+**NOT FINISHED**
+
 <!-- D -->
 
 ## **Discord** <iconify-icon icon="logos:discord-icon"></iconify-icon>
@@ -44,15 +46,21 @@ Discord is a messaging and voice chat app designed specifically for gamers and g
 
 ## **Endorsed Content Creators**
 
+**NOT FINISHED**
+
 <!-- F -->
 
 ## **Fat Duck Forums**
+
+**NOT FINISHED**
 
 ::alert{type="success"}
 Checkout the [**Fat Duck Forums**](https://www.fatduckgaming.com/)
 ::
 
 ## **Fat Duck Support Panel**
+
+**NOT FINISHED**
 
 ::alert{type="success"}
 Checkout the [**Fat Duck Support Panel**](https://support.fatduckgaming.com/)
@@ -90,7 +98,7 @@ GitHub is a web-based platform that offers hosting for software development and 
 
 Markdown is a lightweight markup language that allows users to format plain text documents in a simple and easy-to-read way. It uses plain text formatting syntax to indicate elements such as headings, lists, links, and emphasis. Unlike HTML, which can be complex and time-consuming to write manually, Markdown is designed to be quick and easy to use, requiring just a few simple characters to create complex formatting and styling. Markdown files can be easily converted to HTML, making them ideal for creating web content and blog posts that can be seamlessly integrated with other content management systems. Overall, Markdown is a flexible and powerful tool for creating structured, well-formatted digital content.
 
-> These *Fat Duck Gaming* docs were written with *Markdown* & [*Vue*](#vue)
+> The *Fat Duck Gaming* docs were written with *Markdown* & [*Vue*](#vue)
 
 ## **Medal**<sup>**.tv**</sup>
 
@@ -99,6 +107,8 @@ Medal.tv is a platform for users to share and showcase their gaming highlights a
 > Want a guide on how to setup *Medal* and start clipping on *Fat Duck Gaming*? checkout [**this**](/server-docs/getting-started/how-to-clip#medaltv)
 
 ## **Mwave**
+
+**NOT FINISHED**
 
 <!-- N -->
 
@@ -166,7 +176,7 @@ Twitch.tv is a popular live streaming platform where people can watch and stream
 
 Vue is a JavaScript framework that helps build user interfaces and single-page applications. It was created in 2014 and is well-liked for its simplicity, speed, and flexibility. Vue breaks down web pages into smaller, reusable components that can interact with each other, and it has a responsive data binding system that updates the view when the model changes. Vue can be used to create advanced web applications or added to existing projects as a supporting library.
 
-> These *Fat Duck Gaming* docs were written with *Vue* & [*Markdown*](#markdown)
+> The *Fat Duck Gaming* docs were written with *Vue* & [*Markdown*](#markdown)
 
 <!-- W -->
 
