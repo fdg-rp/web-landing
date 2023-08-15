@@ -40,7 +40,7 @@ Discord is a messaging and voice chat app designed specifically for gamers and g
 - [**FDG In-Character Buisness Discord**](https://discord.gg/ANjKypY)
 - [**FDG In-Character Goverment Discord**](https://discord.gg/UMfASun3A4)
 - [**FDG In-Character Gang Discord**](https://discord.gg/xET2HWRFex)
-  ::
+::
 
 <!-- E -->
 
