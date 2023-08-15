@@ -6,7 +6,7 @@ bottom: true
 toc: true
 ---
 
-# Diving
+# Diving Guide
 
 By **Fazz**
 

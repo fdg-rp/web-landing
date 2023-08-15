@@ -6,7 +6,7 @@ bottom: true
 toc: true
 ---
 
-# Robbery & Theft
+# Robbery & Theft Guide
 
 By **basedgod**
 
