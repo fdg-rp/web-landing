@@ -1,5 +1,5 @@
 ---
-title: "How to clear FiveM Cache"
+title: "How to Clear FiveM Cache"
 description: "Step by step guide on how to clear FiveM cache"
 aside: true
 bottom: true
