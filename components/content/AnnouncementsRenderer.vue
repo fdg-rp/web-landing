@@ -61,18 +61,16 @@ const { data } = await useAsyncData("fdg-announcements", () =>
 .author {
   background-color: #7289da;
   border-radius: 10px;
-  border: solid 2px;
-  border-color: #5d78d8;
-  padding: 10px;
+  padding: 2px;
   width: fit-content;
-  height: fit-content;
+  height: 35px;
   color: #1e2124;
   display: flex;
   align-items: center;
 }
 
 .author img {
-  margin-right: 1rem;
+  margin-right: 1px;
   border-radius: 50px;
   height: 40px;
   width: 40px;
