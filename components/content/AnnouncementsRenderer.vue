@@ -54,7 +54,7 @@ const { data } = await useAsyncData("fdg-announcements", () =>
 } 
 
 .announcement:hover {
-  box-shadow: inset 10000px 0 0 0 #7289da;
+  box-shadow: inset 1920px 0 0 0 #7289da;
   cursor: pointer;
 }
 
