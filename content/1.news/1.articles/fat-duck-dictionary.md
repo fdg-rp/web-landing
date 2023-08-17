@@ -26,6 +26,9 @@ toc: true
 **Code Zero**
 : An in-character phrase used to tell other players your game previously crashed. i.e. *'Sorry guys I'm back, code zero'ed.'*
 
+**CitizenFX**
+: A community-driven platform for the development of mods, content, and tools related to the Grand Theft Auto V video game. It is designed to facilitate knowledge-sharing, collaboration, and creativity among enthusiasts and developers. The collective also provides hosting and support for various community-created projects, including FiveM and RedM, a modification that allows for custom multiplayer experiences within the game's open world.
+
 **City**
 : An in-character way of referring to the server. i.e. *'The city is cooking.'*
 
@@ -85,6 +88,9 @@ toc: true
 
 ## M
 
+**[Medal.tv](https://medal.tv)**
+: A platform for users to share and showcase their gaming highlights and clips. It allows users to record, edit and share their gaming clips on popular social media platforms such as YouTube, Facebook, Twitter, and Reddit. Medal.tv features include a desktop app that users can download, clip editor tools, and personalized profiles for users to showcase their content and connect with other gamers. The platform also offers rewards for top contributors and has a community feature where users can interact and discover new content from other gamers.
+
 **Muscles**
 : An in-character way of referring to your keys on your keyboard. I.e. *'Press the E muscle.'*
 
@@ -93,11 +99,18 @@ toc: true
 **Nap**
 : An in-character way of saying your going to reconnect (log out and log back in). Usually to fix a bug. I.e. *'Im just going to take a quick ***Nap** ill be right back.'*
 
+
+**[Natural Vision Evolved](https://www.patreon.com/razedmods)**
+: NVE is a graphics mod for GTA:V that enhances the visual quality of the game and provides a more realistic and immersive experience for players. [**Check out the official site.**](https://www.patreon.com/razedmods)
+
 ## O
 
 ## P
 
 ## Q
+
+**Queue**
+: The *Fat Duck Gaming* queue is a system to manage capacity of players during busy times. If there are less than 300 people playing, anyone can join. But if there are more than 300 people, Fat Duck Family supporters get priority and everyone else has to wait in a queue. And if it gets REALLY busy (over **450** players), everyone has to wait in a queue. If you donate to become a Fat Duck Family supporter, you can skip the queue and get in faster. Depending on what tier you get, you can skip ahead of other tiers. Read more about the [donations and subscriptions available.](/server-docs/administrative/donations-and-subscriptions)
 
 ## R
 
@@ -110,6 +123,9 @@ toc: true
 : An in-character way of letting another player know that your logging off for the night. I.e. *'Im going to sleep for the rest of the night ill be on tomorrow'*
 
 ## T
+
+**Tebex**
+: A tool for game server owners to sell things to their players and process payments. It works for other online businesses too. It's easy to use and has features like automated payments and good refund management. Tebex is the only CFX-approved payment platform.
 
 **Tsunami**
 : An in-character way of referring to a Server Restart. I.e. *'Tsunamis in 5 minutes.'*
