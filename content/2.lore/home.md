@@ -47,4 +47,6 @@ This site is [open-source](https://github.com/fdg-rp/web-landing), which means a
 
 For those unfamiliar with GitHub, we recommend contacting FDG staff by [opening a ticket](https://support.fatduckgaming.com) for further instruction.
 
+For more information about contributing to this site generally, see [Contribute to Docs](/server-docs/administrative/contribute-to-docs).
+
 ![lore wedding](https://media.discordapp.net/attachments/184556449383448576/1142445950405709935/20210412224219_1.jpg?width=1920&height=540)
