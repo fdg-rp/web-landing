@@ -10,15 +10,15 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.14.3",
+    "@nuxt-themes/docus": "^1.14.6",
     "@nuxt/devtools": "^0.5.5",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/plausible": "^0.2.1",
     "@types/node": "^20.2.5",
     "eslint": "^8.42.0",
     "nuxt": "^3.6.1",
-    "sitemap": "^7.1.1",
-    "nuxt-og-image": "^2.0.10"
+    "nuxt-og-image": "^2.0.10",
+    "sitemap": "^7.1.1"
   },
   "dependencies": {
     "vue-marquee-text-component": "^2.0.1"
