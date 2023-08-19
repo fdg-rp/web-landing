@@ -17,10 +17,13 @@
     "@types/node": "^20.2.5",
     "eslint": "^8.42.0",
     "nuxt": "^3.6.1",
-    "sitemap": "^7.1.1",
-    "nuxt-og-image": "^2.0.10"
+    "nuxt-og-image": "^2.0.10",
+    "nuxt3-leaflet": "^1.0.12",
+    "sitemap": "^7.1.1"
   },
   "dependencies": {
+    "@types/leaflet": "^1.9.3",
+    "leaflet": "^1.9.4",
     "vue-marquee-text-component": "^2.0.1"
   }
 }

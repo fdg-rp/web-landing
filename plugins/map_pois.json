@@ -1,0 +1,1290 @@
+[
+  {
+    "X": 819.17,
+    "Y": -974.84,
+    "category": "Entertainment",
+    "blipName": "AREA51 Paintball",
+    "identifier": "AREA51-Paintball",
+    "sprite": 313
+  },
+  {
+    "X": 1853.36,
+    "Y": 3686.62,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "bcso",
+    "sprite": 60
+  },
+  {
+    "X": -210.861,
+    "Y": -1324.32,
+    "category": "Mechanics",
+    "blipName": "Bennys Motorworks",
+    "identifier": "bennys-city",
+    "sprite": 446
+  },
+  {
+    "X": 3835.1,
+    "Y": 4468.55,
+    "category": null,
+    "blipName": "Boat Refueling",
+    "identifier": "boatfuel1",
+    "sprite": 361
+  },
+  {
+    "X": 2831.68,
+    "Y": -589.307,
+    "category": null,
+    "blipName": "Boat Refueling",
+    "identifier": "boatfuel2",
+    "sprite": 361
+  },
+  {
+    "X": -427.381,
+    "Y": 6486.51,
+    "category": null,
+    "blipName": "Boat Refueling",
+    "identifier": "boatfuel3",
+    "sprite": 361
+  },
+  {
+    "X": 1604.71,
+    "Y": 3859.47,
+    "category": null,
+    "blipName": "Boat Refueling",
+    "identifier": "boatfuel4",
+    "sprite": 361
+  },
+  {
+    "X": -1605.81,
+    "Y": 5271.76,
+    "category": null,
+    "blipName": "Boat Refueling",
+    "identifier": "boatfuel5",
+    "sprite": 361
+  },
+  {
+    "X": -784.391,
+    "Y": -1485.09,
+    "category": null,
+    "blipName": "Boat Refueling",
+    "identifier": "boatfuel6",
+    "sprite": 361
+  },
+  {
+    "X": 2842.7,
+    "Y": -586.4,
+    "category": null,
+    "blipName": "Boat Rental",
+    "identifier": "boat_rental_pacific",
+    "sprite": 356
+  },
+  {
+    "X": -1596.2,
+    "Y": 5250.1,
+    "category": null,
+    "blipName": "Boat Rental",
+    "identifier": "boat_rental_paletocove",
+    "sprite": 356
+  },
+  {
+    "X": 713.5,
+    "Y": 4093.4,
+    "category": null,
+    "blipName": "Boat Rental",
+    "identifier": "boat_rental_sandy",
+    "sprite": 356
+  },
+  {
+    "X": -1522.7,
+    "Y": 1496.5,
+    "category": null,
+    "blipName": "Boat Rental",
+    "identifier": "boat_rental_tongarapids",
+    "sprite": 356
+  },
+  {
+    "X": 932.08,
+    "Y": 43.37,
+    "category": null,
+    "blipName": "Diamond Casino",
+    "identifier": "casino",
+    "sprite": 421
+  },
+  {
+    "X": -763.83,
+    "Y": -28.63,
+    "category": "Entertainment",
+    "blipName": "Church",
+    "identifier": "church",
+    "sprite": 305
+  },
+  {
+    "X": -305.1,
+    "Y": 2831.5,
+    "category": "Entertainment",
+    "blipName": "Church",
+    "identifier": "church_county",
+    "sprite": 305
+  },
+  {
+    "X": -905.5,
+    "Y": -2061.1,
+    "category": "Mission",
+    "blipName": "Council Job Board",
+    "identifier": "councilcityblip",
+    "sprite": 498
+  },
+  {
+    "X": 363.167,
+    "Y": -1587.94,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "davispd",
+    "sprite": 60
+  },
+  {
+    "X": 2303.31,
+    "Y": 4879.72,
+    "category": "Mission",
+    "blipName": "Farming Job Board",
+    "identifier": "farmingblip",
+    "sprite": 363
+  },
+  {
+    "X": 417.09,
+    "Y": 6471.9,
+    "category": "Mission",
+    "blipName": "Farming Job Board",
+    "identifier": "farmingpaletoblip",
+    "sprite": 363
+  },
+  {
+    "X": 1766.36,
+    "Y": 3328.17,
+    "category": "Mechanics",
+    "blipName": "Flywheels Mechanic",
+    "identifier": "flywheels-county",
+    "sprite": 446
+  },
+  {
+    "X": 52.95,
+    "Y": 6551.91,
+    "category": "Mechanics",
+    "blipName": "Flywheels Mechanic",
+    "identifier": "flywheels-paleto",
+    "sprite": 446
+  },
+  {
+    "X": -1348.7,
+    "Y": 142.2,
+    "category": "Entertainment",
+    "blipName": "Golf",
+    "identifier": "golf",
+    "sprite": 358
+  },
+  {
+    "X": 78.75,
+    "Y": 111.25,
+    "category": "Mission",
+    "blipName": "Go Postal Job Board",
+    "identifier": "gopostalcity",
+    "sprite": 381
+  },
+  {
+    "X": -421.504,
+    "Y": 6135.87,
+    "category": "Mission",
+    "blipName": "Go Postal Job Board",
+    "identifier": "gopostalpaleto",
+    "sprite": 381
+  },
+  {
+    "X": -1429.53,
+    "Y": -452.23,
+    "category": "Mechanics",
+    "blipName": "Hayes Auto",
+    "identifier": "hayes",
+    "sprite": 446
+  },
+  {
+    "X": -3058.38,
+    "Y": 621.12,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "hwypd",
+    "sprite": 60
+  },
+  {
+    "X": 821.48,
+    "Y": -811.05,
+    "category": "Mechanics",
+    "blipName": "Los Santos Customs",
+    "identifier": "lsc-city",
+    "sprite": 446
+  },
+  {
+    "X": 139.12,
+    "Y": -3032.37,
+    "category": "Mechanics",
+    "blipName": "Ls Tuners",
+    "identifier": "lstuners",
+    "sprite": 446
+  },
+  {
+    "X": 441.84,
+    "Y": -999.62,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "mrpd",
+    "sprite": 60
+  },
+  {
+    "X": -446.52,
+    "Y": 6012.89,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "paletopd",
+    "sprite": 60
+  },
+  {
+    "X": -43.15,
+    "Y": -1098.43,
+    "category": "Dealerships",
+    "blipName": "Premium Deluxe Motorsport",
+    "identifier": "PDM",
+    "sprite": 426
+  },
+  {
+    "X": 1236.8,
+    "Y": 2722.7,
+    "category": "Dealerships",
+    "blipName": "Premium Deluxe Motorsport",
+    "identifier": "PDM_county",
+    "sprite": 426
+  },
+  {
+    "X": 850.79,
+    "Y": -1303.38,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "pdoutpost",
+    "sprite": 60
+  },
+  {
+    "X": -119.48,
+    "Y": -612.65,
+    "category": "Property",
+    "blipName": "Real Estate Agent",
+    "identifier": "realestate_city",
+    "sprite": 374
+  },
+  {
+    "X": -405.94,
+    "Y": 6149.37,
+    "category": "Property",
+    "blipName": "Real Estate Agent",
+    "identifier": "realestate_paleto",
+    "sprite": 374
+  },
+  {
+    "X": 2476.6,
+    "Y": 4087.18,
+    "category": "Property",
+    "blipName": "Real Estate Agent",
+    "identifier": "realestate_sandy",
+    "sprite": 374
+  },
+  {
+    "X": -698.18,
+    "Y": 271.48,
+    "category": "Property",
+    "blipName": "Real Estate Agent",
+    "identifier": "realestate_vinewood",
+    "sprite": 374
+  },
+  {
+    "X": -572.42,
+    "Y": -129.04,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "rockfordpd",
+    "sprite": 60
+  },
+  {
+    "X": -1169.8,
+    "Y": -1572.98,
+    "category": "Store",
+    "blipName": "Weed Store",
+    "identifier": "smokeonthewater",
+    "sprite": 496
+  },
+  {
+    "X": -1604.33,
+    "Y": -1048.09,
+    "category": "Entertainment",
+    "blipName": "Wong Park",
+    "identifier": "themepark",
+    "sprite": 266
+  },
+  {
+    "X": -236.11,
+    "Y": 6214.35,
+    "category": "Dealerships",
+    "blipName": "Valhalla Motors",
+    "identifier": "usedcar",
+    "sprite": 426
+  },
+  {
+    "X": 104.02,
+    "Y": 6527.84,
+    "category": "Dealerships",
+    "blipName": "CMG Motors",
+    "identifier": "usedcar2",
+    "sprite": 426
+  },
+  {
+    "X": -1088.1,
+    "Y": -815.207,
+    "category": "Police",
+    "blipName": "Police Station",
+    "identifier": "vpd",
+    "sprite": 60
+  },
+  {
+    "X": -228.898,
+    "Y": -316.018,
+    "category": "Store",
+    "blipName": "Weed Store",
+    "identifier": "wwidow",
+    "sprite": 496
+  },
+  {
+    "X": 22.237,
+    "Y": -1106.85,
+    "category": "Gun Store",
+    "blipName": "Adams Apple Ammunation",
+    "identifier": "Adams Apple Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": 1014.22,
+    "Y": 3602.9,
+    "category": "Scrap",
+    "blipName": "Alamo Scrap",
+    "identifier": "Alamo Scrap:chop_shop_public",
+    "sprite": 467
+  },
+  {
+    "X": -842.268,
+    "Y": -2123.38,
+    "category": "Bars",
+    "blipName": "arcade-cyberbar",
+    "identifier": "arcade-cyberbar:bar",
+    "sprite": 93
+  },
+  {
+    "X": -1393.35,
+    "Y": -606.317,
+    "category": "Bars",
+    "blipName": "Bahama Mamas Main bar",
+    "identifier": "Bahama Mamas Main bar:bar",
+    "sprite": 93
+  },
+  {
+    "X": -3241.93,
+    "Y": 1001.46,
+    "category": "Store",
+    "blipName": "Barbareno Rd 24/7",
+    "identifier": "Barbareno Rd 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -3172.22,
+    "Y": 1087.69,
+    "category": "Gun Store",
+    "blipName": "Barberino Ammunation",
+    "identifier": "Barberino Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -1281.98,
+    "Y": -1117.1,
+    "category": "Barber",
+    "blipName": "Beachcombover Barbers",
+    "identifier": "Beachcombover Barbers:barber",
+    "sprite": 71
+  },
+  {
+    "X": 161.657,
+    "Y": 6640.46,
+    "category": "Store",
+    "blipName": "Beakers 24/7",
+    "identifier": "Beakers 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -633.497,
+    "Y": 235.4,
+    "category": "Bars",
+    "blipName": "Bean Machine",
+    "identifier": "Bean Machine:coffee",
+    "sprite": 163
+  },
+  {
+    "X": -829.34,
+    "Y": -1073.64,
+    "category": "Clothes Store",
+    "blipName": "Binco Rockford",
+    "identifier": "Binco Rockford:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 428.83,
+    "Y": -800.1,
+    "category": "Clothes Store",
+    "blipName": "Binco Sinner St",
+    "identifier": "Binco Sinner St:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 322.15,
+    "Y": 180.59,
+    "category": "Tattoo",
+    "blipName": "Blazing Tattoo",
+    "identifier": "Blazing Tattoo:tattoo",
+    "sprite": 75
+  },
+  {
+    "X": -814.22,
+    "Y": -183.78,
+    "category": "Barber",
+    "blipName": "Bob Mullet Hair Design",
+    "identifier": "Bob Mullet Hair Design:barber",
+    "sprite": 71
+  },
+  {
+    "X": -528.635,
+    "Y": -1227.91,
+    "category": "Store",
+    "blipName": "Calais Xero Fuel",
+    "identifier": "Calais Xero Fuel:ltd",
+    "sprite": 59
+  },
+  {
+    "X": 342.89,
+    "Y": -1398.17,
+    "category": "Hospital",
+    "blipName": "Central LS Medical",
+    "identifier": "Central LS Medical:hospital",
+    "sprite": 61
+  },
+  {
+    "X": 1208.02,
+    "Y": -3115.18,
+    "category": "Scrap",
+    "blipName": "City Docks Scrap",
+    "identifier": "City Docks Scrap:chop_shop_public",
+    "sprite": 467
+  },
+  {
+    "X": -449.53,
+    "Y": -1719.9,
+    "category": "Scrap",
+    "blipName": "City Scrap",
+    "identifier": "City Scrap:chop_shop_public",
+    "sprite": 467
+  },
+  {
+    "X": 373.875,
+    "Y": 325.896,
+    "category": "Store",
+    "blipName": "Clinton Ave 24/7",
+    "identifier": "Clinton Ave 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -1305.74,
+    "Y": -394.345,
+    "category": "Gun Store",
+    "blipName": "Del Perro Ammunation",
+    "identifier": "Del Perro Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -1360.25,
+    "Y": -963.907,
+    "category": "Store",
+    "blipName": "Del Perro Market",
+    "identifier": "Del Perro Market:market",
+    "sprite": 16
+  },
+  {
+    "X": -1193.4,
+    "Y": -772.36,
+    "category": "Clothes Store",
+    "blipName": "Del Perro Sub Urban",
+    "identifier": "Del Perro Sub Urban:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 1696.34,
+    "Y": 4829.22,
+    "category": "Clothes Store",
+    "blipName": "Discount Clothes Grapeseed",
+    "identifier": "Discount Clothes Grapeseed:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 11.57,
+    "Y": 6514.3,
+    "category": "Clothes Store",
+    "blipName": "Discount Store Paleto",
+    "identifier": "Discount Store Paleto:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 1190.5,
+    "Y": 2713.35,
+    "category": "Clothes Store",
+    "blipName": "Discount Store Route 68",
+    "identifier": "Discount Store Route 68:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 1322.64,
+    "Y": -1651.97,
+    "category": "Tattoo",
+    "blipName": "East LS Tattoos ",
+    "identifier": "East LS Tattoos :tattoo",
+    "sprite": 75
+  },
+  {
+    "X": -676.782,
+    "Y": 313.148,
+    "category": "Hospital",
+    "blipName": "Eclipse Towers Medical Center",
+    "identifier": "Eclipse Towers Medical Center:hospital",
+    "sprite": 61
+  },
+  {
+    "X": 1135.81,
+    "Y": -982.281,
+    "category": "Bars",
+    "blipName": "El Rancho Blvd Liguor Store",
+    "identifier": "El Rancho Blvd Liguor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": -293.71,
+    "Y": 6200.04,
+    "category": "Tattoo",
+    "blipName": "Fastest Gun Paleto",
+    "identifier": "Fastest Gun Paleto:tattoo",
+    "sprite": 75
+  },
+  {
+    "X": 1864.7,
+    "Y": 3747.79,
+    "category": "Tattoo",
+    "blipName": "Fastest Gun Tattoos",
+    "identifier": "Fastest Gun Tattoos:tattoo",
+    "sprite": 75
+  },
+  {
+    "X": 1168.92,
+    "Y": -297.51,
+    "category": "Store",
+    "blipName": "Gabrielas Market Mirror Park",
+    "identifier": "Gabrielas Market Mirror Park:market",
+    "sprite": 16
+  },
+  {
+    "X": 1685.1,
+    "Y": 4864.7,
+    "category": "Bars",
+    "blipName": "Grapeseed Liguor Store",
+    "identifier": "Grapeseed Liguor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": 1698.39,
+    "Y": 4924.4,
+    "category": "Store",
+    "blipName": "Grapeseed LTD",
+    "identifier": "Grapeseed LTD:ltd",
+    "sprite": 59
+  },
+  {
+    "X": 1678.03,
+    "Y": 4881.92,
+    "category": "Store",
+    "blipName": "Grapeseed Market",
+    "identifier": "Grapeseed Market:market",
+    "sprite": 16
+  },
+  {
+    "X": -2968.24,
+    "Y": 390.91,
+    "category": "Bars",
+    "blipName": "Great Ocean HWY Liguor Store",
+    "identifier": "Great Ocean HWY Liguor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": -3157.92,
+    "Y": 1095.14,
+    "category": " ",
+    "blipName": "Great Ocean Medical",
+    "identifier": "Great Ocean Medical:hospital",
+    "sprite": 61
+  },
+  {
+    "X": -3172.5,
+    "Y": 1048.42,
+    "category": "Clothes Store",
+    "blipName": "Great Ocean Sub Urban",
+    "identifier": "Great Ocean Sub Urban:clothing",
+    "sprite": 73
+  },
+  {
+    "X": -3152.8,
+    "Y": 1109.95,
+    "category": "Hardware",
+    "blipName": "Great Ocean Tools",
+    "identifier": "Great Ocean Tools:hardware",
+    "sprite": 402
+  },
+  {
+    "X": -2067.88,
+    "Y": -322.763,
+    "category": "Store",
+    "blipName": "Great Ocean Xero Fuel",
+    "identifier": "Great Ocean Xero Fuel:ltd",
+    "sprite": 59
+  },
+  {
+    "X": -6.77261,
+    "Y": -1823.3,
+    "category": "Bars",
+    "blipName": "Grove Liquor Store",
+    "identifier": "Grove Liquor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": -47.51,
+    "Y": -1757.38,
+    "category": "Store",
+    "blipName": "Grove Street LTD",
+    "identifier": "Grove Street LTD:ltd",
+    "sprite": 59
+  },
+  {
+    "X": -32.89,
+    "Y": -152.33,
+    "category": "Barber",
+    "blipName": "Hair on Hawick",
+    "identifier": "Hair on Hawick:barber",
+    "sprite": 71
+  },
+  {
+    "X": -12.1946,
+    "Y": 6500.4,
+    "category": "Hardware",
+    "blipName": "Hardware Store Paleto",
+    "identifier": "Hardware Store Paleto:hardware",
+    "sprite": 402
+  },
+  {
+    "X": 1212.84,
+    "Y": -472.92,
+    "category": "Barber",
+    "blipName": "Herr Kuts Barber",
+    "identifier": "Herr Kuts Barber:barber",
+    "sprite": 71
+  },
+  {
+    "X": 136.9,
+    "Y": -1708.39,
+    "category": "Barber",
+    "blipName": "Herr Kutz Barber",
+    "identifier": "Herr Kutz Barber:barber",
+    "sprite": 71
+  },
+  {
+    "X": 1648.14,
+    "Y": 4874.25,
+    "category": "Barber",
+    "blipName": "Herr Kutz Grapeseed",
+    "identifier": "Herr Kutz Grapeseed:barber",
+    "sprite": 71
+  },
+  {
+    "X": -278.07,
+    "Y": 6228.46,
+    "category": "Barber",
+    "blipName": "Herr Kutz Paleto",
+    "identifier": "Herr Kutz Paleto:barber",
+    "sprite": 71
+  },
+  {
+    "X": -3038.94,
+    "Y": 585.954,
+    "category": "Store",
+    "blipName": "Ineseno Rpad 24/7",
+    "identifier": "Ineseno Rpad 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -3170.07,
+    "Y": 1075.07,
+    "category": "Tattoo",
+    "blipName": "Ink Ink Tatoos",
+    "identifier": "Ink Ink Tatoos:tattoo",
+    "sprite": 75
+  },
+  {
+    "X": 26.36,
+    "Y": -1347.52,
+    "category": "Store",
+    "blipName": "Innocence Blvd 24/7",
+    "identifier": "Innocence Blvd 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -2279.03,
+    "Y": 265.28,
+    "category": "Electronics",
+    "blipName": "Kortz Electronics",
+    "identifier": "Kortz Electronics:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": -2222.54,
+    "Y": 304.26,
+    "category": "Store",
+    "blipName": "Kortz Market",
+    "identifier": "Kortz Market:market",
+    "sprite": 16
+  },
+  {
+    "X": -2255.23,
+    "Y": 320.72,
+    "category": "Pharmacy",
+    "blipName": "Kortz Pharmacy",
+    "identifier": "Kortz Pharmacy:pharmacy",
+    "sprite": 51
+  },
+  {
+    "X": -2264.58,
+    "Y": 352.64,
+    "category": "Hardware",
+    "blipName": "Kortz Tools",
+    "identifier": "Kortz Tools:hardware",
+    "sprite": 402
+  },
+  {
+    "X": 814.61,
+    "Y": -782.34,
+    "category": "Store",
+    "blipName": "La Mesa 24/7",
+    "identifier": "La Mesa 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -2540.93,
+    "Y": 2313.8,
+    "category": "Store",
+    "blipName": "Lang Zancudo 24/7",
+    "identifier": "Lang Zancudo 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": 842.468,
+    "Y": -1033.15,
+    "category": "Gun Store",
+    "blipName": "Le Mesa Ammunation",
+    "identifier": "Le Mesa Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -707.501,
+    "Y": -914.26,
+    "category": "Store",
+    "blipName": "Little Soul TLD",
+    "identifier": "Little Soul TLD:ltd",
+    "sprite": 59
+  },
+  {
+    "X": -1528.4,
+    "Y": -403.94,
+    "category": "Electronics",
+    "blipName": "Logitech Electronics Morningwood",
+    "identifier": "Logitech Electronics Morningwood:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": 340.46,
+    "Y": 186.401,
+    "category": "Entertainment",
+    "blipName": "Maisonette Cinema",
+    "identifier": "Maisonette Cinema:cinema",
+    "sprite": 84
+  },
+  {
+    "X": 46.405,
+    "Y": -1749.59,
+    "category": "Hardware",
+    "blipName": "Mega Mall",
+    "identifier": "Mega Mall:hardware",
+    "sprite": 402
+  },
+  {
+    "X": 1148.18,
+    "Y": -450.96,
+    "category": "Hardware",
+    "blipName": "Mirror Park Hardware",
+    "identifier": "Mirror Park Hardware:hardware",
+    "sprite": 402
+  },
+  {
+    "X": 1163.37,
+    "Y": -323.801,
+    "category": "Store",
+    "blipName": "Mirror Park LTD",
+    "identifier": "Mirror Park LTD:ltd",
+    "sprite": 59
+  },
+  {
+    "X": 1219.58,
+    "Y": -418.97,
+    "category": "Bars",
+    "blipName": "Mirror Park Tavern",
+    "identifier": "Mirror Park Tavern:bar",
+    "sprite": 149
+  },
+  {
+    "X": -1387.98,
+    "Y": -421.24,
+    "category": "Store",
+    "blipName": "Morningwood Market",
+    "identifier": "Morningwood Market:market",
+    "sprite": 16
+  },
+  {
+    "X": 2702.26,
+    "Y": 4321.27,
+    "category": "Hunting",
+    "blipName": "Neds Smallgoods East Joshua",
+    "identifier": "Neds Smallgoods East Joshua:hunting",
+    "sprite": 141
+  },
+  {
+    "X": 1707.32,
+    "Y": 6431.23,
+    "category": "Hunting",
+    "blipName": "Neds Smallgoods Paleto",
+    "identifier": "Neds Smallgoods Paleto:hunting",
+    "sprite": 141
+  },
+  {
+    "X": -1095.71,
+    "Y": 2718.9,
+    "category": "Hunting",
+    "blipName": "Neds Smallgoods Zancudo",
+    "identifier": "Neds Smallgoods Zancudo:hunting",
+    "sprite": 141
+  },
+  {
+    "X": -1820.52,
+    "Y": 792.518,
+    "category": "Store",
+    "blipName": "North Rockford LTD",
+    "identifier": "North Rockford LTD:ltd",
+    "sprite": 59
+  },
+  {
+    "X": 355.342,
+    "Y": 302.667,
+    "category": "Bars",
+    "blipName": "Omega Map Blip No Store",
+    "identifier": "Omega Map Blip No Store:bar",
+    "sprite": 93
+  },
+  {
+    "X": 1931.51,
+    "Y": 3729.67,
+    "category": "Barber",
+    "blipName": "OSheas Barber Shop",
+    "identifier": "OSheas Barber Shop:barber",
+    "sprite": 71
+  },
+  {
+    "X": 1729.22,
+    "Y": 6414.13,
+    "category": "Store",
+    "blipName": "Paleto 24/7",
+    "identifier": "Paleto 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -330.35,
+    "Y": 6083.76,
+    "category": "Gun Store",
+    "blipName": "Paleto Ammunation",
+    "identifier": "Paleto Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -159.792,
+    "Y": 6323.02,
+    "category": "Bars",
+    "blipName": "Paleto Liquor Store",
+    "identifier": "Paleto Liquor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": -253.25,
+    "Y": 6326.9,
+    "category": "Hospital",
+    "blipName": "Paleto Medical",
+    "identifier": "Paleto Medical:hospital",
+    "sprite": 61
+  },
+  {
+    "X": -176.228,
+    "Y": 6383.41,
+    "category": "Pharmacy",
+    "blipName": "Paleto Pharmacy",
+    "identifier": "Paleto Pharmacy:pharmacy",
+    "sprite": 51
+  },
+  {
+    "X": -241.01,
+    "Y": 6270.35,
+    "category": "Scrap",
+    "blipName": "Paleto Scrap",
+    "identifier": "Paleto Scrap:chop_shop_public",
+    "sprite": 467
+  },
+  {
+    "X": 2557.46,
+    "Y": 382.282,
+    "category": "Store",
+    "blipName": "Palomino FWY 24/7",
+    "identifier": "Palomino FWY 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -57.2472,
+    "Y": 6523.5,
+    "category": "Store",
+    "blipName": "Palteo Market",
+    "identifier": "Palteo Market:market",
+    "sprite": 16
+  },
+  {
+    "X": 134.54,
+    "Y": -1782.58,
+    "category": "Pawn Stores",
+    "blipName": "Pawnhub Davis",
+    "identifier": "Pawnhub Davis:pawnshop",
+    "sprite": 434
+  },
+  {
+    "X": -1459.24,
+    "Y": -407.2,
+    "category": "Pawn Stores",
+    "blipName": "Pawnhub DelPerro",
+    "identifier": "Pawnhub DelPerro:pawnshop",
+    "sprite": 434
+  },
+  {
+    "X": -383.3,
+    "Y": 6050.22,
+    "category": "Pawn Stores",
+    "blipName": "Pawnhub Paleto",
+    "identifier": "Pawnhub Paleto:pawnshop",
+    "sprite": 434
+  },
+  {
+    "X": 1701.4,
+    "Y": 3784.69,
+    "category": "Pawn Stores",
+    "blipName": "Pawnhub Sandy",
+    "identifier": "Pawnhub Sandy:pawnshop",
+    "sprite": 434
+  },
+  {
+    "X": 2664.87,
+    "Y": 3473.66,
+    "category": "Pawn Stores",
+    "blipName": "Pawnhub Utool",
+    "identifier": "Pawnhub Utool:pawnshop",
+    "sprite": 434
+  },
+  {
+    "X": -482.04,
+    "Y": 282.41,
+    "category": "Pawn Stores",
+    "blipName": "Pawnhub Vinewood",
+    "identifier": "Pawnhub Vinewood:pawnshop",
+    "sprite": 434
+  },
+  {
+    "X": 350.39,
+    "Y": -588.87,
+    "category": "Hospital",
+    "blipName": "Pillbox Medical",
+    "identifier": "Pillbox Medical:hospital",
+    "sprite": 61
+  },
+  {
+    "X": 2567.97,
+    "Y": 294.46,
+    "category": "Gun Store",
+    "blipName": "Polomino Ammunation",
+    "identifier": "Polomino Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -1447.9,
+    "Y": -242.45,
+    "category": "Clothes Store",
+    "blipName": "Ponsonbys Cougar",
+    "identifier": "Ponsonbys Cougar:clothing",
+    "sprite": 73
+  },
+  {
+    "X": -167.99,
+    "Y": -299.05,
+    "category": "Clothes Store",
+    "blipName": "Ponsonbys Los Lagunas",
+    "identifier": "Ponsonbys Los Lagunas:clothing",
+    "sprite": 73
+  },
+  {
+    "X": -703.82,
+    "Y": -152.35,
+    "category": "Clothes Store",
+    "blipName": "Ponsonbys Portola Dr",
+    "identifier": "Ponsonbys Portola Dr:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 810.01,
+    "Y": -2157.67,
+    "category": "Gun Store",
+    "blipName": "Popular St Ammunation",
+    "identifier": "Popular St Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -1487.67,
+    "Y": -379.32,
+    "category": "Bars",
+    "blipName": "Prosperity St Liguor Store",
+    "identifier": "Prosperity St Liguor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": -627.66,
+    "Y": -279.597,
+    "category": "Electronics",
+    "blipName": "Qauck Electronics City",
+    "identifier": "Qauck Electronics City:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": 1123.55,
+    "Y": -336.19,
+    "category": "Electronics",
+    "blipName": "Qauck Electronics Mirror Park",
+    "identifier": "Qauck Electronics Mirror Park:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": 219.23,
+    "Y": -1503.7,
+    "category": "Electronics",
+    "blipName": "Quack Electronics Davis",
+    "identifier": "Quack Electronics Davis:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": -33.8,
+    "Y": 6462.27,
+    "category": "Electronics",
+    "blipName": "Quack Electronics Paleto",
+    "identifier": "Quack Electronics Paleto:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": 911.01,
+    "Y": 3644.23,
+    "category": "Electronics",
+    "blipName": "Quack Electronics Sandy",
+    "identifier": "Quack Electronics Sandy:ifruit",
+    "sprite": 134
+  },
+  {
+    "X": 547.431,
+    "Y": 2671.71,
+    "category": "Store",
+    "blipName": "Route 68 24/7",
+    "identifier": "Route 68 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": -1117.58,
+    "Y": 2698.45,
+    "category": "Gun Store",
+    "blipName": "Route 68 Ammunation",
+    "identifier": "Route 68 Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -1108.39,
+    "Y": 2709.01,
+    "category": "Clothes Store",
+    "blipName": "Route 68 Clothing",
+    "identifier": "Route 68 Clothing:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 1166.02,
+    "Y": 2708.93,
+    "category": "Bars",
+    "blipName": "Route 68 Liquor Store",
+    "identifier": "Route 68 Liquor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": -1222.92,
+    "Y": -906.983,
+    "category": "Bars",
+    "blipName": "San Andreas Ave Liguor Store",
+    "identifier": "San Andreas Ave Liguor Store:liquor",
+    "sprite": 468
+  },
+  {
+    "X": 1961.46,
+    "Y": 3740.67,
+    "category": "Store",
+    "blipName": "Sandy Shores 24/7",
+    "identifier": "Sandy Shores 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": 1693.92,
+    "Y": 3759.66,
+    "category": "Gun Store",
+    "blipName": "Sandy Shores Ammunation",
+    "identifier": "Sandy Shores Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": 1767.44,
+    "Y": 3639.8,
+    "category": "Hospital",
+    "blipName": "Sandy Shores Medical",
+    "identifier": "Sandy Shores Medical:hospital",
+    "sprite": 61
+  },
+  {
+    "X": 2678.92,
+    "Y": 3280.67,
+    "category": "Store",
+    "blipName": "Senora FWY 24/7",
+    "identifier": "Senora FWY 24/7:24seven",
+    "sprite": 52
+  },
+  {
+    "X": 75.0162,
+    "Y": -1577.71,
+    "category": "Gun Store",
+    "blipName": "South LS Ammunation",
+    "identifier": "South LS Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": 301.41,
+    "Y": -733.205,
+    "category": "Pharmacy",
+    "blipName": "Strawberry Ave Pharmacy",
+    "identifier": "Strawberry Ave Pharmacy:pharmacy",
+    "sprite": 51
+  },
+  {
+    "X": 294.16,
+    "Y": -1261.59,
+    "category": "Store",
+    "blipName": "Strawberry Xero Fuel",
+    "identifier": "Strawberry Xero Fuel:ltd",
+    "sprite": 59
+  },
+  {
+    "X": 123.72,
+    "Y": -219.45,
+    "category": "Clothes Store",
+    "blipName": "Sub Urban Hawick",
+    "identifier": "Sub Urban Hawick:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 618.16,
+    "Y": 2759.56,
+    "category": "Clothes Store",
+    "blipName": "Sub Urban Route 68",
+    "identifier": "Sub Urban Route 68:clothing",
+    "sprite": 73
+  },
+  {
+    "X": -1153.69,
+    "Y": -1425.68,
+    "category": "Tattoo",
+    "blipName": "The Pit Tattoos ",
+    "identifier": "The Pit Tattoos :tattoo",
+    "sprite": 75
+  },
+  {
+    "X": 72.13,
+    "Y": -1399.04,
+    "category": "Clothes Store",
+    "blipName": "Tshirt Depo Innocence Bvd",
+    "identifier": "Tshirt Depo Innocence Bvd:clothing",
+    "sprite": 73
+  },
+  {
+    "X": 251.68,
+    "Y": -49.77,
+    "category": "Gun Store",
+    "blipName": "Vinewood Ammunation",
+    "identifier": "Vinewood Ammunation:ammunation",
+    "sprite": 110
+  },
+  {
+    "X": -172.89,
+    "Y": 239.13,
+    "category": "Hardware",
+    "blipName": "Vinewood Hardware",
+    "identifier": "Vinewood Hardware:hardware",
+    "sprite": 402
+  },
+  {
+    "X": 93.23,
+    "Y": -229.72,
+    "category": "Pharmacy",
+    "blipName": "Vinewood Pharmacy",
+    "identifier": "Vinewood Pharmacy:pharmacy",
+    "sprite": 51
+  },
+  {
+    "X": 2738.41,
+    "Y": 3463.91,
+    "category": "Hardware",
+    "blipName": "YouTool County",
+    "identifier": "YouTool County:hardware",
+    "sprite": 402
+  }
+]

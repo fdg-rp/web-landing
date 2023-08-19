@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     // https://nuxt-seo.netlify.app/og-image
     "nuxt-og-image",
+    "nuxt3-leaflet",
   ],
   nitro: {
     output: {
