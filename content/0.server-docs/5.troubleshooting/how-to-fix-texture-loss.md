@@ -22,6 +22,11 @@ Texture loss can be caused by numerous reasons. This guide outlines general tips
 - Game or system glitches
 ::
 
+## Texture Fix Command
+Executing this command within the server can serve as an *temporary* solution to texture loss.
+
+`/fixtextures`
+
 ## Increase Texture Budget
 Increasing your texture budget is probably the most common way to fix texture loss. It's a simple process and often returns good results.
 
