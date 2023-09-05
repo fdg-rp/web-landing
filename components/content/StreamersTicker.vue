@@ -41,10 +41,10 @@ const streamers = [
     href: "https://www.twitch.tv/deveraux",
   },
   {
-    title: "@METRITIS_",
+    title: "@METRITIS",
     subtitle: "FDG Stream Team",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/49064db8-472d-4af5-af81-704ee67d2c45-profile_image-150x150.png",
-    href: "https://www.twitch.tv/metritis_",
+    href: "https://www.twitch.tv/metritis",
   },
   {
     title: "@brainlesstay",
