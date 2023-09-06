@@ -62,4 +62,6 @@ Sometimes, other programs running on your computer can interfere with FiveM's UI
 3. Look for any unwanted programs and `Uninstall` them.
 4. Restart FiveM and see if the UI lag has been resolved.
 
-By following these steps, you can resolve UI lag issues in FiveM and enjoy a smoother gaming experience.
+---
+
+By following this guide, you can resolve UI lag issues in FiveM and enjoy a smoother gaming experience.
