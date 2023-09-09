@@ -43,7 +43,7 @@ Looking to level up to a more profitable and competitive style of robbery? Time 
 
 2. Now it’s time to scope out some residential areas where you can rob houses. Try opening some doors with your tool by clicking `use item` at the front door. If it lets you open the door you’re in the right spot. If not, the owners must’ve either upgraded the security or neighbourhood watch is on patrol in that area.
 
-3. Collect as many households as you can inside then when you’re satisfied, figure out where you can sell your loot.
+3. Collect as many household items as you can inside then when you’re satisfied, figure out where you can sell your loot.
 
 ![Robbery Tip](https://i.imgur.com/cNyhelH.png)
 
