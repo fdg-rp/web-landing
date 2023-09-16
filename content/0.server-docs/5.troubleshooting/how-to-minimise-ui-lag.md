@@ -64,4 +64,4 @@ Sometimes, other programs running on your computer can interfere with FiveM's UI
 
 ---
 
-By following this guide, you can resolve UI lag issues in FiveM and enjoy a smoother gaming experience.
+By following this guide, you can resolve UI lag issues in FiveM and enjoy a smoother gaming experience. If this guide is insufficient for your needs and does not solve the issue, you may seek assistance in the [`#fivem-support`](https://discord.com/channels/343265479302971402/989346639015706675) channel within the Fat Duck Gaming Discord.
