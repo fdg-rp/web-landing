@@ -2,7 +2,7 @@ export default defineAppConfig({
   docus: {
     title: "Fat Duck Gaming",
     description: "Australia's favourite FiveM community",
-    url: "https://preview.fatduckgaming.com",
+    url: "https://fatduckgaming.com",
     image: "https://i.imgur.com/eKCrYP0.png",
     socials: {
       github: "fdg-rp/web-landing",
