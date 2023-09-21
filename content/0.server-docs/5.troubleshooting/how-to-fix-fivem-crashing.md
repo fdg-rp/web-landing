@@ -70,7 +70,6 @@ If you are experiencing crashes specifically in relation to GTA V content, it is
 5. Let it scan your files and if any are missing/corrupted let it reinstall them
 
 #### How to Verify Game Files on Epic Games
-
 1. Open Steam and find your game in the libary.
 2. Click the `three dots` on the right side of the game line.
 3. Select Manage.
@@ -78,25 +77,11 @@ If you are experiencing crashes specifically in relation to GTA V content, it is
 5. Let it scan your files and if any are missing/corrupted let it reinstall them
 
 #### How to Verify Game Files on Rockstar Launcher
-
 1. Sign into the `Rockstar Games Launcher`.
 2. Navigate to `Settings`.
 3. Select the game you want to *verify* from the list under `My installed games` on the left.
 4. Select `Verify Integrity` under Verify game file integrity from the options on the right .
 5. Let it scan your files and if any are missing/corrupted let it reinstall them
-
-### FiveM Channel Update
-
-Playing the latest stable release is a common way in avoiding crashes and freezing. Sometimes people play `Latest (Unstable)` as it may be more beneficial to solve UI Lag, but as it says in the name, it is unstable and can cause crashes to occur frequently.
-
-Follow these steps to help set your gamemode to `Release` version.
-
-1. Launch FiveM
-2. Click on `Settings` in the top right corner.
-3. Click on `Game`.
-4. At the top, there should be three options: `Release`, `Beta`, `Latest (Unstable)`.
-5. Select `Release`.
-6. Restart FiveM.
 
 ### Disable Antivirus/Firewall
 

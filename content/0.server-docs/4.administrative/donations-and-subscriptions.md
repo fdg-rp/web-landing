@@ -56,13 +56,7 @@ To cancel your subscription, visit https://checkout.tebex.io/payment-history/.
 
 ### Having Issues with your Tebex?
 
-The Tebex roles are synced to the server using your CFX (FiveM account). Please ensure you are logged into the **correct CFX account** in your **FiveM settings menu**. Keep in mind sometimes it can take up-to 10 minutes for it to sync.
-
-1. Launch FiveM.
-2. Click the settings cog in the top right.
-3. In the account page click on `Link Account`.
-4. Login to your CFX account via Browser or by entering your email and password.
-5. Once logged in check to make sure its the **correct CFX account** used to purchase the Tebex subscription.
+The Tebex roles are synced to the server using your CFX (FiveM account). Please ensure you are logged into the **correct CFX account** in your **FiveM settings menu**.
 
 ### Need Staff Support?
 
