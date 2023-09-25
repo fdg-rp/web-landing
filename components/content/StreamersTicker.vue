@@ -101,12 +101,6 @@ const streamers = [
     href: "https://www.twitch.tv/f1zzydrinks",
   },
   {
-    title: "@cocoproteinshake",
-    subtitle: "FDG Stream Team",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/a2eef0f4-86ea-41ec-b227-590b3c31f5d7-profile_image-150x150.png",
-    href: "https://www.twitch.tv/cocoproteinshake",
-  },
-  {
     title: "@Nick69Gaming",
     subtitle: "FDG Stream Team",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/nick69gaming-profile_image-52366ded0a1b6f62-150x150.jpeg",
