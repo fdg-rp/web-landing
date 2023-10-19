@@ -17,7 +17,7 @@ navigation: true
 ---
 
 Gerald is an elderly man having just turned 100 years old, he has dementia, is easily startled and can become highly aggressive if provoked or confused.
-Gerald is good friends with Rocco (link to his lore page if possible) sharing a hatred of Banks, Electricity and technology. 
+Gerald is good friends with [Rocco](/lore/characters/rocco) sharing a hatred of Banks, Electricity and technology. 
 He is married to Adra Winston, an equally senile elderly woman.
 
 ## Details  
