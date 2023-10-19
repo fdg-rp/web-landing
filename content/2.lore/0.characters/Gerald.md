@@ -33,7 +33,6 @@ He is married to Adra Winston, an equally senile elderly woman.
 
 - Known for being very tall for his age
 
-
 ## Clips
 [Gerald Jumps out of the boxes and saves Civilian from Police](https://www.twitch.tv/azzablake/clip/EndearingLachrymoseSharkBuddhaBar-U8Fp6kfp7nOQhTpD)
 
