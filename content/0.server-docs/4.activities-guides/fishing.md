@@ -1,63 +1,55 @@
 ---
 title: "Fishing"
-description: "Explore the art of fishing through two distinct approaches - utilizing high-grade bait consistently or employing lower-grade bait strategically to yield more valuable catches - as outlined in this comprehensive guide, along with valuable insights into bait preparation and optimizing your profits."
+description: "Explore the art of fishing with this comprehensive guide, along with tips and tricks on how to make this peaceful yet satisfying activity more enjoyable."
 aside: true
 bottom: true
 toc: true
 ---
 
-# Fishing Guide
+![Cover](https://i.imgur.com/fxVklRq.png)
 
-By **Mike Hydra** & **Jono Lad**
+By **basedgod** & **EndiVel**
 
-## Approaches to Fishing
+# About
+Fishing is an excellent and interactive way of making money legally. Time will fly as you attempt to catch the biggest and best fish out there, all the while gaining XP and revealing new species alongside new locations as you move up the ladder! Created by Ridge, this new and improved fishing script reveals a fun and engaging activity that you and your mates can crack open a cold one and enjoy together. 
 
-To fish, you'll first need some bait for your fishing rod. There are **two** general approaches to fishing:
 
-1. You get a Grade 7 Bait and use it the whole time
-2. You use Lower grade bait to get small fish to re-use on your fishing rod to get higher fish that sell for more.
+## Getting started
+- In order to begin your fishing adventure, you must first have a rod. You can buy a **novice rod** from the fishing store located in **Roxwood**. 
+- In order to look at your fishing level, simply type `/fishinglevel` into your chat and it will appear in the top left, displaying your current level and your progress below. 
+- You can start at **Alamo Sea** from level 0, and as you gain experience varying locations will become available for you to fish at, but you’ll have to figure out where! (Hint: they have water). 
+- These different locations have different fish that can be worth higher amounts and can give you higher XP, so it’s in your best interest to get your levels up. 
 
-Both approaches work. You can figure out what earns more, or perhaps you can find an even better approach.
+![Fishing Store](https://i.imgur.com/J0tKuya.jpg)
 
-## Gathering Bait
 
-### Approach 1 - Grade 7 Bait
 
-1. Go and kill an animal with either a **hunting rifle** or **crossbow**.
+# How to Fish
+1. When you catch a fish, a small minigame will appear in the center of your screen
+2. The aim of the game is to hold the white box over the fish icon until the orange bar on the right fills to the top
+3. You can move the white box up and down by pressing any button on your keyboard, including your mouse
+4. The fish will jump up and down, and can alternate between going fast and slow, so best keep your eye on it!
+5. Once the orange bar fills, you will be told what you caught in the top right, and the fish will appear in your inventory
 
-2. Skin the deceased animal by equipping a **knife** and using your `E` interaction menu on it. You'll receive **Red Meat**.
+![Fishing](https://i.imgur.com/olYcqi7.jpg)
 
-3. Use a **Hunters Knife** (purchasable from Ammunation) on the **Red Meat**. You'll receive **Redmeat Bait Bits** (Grade 7).
 
-![Grade 7 bait](https://cdn.discordapp.com/attachments/184556449383448576/1138261271477755994/image.png)
+## Fish Tiers
+There are different levels of fish that you can catch. These will be displayed with stars on the item, and a coloured outline around the fish icon, so you’ll know the quality of the fish immediately. Each tier will sell for a different price within the Fishing Store.  
 
-### Approach 2 - Low Grade Bait
+![Tiers](https://i.imgur.com/VTaCg6y.png)
 
-1. Go to a **Fish Shop**. To locate a Fish Shop, open the **Maps** app on your phone. Click the only button you can and then click on the fish icon, this shows all the stores for fishing. Note, you can come back to this to find the sell blip later.
 
-2. Buy some **Low Grade Fishing Bait** from the **Fish shop**. 
+## Bundles
+Outside the Fishing Store there will be a “Bundle Store” blip that you can access. Within this store, a select variety of fish will be listed that you can sell **together** for a higher price than you would regularly in the store. These bundles will change regularly, so it’s in your best interest to explore other fishing locations, and to do so throughout the day and night as this changes the fish you will catch!
 
-![Low grade bait](https://cdn.discordapp.com/attachments/184556449383448576/1138261287281905664/image.png)
 
-## Using the Fishing Rod 
 
-1. Purchase a **Fishing Rod** from the **Fish Shop**.
+# Tips & Tricks
 
-2. Drag the chosen bait onto the fishing rod.
-
-3. Make your way to the water's edge. Any beachside location should do the trick.
-
-4. Use the fishing rod (you can put the fishing rod on your hotbar if you want). 
-
-5. After you use the fishing rod, a few things can happen:
-    - Your bait is consumed, but you catch nothing. You'll need to put some more bait on your rod and try again (see step 2).
-    - Your bait is consumed and you catch something. You can put some more bait on your rod and keep going (see step 2).
-    - You'll be told something along the lines of *'...the fish aren't biting...'*. Move a few meters up or down the beach and try again.
-
-![beachside fishing](https://cdn.discordapp.com/attachments/184556449383448576/1138261305313206282/image.png)
-
-## Selling Your Catch
-
-When you're ready to sell the fish you've caught, head to the fish sale location using the same **Maps** app as before (see [above](#approach-2---low-grade-bait)).
-
-![fishing sell location](https://cdn.discordapp.com/attachments/184556449383448576/1138261321603887185/image.png)
+::list{type="info"}
+- Purchase a fishing boat so you can fish with your mates and earn some extra XP!
+- Open your inventory and drag the fishing rod to your hotbar. Then press the respective key to cast your line and continue fishing without having to open your inventory.
+- Learn the most efficient way to catch fish, because as you progress to higher level zones the fish become harder to catch… but you’ll get higher XP bonuses and more profitable fish.
+- You will need higher tier fishing rods to fish in new zones!
+::
