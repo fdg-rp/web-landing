@@ -21,7 +21,7 @@ toc: true
 
 ## Their Story Since:
 
-### Since our last report, The Vandals have taken the city by storm. For those unaware, the Vandals are a graffiti crew known for their hostile behavior, charisma, and devilish good looks. The city simply had no chance to prepare for the storm that would become ***The VANDALS***. Tales of their exploits travel through the city’s streets, which can only show that this is just the beginning. From cult-like behavior to political maneuverings, their actions have shaped the narrative of the city - and their paint has covered a majority of it, too. We delve deeper into the pivotal moments that have marked their growth, spotlighting the members at the heart of these events. As The Vandals' saga unfolds, we invite you to join us in dissecting these landmark episodes in their ever-evolving story.
+### Since our last report, The Vandals have taken the city by storm. For those unaware, they are a graffiti crew known for their hostile behavior, charisma, and devilish good looks. While their "art" was often criticized, the unexpected arrival and rapid dominance took everyone by surprise. The city simply had no chance to prepare for the storm that would become ***The VANDALS***. Tales of their exploits travel through the city’s streets, which can only show that this is just the beginning. From cult-like behavior to political maneuverings, their actions have shaped the narrative of the city - and their paint has covered a majority of it, too. We delve deeper into the pivotal moments that have marked their growth, spotlighting the members at the heart of these events. As The Vandals' saga unfolds, we invite you to join us in dissecting these landmark episodes in their ever-evolving story.
 
 **Operation [REDACTED]:**
 
