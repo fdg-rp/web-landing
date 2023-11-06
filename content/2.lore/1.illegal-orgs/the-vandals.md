@@ -21,19 +21,29 @@ toc: true
 
 ## Their Story Since:
 
-### Since our last report, The Vandals have taken the city by storm. For those unaware, they are a graffiti crew known for their hostile behavior, charisma, and devilish good looks. While their "art" was often criticized, the unexpected arrival and rapid takeover of the gang scene caught everyone by surprise. The city simply had no chance to prepare for the storm that would become ***The VANDALS***. Tales of their exploits travel through the city’s streets, which can only show that this is just the beginning. From cult-like behavior to political maneuverings, their actions have shaped the narrative of the city - and their paint has covered a majority of it, too. We delve deeper into the pivotal moments that have marked their growth, spotlighting the members at the heart of these events. As The Vandals' saga unfolds, we invite you to join us in dissecting these landmark episodes in their ever-evolving story.
+### Since our last report, The Vandals have taken the city by storm. For those unaware, they are a graffiti crew known for their hostile behavior, charisma, and devilish good looks. While their "art" was often criticized, the unexpected arrival and rapid takeover of the gang scene caught everyone by surprise. The city simply had no chance to prepare for the storm that would become ***The VANDALS***. 
+
+### Tales of their exploits travel through the city’s streets, which can only show that this is just the beginning. From cult-like behavior to political maneuverings, their actions have shaped the narrative of the city - and their paint has covered a majority of it, too. We delve deeper into the pivotal moments that have marked their growth, spotlighting the members at the heart of these events. As The Vandals' saga unfolds, we invite you to join us in dissecting these landmark episodes in their ever-evolving story.
 
 **Operation [REDACTED]:**
 
-After receiving encrypted communications from the covert agency identified only as **[REDACTED]**, The Vandals were entrusted with a mission of grave importance: to track and obtain the hard drives of prominent San Andreas government figures, that being **[REDACTED]** and **[REDACTED]**. These drives held sensitive information pertaining to the classified Operation **[REDACTED]**. However, what seemed to be a simple task quickly escalated into a defensive battle when they were ambushed by the elusive private military company, **[REDACTED]**. Determined to survive, The Vandals mounted a formidable defense atop Mount **[REDACTED]**. The Mayor of Los Santos, Chad Odessa, played a pivotal role, with **[REDACTED]** confirmed kills attributed to him. Only a select few are aware of the details of this operation, and among them, The Vandals are hailed as unsung heroes. The gravity of what might have transpired, had Operation **[REDACTED]** not been stopped, remains a chilling thought for those in the know.
+After receiving encrypted communications from the covert agency identified only as **[REDACTED]**, The Vandals were entrusted with a mission of grave importance: to track and obtain the hard drives of prominent San Andreas government figures, that being **[REDACTED]** and **[REDACTED]**. These drives held sensitive information pertaining to the classified Operation **[REDACTED]**. 
+
+However, what seemed to be a simple task quickly escalated into a defensive battle when they were ambushed by the elusive private military company, **[REDACTED]**. Determined to survive, The Vandals mounted a formidable defense atop Mount **[REDACTED]**. The Mayor of Los Santos, Chad Odessa, played a pivotal role, with **[REDACTED]** confirmed kills attributed to him.
+
+Only a select few are aware of the details of this operation, and among them, The Vandals are hailed as unsung heroes. The gravity of what might have transpired, had Operation **[REDACTED]** not been stopped, remains a chilling thought for those in the know.
 
 ***THE TREE:***
 
-In a peculiar turn of events, The Vandals found themselves drawn to a tree that mysteriously grew in Barry's front yard. It wasn't just any tree, it became an object of cult-like reverence, gaining a large/devoted following. In efforts to nurture its growth, various unconventional gardening methods were used—from Magic Sloth Urine to positive reinforcement, and allegedly, it was even fertilized with the remains of over 100 individuals. The tree's growth was nothing short of miraculous, soaring to near seven stories tall. However, tragedy struck when the sacred symbol was seemingly cutdown. Enraged and heartbroken, The Vandals believed it to be a malicious act perpetrated by the enigmatic group known as **[REDACTED]**. Entangled in a conflict, they eventually discovered their tree, unscathed, on the terrains of Mount Gordo. Rumors circulate, suggesting that the tree itself commanded the recruitment of two new members to join The Vandals' cause. The validity of these rumors remains clouded by uncertainties regarding the sobriety of the sources during these extraordinary events.
+In a strange turn of events, The Vandals found themselves drawn to a tree that mysteriously grew in Barry's front yard. It wasn't just any tree, it became an object of cult-like reverence, gaining a devoted following over a number of days. In order to nurture its growth, various unconventional gardening methods were used, from Magic Sloth Urine to positive reinforcement, and allegedly, it was even fertilized with the remains of over 100 individuals.
+
+The tree's growth was nothing short of miraculous, soaring to over seven stories tall. However, tragedy struck when the sacred symbol was seemingly cutdown. Enraged and heartbroken, The Vandals believed it to be a malicious act perpetrated by the enigmatic group known as **[REDACTED]**. After a long and tiring conflict, they eventually discovered their tree, unscathed, on the secluded terrains of Mount Gordo. 
+
+Many rumors surround these events, suggesting that the tree itself commanded the recruitment of two new members to join The Vandals. The validity of these rumors remains clouded due to the sobriety of the members during these truly extraordinary events.
 
 **Doug v The Crown:**
 
-Vandals' leader, Doug Drealer, found himself at the center of a widely broadcasted court case, accused of kidnapping esteemed CIB officers Detective Sergeant Cliff Booth and Detective Malcolm Graves. Despite a mountain of evidence in Doug's favor—including claims of a setup by Jamestown General 'Beanz Lil' and AFP Deputy ~~Dictator~~ Commissioner Blake Sanderson, an alibi placing Doug on a fishing trip with Barry White, and even accounts of the Detective Sergeant stealing candy from children —the renowned attorney Bantu Sandeep Rabhishek could not secure a Not Guilty verdict. Given the weight of evidence suggesting Doug's innocence, many are left questioning the integrity of the court.
+Vandals' leader, Doug Drealer, found himself at the center of a widely broadcasted court case, after being accused of kidnapping esteemed CIB officers Detective Sergeant Cliff Booth and Detective Malcolm Graves. Despite a mountain of evidence in Doug's favor—including claims of a setup by Jamestown General 'Beanz Lil' and AFP Deputy ~~Dictator~~ Commissioner Blake Sanderson, an alibi placing Doug on a fishing trip with Barry White, and even accounts of the Detective Sergeant stealing candy from children —the renowned attorney Bantu Sandeep Rabhishek could not secure a Not Guilty verdict. Given the weight of evidence suggesting Doug's innocence, many are left questioning the integrity of the court.
 
 
 ## Known Members:
@@ -90,12 +100,14 @@ Vandals' leader, Doug Drealer, found himself at the center of a widely broadcast
 *"Please do not try to harm the good thing we have going here with Dior's simp bucks profiting the gang"* - Gus Remhad
 >Dior, known for her central role in a complex love triangle involving Doug and a leader from a rival gang, joined The Vandals following an instruction from the mystical tree. As the sole female member of the gang, she possesses a unique influence, amassing large amounts assets and funds by capitalizing on the adoration of her many "simps".
 ## Official Vandal Media:
-[VANDALS - The Crew That Stopped The Trains || [FDG]](https://youtu.be/psok01BPSEs?si=tNC0D0eOa5N6xkqo)
+[VANDALS - The Crew That Stopped The Trains](https://youtu.be/psok01BPSEs?si=tNC0D0eOa5N6xkqo)
 
-[VANDALS are SO DUMB [FDG] ](https://youtu.be/C_K-WLQ9XAc?si=35f9qsiMaHadFxGJ)
+[VANDALS are SO DUMB](https://youtu.be/C_K-WLQ9XAc?si=35f9qsiMaHadFxGJ)
 
-[VANDAL GEAR SOLID V: THE VANTOM PAIN(T) [FDG] ](https://youtu.be/XxG7ZX2-fqs?si=rA3v2vfQiTtvakt6)
+[VANDAL GEAR SOLID V: THE VANTOM PAIN(T)](https://youtu.be/XxG7ZX2-fqs?si=rA3v2vfQiTtvakt6)
 
-[VANDALS | LOLTAGE #2 - ELECTRIC BOOGALOO [FDG] ](https://www.youtube.com/watch?v=rtRIyQ4GgdE&ab_channel=VANDALS)
+[VANDALS | LOLTAGE #2 - ELECTRIC BOOGALOO](https://www.youtube.com/watch?v=rtRIyQ4GgdE&ab_channel=VANDALS)
+
+[VANDALS | Diss Track](https://www.youtube.com/watch?v=_sPlulcx4w0&ab_channel=VANDALS)
 
 [VANDALS YouTube Channel](https://www.youtube.com/@vandals_fdg)
