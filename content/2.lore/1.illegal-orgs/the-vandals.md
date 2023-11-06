@@ -91,7 +91,7 @@ Vandals' leader, Doug Drealer, found himself at the center of a widely broadcast
 **Bobby *"The Cargo"* Hill**
 
 *"Dude, I'm getting f------ overwhelmed!"* - Bobby, having a sensory overload attack at work.
->Bobby has been a Vandals affiliate since day one, and became a full-fledged member after his audition tape blew The Vandals apart. He's a true member of Gen-Z, an iPad kid, and is well known for undeveloped frontal lobe.
+>Bobby has been a Vandals affiliate since day one, and became a full-fledged member after his audition tape blew The Vandals apart. He's a true member of Gen-Z, an iPad kid, and is well known for his undeveloped frontal lobe.
 
 ---
 **Dior *"The Hustler"* Armani**
