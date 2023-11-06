@@ -14,9 +14,9 @@ toc: true
 ![The Vandals, Pictured in an undisclosed location.](https://cdn.discordapp.com/attachments/1097441272622501930/1170942664494022656/image.png?ex=655ae056&is=65486b56&hm=70a4375d195ffd6859ea5f8c334f56f11bb81fd4598ce1979d70962962c9f826&)
   
 
-### On April 17, 2023, we highlighted a group making waves in Southside, often referred to as *The Vandals*. Over half a year has passed, and now they rank among the most aggressive factions in the San Andreas region. We believe it's time for an update. Dive into this in-depth article to uncover the truths about this notorious gang.
+### On April 17, 2023, we highlighted a group making waves in Southside, often referred to as *The Vandals*. Over half a year has passed, and now they rank among the most aggressive factions in the San Andreas region. We believe it's time for an update. Dive into this in-depth article to uncover the truths about this notorious gang. If you missed our initial exposé on The Vandals during their early days as a graffiti crew, you can view it below.
+[![yt_vid](https://cdn.discordapp.com/attachments/1097441272622501930/1171026267685007420/image.png?ex=655b2e32&is=6548b932&hm=056ce5f4676b54b858982f4655e9f6c5fb75b10ca9da937636a15d62ca7183f0&)](https://youtu.be/psok01BPSEs)
 
-*Editors note: If you missed our initial exposé on The Vandals during their early days as a graffiti crew, you can [view it here](https://youtu.be/C_K-WLQ9XAc?si=cn0C05JGb30h7-JL).*
 
 ## Their Story Since:
 
