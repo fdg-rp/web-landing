@@ -1,12 +1,12 @@
 ---
-title: "Chad The Realist"
+title: "Chad The Realest"
 aside: true
 bottom: true
 toc: true
 navigation: true
 ---
 
-# Chad The Realist
+# Chad The Realest
 
 *Played by F1zzydrinks* 
 
