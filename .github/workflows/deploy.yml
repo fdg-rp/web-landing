@@ -43,7 +43,7 @@ jobs:
         username: ${{ secrets.DEPLOY_USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
-        script: cd FDG_Panel/sites/landing && rm -rf *
+        script: cd FDG_Panel/sites/landing/dist && rm -rf *
         
     - name: Copy generated files
       uses: appleboy/scp-action@v0.1.4
@@ -53,5 +53,5 @@ jobs:
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
         source: built/public/*
-        target: FDG_Panel/sites/landing
+        target: FDG_Panel/sites/landing/dist
         strip_components: 2
