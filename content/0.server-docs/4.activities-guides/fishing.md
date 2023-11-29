@@ -48,7 +48,7 @@ Outside the Fishing Store there will be a “Bundle Store” blip that you can a
 # Tips & Tricks
 
 ::list{type="info"}
-- Purchase a fishing boat so you can fish with your mates and earn some extra XP!
+- Purchase an Esky so you can share a beer with your mates and earn some extra XP!
 - Open your inventory and drag the fishing rod to your hotbar. Then press the respective key to cast your line and continue fishing without having to open your inventory.
 - Learn the most efficient way to catch fish, because as you progress to higher level zones the fish become harder to catch… but you’ll get higher XP bonuses and more profitable fish.
 - You will need higher tier fishing rods to fish in new zones!
