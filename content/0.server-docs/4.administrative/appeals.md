@@ -44,7 +44,6 @@ Appeals submitted for bans issued in response to a breach of [Community Rule C2]
 ::list{type="danger"}
 - Cheating 
 - Hacking 
-- Exploiting 
 ::
 
 You should only consider appealing an administrative decision if:
