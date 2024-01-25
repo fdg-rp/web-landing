@@ -10,7 +10,7 @@ toc: true
 
 ::callout{type="warning"}
 #summary
-Banned for cheating or hacking? **You will not be unbanned.** Click to lean more.
+Banned for cheating or hacking? **You will not be unbanned.** Click to learn more.
 #content
 FDG adopts a strict zero-tolerance approach towards hacking and cheating. If you were banned for cheating or hacking (see [Community Rule C2](/server-docs/rules/community-wide-rules)) you will **not be unbanned**.
 
@@ -73,7 +73,7 @@ All appeals are submitted online via [FDG Support Portal](https://support.fatduc
 
 #### Login to the Support Portal
 
-Login with your FDG account ID and password. Alternatively, When you attempt to connect to the server, the ban message will include an "Appeal Ban" button. Clicking this button will open the [support portal](https://support.fatduckgaming.com) in browser and automatically log you in.
+Login with your FDG account ID and password. Alternatively, When you attempt to connect to the server, the ban message will include an "Appeal Ban" button. Clicking this button will open the [support portal](https://support.fatduckgaming.com) in the browser and automatically log you in.
 
 ![ban message](https://cdn.discordapp.com/attachments/654459164952756236/1195348747362762752/image.png)
 
@@ -87,7 +87,7 @@ Ensure this form is completed thoroughly and contains the necessary links to evi
 
 ![FDG Appeals Form](https://cdn.discordapp.com/attachments/184556449383448576/1197378863462879242/image.png)
 
-Once complete, click `SUBMIT TICKET`, you should be automatically re-directed to your newly opened ticket.
+Once complete, click `SUBMIT TICKET`, you should be automatically redirected to your newly opened ticket.
 
 ![ban message](https://cdn.discordapp.com/attachments/184556449383448576/1197379073517830224/image.png)
 
@@ -97,7 +97,7 @@ Senior Staff review all administrative appeals. You should periodically check fo
 
 ### How long will my appeal take?
 
-Every administrative appeal is assessed on a case-by-case basis by Senior Staff and do not have a specified response time. All appeals are subject to a **minimum 48 hour review period.** You should periodically check for updates to your appeal by [viewing your ticket](https://support.fatduckgaming.com).
+Every administrative appeal is assessed on a case-by-case basis by Senior Staff and does not have a specified response time. All appeals are subject to a **minimum 48 hour review period.** You should periodically check for updates to your appeal by [viewing your ticket](https://support.fatduckgaming.com).
 
 ### How can I login to the support portal?
 
@@ -111,9 +111,9 @@ If you’re still stuck and cannot remember your account ID head to the `bot-com
 
 ![accountid message](https://cdn.discordapp.com/attachments/184556449383448576/1197382658804686858/image.png)
 
-Alternatively, When you attempt to connect to the server, the ban message will include an "Appeal Ban" button. Clicking this button will open the [support portal](https://support.fatduckgaming.com) in browser and automatically log you in. Should you remain unable to login, contact our team via the [FDG Community Discord](https://discord.gg/fatduckgaming).
+Alternatively, When you attempt to connect to the server, the ban message will include an "Appeal Ban" button. Clicking this button will open the [support portal](https://support.fatduckgaming.com) in the browser and automatically log you in. Should you remain unable to login, contact our team via the [FDG Community Discord](https://discord.gg/fatduckgaming).
 
 ![ban message](https://cdn.discordapp.com/attachments/654459164952756236/1195348747362762752/image.png)
 
 ### My appeal was denied, can I appeal again?
-Maybe. Administrative appeal decisions are ganerally **final**. You should not appeal again unless instructed to again at a later date. Staff may provide a re-appeal period in the response to your original appeal. Continually submitting appeals unnecessarily may result in you account being banned form access FDG Support Services, meaning you'll never be able to submit an appeal again.
+Maybe. Administrative appeal decisions are generally **final**. You should not appeal again unless instructed to again at a later date. Staff may provide a re-appeal period in the response to your original appeal. Continually submitting appeals unnecessarily may result in your account being banned from accessing FDG Support Services, meaning you'll never be able to submit an appeal again.
