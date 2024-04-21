@@ -61,5 +61,4 @@ Instead of giving your computer a run for its money and having your texture qual
 
 4. Then lower it all the way to turn it off.
 
-![image-of-extended-distance-scaling-location](https://cdn.discordapp.com/attachments/1191936472106926200/1192000009038733402/image.png?ex=65a77b84&is=65950684&hm=4207852b6b2d0d2d5a55560e487a2f4bc01856928b8e32f2ea8bf3e10f4ed0f3&)
-
+![image-of-extended-distance-scaling-location](https://imgur.com/VRRoidP.jpg)
