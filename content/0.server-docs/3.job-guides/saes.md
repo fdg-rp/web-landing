@@ -10,6 +10,8 @@ toc: true
 
 By **Isaiah** & **basedgod**
 
+Edited by **Bozzy171**
+
 ![SAES](https://i.imgur.com/96kJgAo.png)
 
 ## About
@@ -23,23 +25,40 @@ The routine of a SAES member can vary depending on how busy the city is! At peak
 
 
 
-## Ranks, Perks and Salary
+## Ranks & perks
 
 Similarly to the police force, there is much room for advancement in the SAES. As you climb the ranks you will gain access to more perks including better vehicles, different avenues of roleplay, and more command responsibility. 
 
-The SAES also boasts some of the most generous salary packages:
+| **SAES Rank Structure** |
+|----------|
+Cadet
+Paramedic
+Senior Paramedic
+Rescue Paramedic
+Intensive Care Paramedic
+Station Officer
+Inspector
+Deputy Director
+Director
 
-| **Rank** | **Salary (Per 30 minutes)**  |
-|----------|------------------------------|
-Cadet | $5000
-Paramedic | $9000
-Senior Paramedic | $13000
-Rescue Paramedic | $14000
-Intensive Care Paramedic | $14500
-Station Officer | $15000
-Inspector | $15500
-Deputy Director | $25000
-Director | $30000
+---
+
+
+## Current Supervisory Board
+
+| **Rank** | **Name**  | **Sector**  |
+|----------|------------------------------|------------------------------|
+Director | Benjamin Linus | Command
+Deputy Director | Belle Fortano | Command
+Inspector | King Kupa | Chief of Fire
+Inspector | Warren Dooshmittle | Chief of Surgery
+Inspector | Furious Stylz | Chief of Internal Affairs
+Station Officer | Branden Dean | Assistant Chief of Fire
+Station Officer | Jackson Mahomes III | Assistant Chief of Surgery
+Station Officer | Remi West | Head of Recruitment
+Station Officer | Ollie Wade | 2IC of Recruitment
+Station Officer | Darryn Brooks | Head of Trainers
+Station Officer | Gerald Jenkins | 2IC of Trainers
 
 ---
 
