@@ -37,7 +37,7 @@ jobs:
       run: ls built/public
       
     - name: Remove remote files
-      uses: appleboy/ssh-action@v1
+      uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.DEPLOY_HOST }}
         username: ${{ secrets.DEPLOY_USERNAME }}
