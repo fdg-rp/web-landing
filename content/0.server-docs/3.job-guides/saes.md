@@ -108,7 +108,7 @@ To apply to be a paramedic you must meet the following requirements:
 ![Job Center](https://i.imgur.com/6TwhlDF.jpg)
 
 
-If you meet the requirements and applications are open you may apply at any city job center. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
+If you meet the requirements and applications are open you may apply at any city job center.
 
 
 
