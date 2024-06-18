@@ -51,14 +51,15 @@ Director
 Director | Benjamin Linus | Command
 Deputy Director | Belle Fortano | Command
 Inspector | King Kupa | Chief of Fire
-Inspector | Warren Dooshmittle | Chief of Surgery
+Inspector | Warren Dooshmittle | Head of ICP
 Inspector | Furious Stylz | Chief of Internal Affairs
 Station Officer | Branden Dean | Assistant Chief of Fire
-Station Officer | Jackson Mahomes III | Assistant Chief of Surgery
+Station Officer | Jackson Mahomes III | 2IC of ICP
 Station Officer | Remi West | Head of Recruitment
 Station Officer | Ollie Wade | 2IC of Recruitment
 Station Officer | Darryn Brooks | Head of Trainers
 Station Officer | Gerald Jenkins | 2IC of Trainers
+
 
 ---
 
@@ -107,7 +108,7 @@ To apply to be a paramedic you must meet the following requirements:
 ![Job Center](https://i.imgur.com/6TwhlDF.jpg)
 
 
-If you meet the requirements and applications are open you may apply at any city job center. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
+If you meet the requirements and applications are open you may apply at any city job center.
 
 
 
