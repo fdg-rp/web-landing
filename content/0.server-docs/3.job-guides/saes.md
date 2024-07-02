@@ -51,16 +51,16 @@ Director
 Director | Benjamin Linus | Command
 Deputy Director | Belle Fortano | Command
 Inspector | King Kupa | Chief of Fire
-Inspector | Warren Dooshmittle | Head of ICP
+Inspector | Warren Dooshmittle | Head of Incident Command
 Inspector | Furious Stylz | Chief of Internal Affairs
-Station Officer | Branden Dean | Assistant Chief of Fire
-Station Officer | Jackson Mahomes III | 2IC of ICP
+Inspector | Branden Dean | Assistant Chief of Fire
 Station Officer | Remi West | Head of Recruitment
-Station Officer | Ollie Wade | 2IC of Recruitment
+Station Officer | Jackson Mahomes III | Head of ICP
 Station Officer | Darryn Brooks | Head of Trainers
 Station Officer | Gerald Jenkins | 2IC of Trainers
-
-
+Station Officer | Ollie Wade | 2IC of Recruitment
+Station Officer | Sunny Fortano | Internal Affairs Officer
+Station Officer | Frank Walker | 2IC Of ICP
 ---
 
 # Equipment and Capabilities
