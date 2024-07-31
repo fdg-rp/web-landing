@@ -10,15 +10,16 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.14.6",
-    "@nuxt/devtools": "^0.5.5",
-    "@nuxt/eslint-config": "^0.1.1",
-    "@nuxtjs/plausible": "^0.2.1",
-    "@types/node": "^20.2.5",
-    "eslint": "^8.42.0",
-    "nuxt": "^3.6.1",
-    "nuxt-og-image": "^2.0.10",
-    "sitemap": "^7.1.1"
+    "@nuxt-themes/docus": "^1.15.0",
+    "@nuxt/devtools": "^1.3.2",
+    "@nuxt/eslint-config": "^0.3.13",
+    "@nuxtjs/plausible": "^1.0.0",
+    "@types/node": "^20.14.1",
+    "eslint": "^9.4.0",
+    "nuxt": "^3.11.2",
+    "nuxt-og-image": "^3.0.0-rc.53",
+    "sitemap": "^8.0.0",
+    "pinceau": "^0.15.4"
   },
   "dependencies": {
     "vue-marquee-text-component": "^2.0.1"

@@ -23,15 +23,18 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, "built/public"),
     },
     prerender: {
-      routes: ["/sitemap.xml", "/alldocs.json"],
+      routes: ["/sitemap.xml", "/alldocs.json", "/"],
     },
   },
   colorMode: {
     preference: "dark",
     fallback: "dark",
   },
-  ssr: true,
+  // ssr: true,
   site: {
-    url: "https://preview.fatduckgaming.com",
+    url: "https://fatduckgaming.com",
   },
+  // routeRules: {
+  //   "/**": { prerender: true },
+  // },
 });
