@@ -13,9 +13,9 @@ On \[date], our community was treated to an unexpected and very unwelcome surpri
 
 ## Timeline of Events
 
-Initial Discovery:
-Date: \[Date]
-Time: \[Time]
+Initial Discovery:\
+Date: \[Date]\
+Time: \[Time]\
 Reports started rolling in about a very rude message appearing on screens. Our first reaction? "Well, that's not very nice."
 
 Immediate Response:
@@ -57,6 +57,6 @@ Stay secure, stay awesome!
 
 Sincerely,
 
-\[Your Name]
-\[Your Position]
+\[Your Name]\
+\[Your Position]\
 \[Your Company]
