@@ -9,13 +9,13 @@ toc: true
 # Post-Incident Review: The Case of the Very Rude Message
 
 #### Incident Overview
-On [date], our community was treated to an unexpected and very unwelcome surprise when hackers exploited an unprotected service side event to display a rather rude message on screens across our platform. This unfortunate incident was visible to everyone, including our beloved streamers. Here’s the story of what happened, how we responded, and our plan to keep things more polite in the future.
+On \[date], our community was treated to an unexpected and very unwelcome surprise when hackers exploited an unprotected service side event to display a rather rude message on screens across our platform. This unfortunate incident was visible to everyone, including our beloved streamers. Here’s the story of what happened, how we responded, and our plan to keep things more polite in the future.
 
 ## Timeline of Events
 
 Initial Discovery:
-Date: [Date]
-Time: [Time]
+Date: \[Date]
+Time: \[Time]
 Reports started rolling in about a very rude message appearing on screens. Our first reaction? "Well, that's not very nice."
 
 Immediate Response:
@@ -57,6 +57,6 @@ Stay secure, stay awesome!
 
 Sincerely,
 
-[Your Name]
-[Your Position]
-[Your Company]
+\[Your Name]
+\[Your Position]
+\[Your Company]
