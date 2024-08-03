@@ -21,6 +21,8 @@ Gerald is good friends with [Rocco](/lore/characters/rocco) sharing a hatred of 
 He is married to Adra Winston, an equally senile elderly woman.
 
 ## Details  
+- Mayor of San Andreas
+
 - Married to Adra Winston (played by [Duckuzi](https://www.twitch.tv/duckuzi))
 
 - Best friends with fellow elderly Rocco
