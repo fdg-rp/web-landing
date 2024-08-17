@@ -48,12 +48,10 @@ Director
 
 | **Rank** | **Name**  | **Sector**  |
 |----------|------------------------------|------------------------------|
-Director | Benjamin Linus | Command
-Deputy Director | Belle Fortano | Command
+Director | Furious Stylz | Command
+Deputy Director | Branden Dean | Command
 Inspector | King Kupa | Chief of Fire
 Inspector | Warren Dooshmittle | Head of Incident Command
-Inspector | Furious Stylz | Chief of Internal Affairs
-Inspector | Branden Dean | Assistant Chief of Fire
 Station Officer | Remi West | Head of Recruitment
 Station Officer | Jackson Mahomes III | Head of ICP
 Station Officer | Darryn Brooks | Head of Trainers
