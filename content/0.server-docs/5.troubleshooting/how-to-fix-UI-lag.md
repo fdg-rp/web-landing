@@ -1,5 +1,5 @@
 ---
-title: "How To Fix UI Lag"
+title: "UI Lag"
 description: "How to fix UI Lag"
 aside: true
 bottom: true

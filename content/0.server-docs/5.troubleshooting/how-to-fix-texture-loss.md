@@ -1,5 +1,5 @@
 ---
-title: "How to Fix Texture Loss"
+title: "Texture Loss"
 description: "Step by step guide on how to fix texture loss within FiveM and some of the common causes."
 aside: true
 bottom: true

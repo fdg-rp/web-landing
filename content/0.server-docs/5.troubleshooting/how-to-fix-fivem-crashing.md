@@ -1,5 +1,5 @@
 ---
-title: "How to Fix FiveM Crashing"
+title: "FiveM Crashing Fixes"
 description: "Tips and tricks to potentially fix FiveM crashing"
 aside: true
 bottom: true
