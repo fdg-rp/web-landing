@@ -51,14 +51,14 @@ Director
 Director | Furious Stylz | Command
 Deputy Director | Branden Dean | Command
 Inspector | King Kupa | Chief of Fire
-Inspector | Warren Dooshmittle | Head of Incident Command
-Station Officer | Remi West | Head of Recruitment
-Station Officer | Jackson Mahomes III | Head of ICP
-Station Officer | Darryn Brooks | Head of Trainers
-Station Officer | Gerald Jenkins | 2IC of Trainers
-Station Officer | Ollie Wade | 2IC of Recruitment
-Station Officer | Sunny Fortano | Internal Affairs Officer
-Station Officer | Frank Walker | 2IC Of ICP
+Inspector | Warren Dooshmittle | Chief of ICP
+Inspector | Darryn Brooksa | Assistance Chief of Fice
+Station Officer | Gerald Jenkins | Head of Trainers
+Station Officer | Ollie Wade | Head of Recruitment
+Station Officer | Sunny Fortano | Deputy Chief of Internal Affairs
+Station Officer | Frank Walker | Assistance Chief of ICP
+Station Officer | Mark Jensen | 2ic of Recruitment
+Station Officer | Marcus Mills | 2ic of Trainers
 ---
 
 # Equipment and Capabilities
