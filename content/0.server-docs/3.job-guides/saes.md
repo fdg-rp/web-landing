@@ -52,11 +52,11 @@ Director | Furious Stylz | Command
 Deputy Director | Branden Dean | Command
 Inspector | King Kupa | Chief of Fire
 Inspector | Warren Dooshmittle | Chief of ICP
-Inspector | Darryn Brooksa | Assistance Chief of Fice
+Inspector | Darryn Brooksa | Assistant Chief of Fice
 Station Officer | Gerald Jenkins | Head of Trainers
 Station Officer | Ollie Wade | Head of Recruitment
 Station Officer | Sunny Fortano | Deputy Chief of Internal Affairs
-Station Officer | Frank Walker | Assistance Chief of ICP
+Station Officer | Frank Walker | Assistant Chief of ICP
 Station Officer | Mark Jensen | 2ic of Recruitment
 Station Officer | Marcus Mills | 2ic of Trainers
 ---
