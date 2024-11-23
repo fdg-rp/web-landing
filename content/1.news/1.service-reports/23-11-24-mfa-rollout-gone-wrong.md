@@ -6,7 +6,7 @@ bottom: true
 toc: true
 ---
 
-# Incident Report: Session Tokens and Recursive Chaos – The MFA Rollout Gone Wrong**
+# Incident Report: Session Tokens and Recursive Chaos – The MFA Rollout Gone Wrong
 
 ## **Summary**
 
