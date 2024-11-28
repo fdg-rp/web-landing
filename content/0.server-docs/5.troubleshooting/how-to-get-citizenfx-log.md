@@ -1,5 +1,5 @@
 ---
-title: "How to get CitizenFX.log"
+title: "Gathering CitizenFX.log"
 description: "How to get your CitizenFX.log file to report in game bugs"
 aside: true
 bottom: true
