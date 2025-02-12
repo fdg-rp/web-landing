@@ -27,21 +27,20 @@ There is significant room for advancement in the police force, many players can 
 
 | **Rank** | **Salary (Per 30 minutes)**  |
 |----------|------------------------------|
-Probationary Constable | $5,000 
-Constable | $5,250
-Senior Constable | $5,500
-Incremental Senior Constable | $5,750
-Leading Senior Constable | $6,000
-Probationary Sergeant | $7,500
-Sergeant | $8,000
-Incremental Sergeant |$8,500
-Senior Sergeant | $9,000
-Inspector | $12,000
-Chief Inspector | $13,000
-Superintendent | $14,000
-Assistant Commissioner | $16,000
-Deputy Commissioner | $18,000
-Commissioner | $20,000
+Probationary Constable | $22,000 
+Constable | $24,000
+Senior Constable | $26,000
+Incremental Senior Constable | $28,000
+Leading Senior Constable | $30,000
+Probationary Sergeant | $37,500
+Sergeant | $40,000
+Incremental Sergeant |$45,000
+Senior Sergeant | $50,000
+Inspector | $60,000
+Superintendent | $72,000
+Assistant Commissioner | $76,000
+Deputy Commissioner | $78,000
+Commissioner | $80,000
 
 ---
 
@@ -67,13 +66,13 @@ Forensics is a great way to close murder cases around Los Santos. A Forensics un
 ---
 
 
-### Criminal Investigation Branch
+### Raptor
 
 ![CIB](https://i.imgur.com/mJBBQMH.png)
 
-The Criminal Investigation Branch (CIB) is primarily responsible for combating prohibited weapon and drug trafficking through the use of covert methods and equipment. These methods/equipment can include using undercover officers, vehicles, and aircraft.
+The Raptor is a taskfoce primarily responsible for combating prohibited weapon and drug trafficking through the use of covert methods and equipment. These methods/equipment can include using undercover officers, vehicles, and aircraft.
 
-The CIB often conduct raids in cooperation with the Tactical Operations Unit in order to seize illegal items from the homes and vehicles of players. 
+The Raptor often conduct raids in cooperation with the Tactical Operations Unit in order to seize illegal items from the homes and vehicles of players. 
 
 ---
 
@@ -120,7 +119,9 @@ To apply to be a police officer you must meet the following requirements:
 
 ### How to Apply
 
-If you meet the requirements and applications are open you may apply at any city job center. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
+If you meet the requirements and applications are open you may apply on the seeekr app on a phone. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
+
+![Seekr App](https://i.imgur.com/kvUT7cP.png)
 
 ::alert{type="info"}
 Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
