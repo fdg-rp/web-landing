@@ -65,12 +65,6 @@ const streamers = [
     href: "https://www.twitch.tv/oznat1",
   },
   {
-    title: "@BaileyG",
-    subtitle: "FDG Stream Team",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/a82b6e4b-89e3-4991-af9a-6574c28cc830-profile_image-70x70.png",
-    href: "https://www.twitch.tv/baileyg",
-  },
-  {
     title: "@Kaiium_",
     subtitle: "FDG Stream Team",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/f404ad2e-ddbf-40b8-8608-186505827000-profile_image-70x70.png",
@@ -89,28 +83,28 @@ const streamers = [
     href: "https://www.twitch.tv/pureriffery900",
   },
   {
-    title: "@bentoto_au",
-    subtitle: "FDG Stream Team",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/8b39aaec-94ef-4afa-b0bd-2b1d8490d79f-profile_image-150x150.png",
-    href: "https://www.twitch.tv/bentoto_au",
-  },
-  {
     title: "@f1zzydrinks",
     subtitle: "FDG Stream Team",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/30e606b2-b3ea-4528-b601-798713218b93-profile_image-150x150.png",
     href: "https://www.twitch.tv/f1zzydrinks",
   },
   {
-    title: "@Nick69Gaming",
-    subtitle: "FDG Stream Team",
-    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/nick69gaming-profile_image-52366ded0a1b6f62-150x150.jpeg",
-    href: "https://www.twitch.tv/nick69gaming",
-  },
-  {
     title: "@SoCRiiSPY",
     subtitle: "FDG Stream Team",
     img: "https://static-cdn.jtvnw.net/jtv_user_pictures/b9f155ee-dafe-49a0-996a-4b951922d108-profile_image-70x70.png",
     href: "https://www.twitch.tv/socriispy",
+  },
+  {
+    title: "@Denzlle",
+    subtitle: "FDG Stream Team",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/1e567c55-3b37-4939-a805-667b04963d01-profile_image-70x70.png",
+    href: "https://www.twitch.tv/denzlle",
+  },
+  {
+    title: "@suttoGT",
+    subtitle: "FDG Stream Team",
+    img: "https://static-cdn.jtvnw.net/jtv_user_pictures/b935644d-2575-442e-81e4-5ee25da28863-profile_image-70x70.png",
+    href: "https://www.twitch.tv/suttogt",
   },
 ];
 </script>
