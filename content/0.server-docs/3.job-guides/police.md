@@ -112,8 +112,8 @@ Highway run Road & Safety operations such as double demerits periods where they 
 To apply to be a police officer you must meet the following requirements:
 
 ::list{type="primary"}
-- No staff warnings or timeouts in the last 30 days
-- No bans (active or expired) in the last 60 days
+- No staff warnings or timeouts in the last 1 day
+- No bans (active or expired) in the last 5 days
 - A minimum of 50 hours playtime
 - No Criminal History
 - Valid Driver’s License
