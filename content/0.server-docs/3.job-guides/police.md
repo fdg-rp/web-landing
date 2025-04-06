@@ -10,7 +10,7 @@ toc: true
 
 By **Isaiah** & **basedgod**
 
-![SAPF](https://i.imgur.com/jp7MNSS.png)
+![SAPF](https://i.imgur.com/zzIbDJC.png)
 
 
 ## About
@@ -48,7 +48,7 @@ Commissioner | $80,000
 The police force consists of several sub-departments with each being responsible for a specific area. Each department has their own unique style, vehicles, equipment, and command structure. Each Department is commanded by a highly experienced Superintendent and Inspector.
 
 
-### General Duties
+### <img src="https://app.fatduckgaming.com/assets/jobs/police.png" alt="gdLogo" height="25"/>  General Duties
 ![GD](https://i.imgur.com/Ry1Mi6y.png)
 
 General Duties officers are the backbone of the police force, they are often the first responders to a variety of incidents and will be where all new recruits start their policing journey. 
@@ -56,17 +56,20 @@ General Duties officers are the backbone of the police force, they are often the
 General Duties has access to a diverse range of equipment that allows them to be a “jack of all trades” in the absence of more specialised officers including Public Order and Riot Squad, Special Response Team, Ballistics Analysis, and K9.
 
 
-### Forensics
+### <img src="https://app.fatduckgaming.com/assets/jobs/homicide.png" alt="sccLogo" height="25"/> State Crime Command (SCC)
 ![Forensics Title](https://i.imgur.com/Rkp0urL.png)
 
-Forensics is a great way to close murder cases around Los Santos. A Forensics unit allows police officers from any department to investigate suspicious deaths and injuries by collecting many forms of physical evidence left at crime scenes. Activating forensics allows officers to determine many factors related to a crime such as bullet trajectory, bullet casings, blood samples and cross examine the physical evidence with our Criminal Database as well as murder weapons on scene. 
+**State Crime Command (SCC)** is a specialized division dedicated to the investigation and resolution of serious crimes, including homicides, across the state of San Andreas. SCC officers are highly trained in forensic science and work independently from standard police departments to conduct detailed crime scene investigations.
+
+The SCC leverages advanced forensic techniques to uncover the truth behind suspicious deaths and injuries. By collecting and analyzing physical evidence left at crime scenes—such as bullet casings, blood samples, and trajectories—SCC is able to piece together what really happened. Officers within this division also cross-reference evidence with the **Criminal Database** and can identify murder weapons on scene to assist in building strong cases.
 
 ![Forensics Display](https://i.imgur.com/XcKX76i.png)
 
 ---
 
 
-### Raptor
+### <img src="https://app.fatduckgaming.com/assets/jobs/sbranch.png" alt="raptorLogo" height="25"/> Raptor
+
 
 ![CIB](https://i.imgur.com/mJBBQMH.png)
 
@@ -77,7 +80,7 @@ The Raptor often conduct raids in cooperation with the Tactical Operations Unit 
 ---
 
 
-### Tactical Operations Unit
+### <img src="https://app.fatduckgaming.com/assets/jobs/tac.png" alt="touLogo" height="25"/> Tactical Operations Unit
 
 ![TOU](https://i.imgur.com/Uh1AXWv.png)
 
@@ -90,7 +93,7 @@ TOU plan and execute high risk tactical operations such as civilian and gang pro
 ---
 
 
-### Highway Patrol
+### <img src="https://app.fatduckgaming.com/assets/jobs/hwbranch.png" alt="hwLogo" height="25"/> Highway Patrol
 
 ![RSS](https://i.imgur.com/SalAOy5.png)
 
