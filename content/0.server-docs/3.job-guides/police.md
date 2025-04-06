@@ -10,7 +10,7 @@ toc: true
 
 By **Isaiah** & **basedgod**
 
-![SAPF](https://i.imgur.com/jp7MNSS.png)
+![SAPF](https://i.imgur.com/zzIbDJC.png)
 
 
 ## About
@@ -55,11 +55,12 @@ General Duties officers are the backbone of the police force, they are often the
 
 General Duties has access to a diverse range of equipment that allows them to be a “jack of all trades” in the absence of more specialised officers including Public Order and Riot Squad, Special Response Team, Ballistics Analysis, and K9.
 
-
-### Forensics
+### State Crime Command (SCC)
 ![Forensics Title](https://i.imgur.com/Rkp0urL.png)
 
-Forensics is a great way to close murder cases around Los Santos. A Forensics unit allows police officers from any department to investigate suspicious deaths and injuries by collecting many forms of physical evidence left at crime scenes. Activating forensics allows officers to determine many factors related to a crime such as bullet trajectory, bullet casings, blood samples and cross examine the physical evidence with our Criminal Database as well as murder weapons on scene. 
+**State Crime Command (SCC)** is a specialized division dedicated to the investigation and resolution of serious crimes, including homicides, across the state of San Andreas. SCC officers are highly trained in forensic science and work independently from standard police departments to conduct detailed crime scene investigations.
+
+The SCC leverages advanced forensic techniques to uncover the truth behind suspicious deaths and injuries. By collecting and analyzing physical evidence left at crime scenes—such as bullet casings, blood samples, and trajectories—SCC is able to piece together what really happened. Officers within this division also cross-reference evidence with the **Criminal Database** and can identify murder weapons on scene to assist in building strong cases.
 
 ![Forensics Display](https://i.imgur.com/XcKX76i.png)
 
@@ -67,6 +68,7 @@ Forensics is a great way to close murder cases around Los Santos. A Forensics un
 
 
 ### Raptor
+
 
 ![CIB](https://i.imgur.com/mJBBQMH.png)
 
@@ -110,8 +112,8 @@ Highway run Road & Safety operations such as double demerits periods where they 
 To apply to be a police officer you must meet the following requirements:
 
 ::list{type="primary"}
-- No staff warnings or timeouts in the last 30 days
-- No bans (active or expired) in the last 60 days
+- No staff warnings or timeouts in the last 1 day
+- No bans (active or expired) in the last 5 days
 - A minimum of 50 hours playtime
 - No Criminal History
 - Valid Driver’s License
@@ -121,8 +123,8 @@ To apply to be a police officer you must meet the following requirements:
 
 If you meet the requirements and applications are open you may apply on the seeekr app on a phone. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
 
-![Seekr App](https://i.imgur.com/kvUT7cP.png)
+![Jobr App](https://imgur.com/ZLv5RpL.png)
 
 ::alert{type="info"}
-Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
+[Join the FDG Government IC Discord](https://discord.com/invite/UMfASun3A4).
 ::
