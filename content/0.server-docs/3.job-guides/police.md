@@ -48,15 +48,14 @@ Commissioner | $80,000
 The police force consists of several sub-departments with each being responsible for a specific area. Each department has their own unique style, vehicles, equipment, and command structure. Each Department is commanded by a highly experienced Superintendent and Inspector.
 
 
-### <img src="https://app.fatduckgaming.com/assets/jobs/police.png" alt="gdLogo" height="25"/>  General Duties
+### General Duties
 ![GD](https://i.imgur.com/Ry1Mi6y.png)
 
 General Duties officers are the backbone of the police force, they are often the first responders to a variety of incidents and will be where all new recruits start their policing journey. 
 
 General Duties has access to a diverse range of equipment that allows them to be a “jack of all trades” in the absence of more specialised officers including Public Order and Riot Squad, Special Response Team, Ballistics Analysis, and K9.
 
-
-### <img src="https://app.fatduckgaming.com/assets/jobs/homicide.png" alt="sccLogo" height="25"/> State Crime Command (SCC)
+### State Crime Command (SCC)
 ![Forensics Title](https://i.imgur.com/Rkp0urL.png)
 
 **State Crime Command (SCC)** is a specialized division dedicated to the investigation and resolution of serious crimes, including homicides, across the state of San Andreas. SCC officers are highly trained in forensic science and work independently from standard police departments to conduct detailed crime scene investigations.
@@ -68,7 +67,7 @@ The SCC leverages advanced forensic techniques to uncover the truth behind suspi
 ---
 
 
-### <img src="https://app.fatduckgaming.com/assets/jobs/sbranch.png" alt="raptorLogo" height="25"/> Raptor
+### Raptor
 
 
 ![CIB](https://i.imgur.com/mJBBQMH.png)
@@ -80,7 +79,7 @@ The Raptor often conduct raids in cooperation with the Tactical Operations Unit 
 ---
 
 
-### <img src="https://app.fatduckgaming.com/assets/jobs/tac.png" alt="touLogo" height="25"/> Tactical Operations Unit
+### Tactical Operations Unit
 
 ![TOU](https://i.imgur.com/Uh1AXWv.png)
 
@@ -93,7 +92,7 @@ TOU plan and execute high risk tactical operations such as civilian and gang pro
 ---
 
 
-### <img src="https://app.fatduckgaming.com/assets/jobs/hwbranch.png" alt="hwLogo" height="25"/> Highway Patrol
+### Highway Patrol
 
 ![RSS](https://i.imgur.com/SalAOy5.png)
 
@@ -124,8 +123,8 @@ To apply to be a police officer you must meet the following requirements:
 
 If you meet the requirements and applications are open you may apply on the seeekr app on a phone. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
 
-![Seekr App](https://i.imgur.com/kvUT7cP.png)
+![Jobr App](https://i.imgur.com/kvUT7cP.png)
 
 ::alert{type="info"}
-Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
+[Join the FDG Government IC Discord](https://discord.com/invite/UMfASun3A4).
 ::
