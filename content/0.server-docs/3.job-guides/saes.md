@@ -48,17 +48,19 @@ Cadet | General Duties
 
 | **Rank** | **Name**  | **Sector**  |
 |----------|------------------------------|------------------------------|
-Director | Furious Stylz | Command
-Deputy Director | King Kupa | Command
-Inspector | Warren Dooshmittle | Chief of ICP
-Inspector | Darryn Brooks | Chief of Fire
+Director | Warren Dooshmittle | Command
+Deputy Director | Darryn Brooks | Command
+Inspector | Marcus Mills | Chief of Fire
 Inspector | Sunny Hart | Chief of Internal Affairs
-Station Officer | Gerald Jenkins | Head of Trainers
-Station Officer | Frank Walker | Assistant Chief of ICP
-Station Officer | Elijah Writis | Head of Recruitment
-Station Officer | Marcus Mills | Assistant Chief of Fire
-Station Officer | Derrick Norman | 2IC of Trainers
+Inspector | Elijah Writis | Head of Recruitment
 Station Officer | Esma Writis | 2IC of Recruitment
+Station Officer | Gerald Jenkins | 
+Station Officer | Frank Walker | Chief of ICP
+Station Officer | Derrick Norman | Head of Trainers
+Station Officer | Phoebe Writis | Assistant Chief of ICP
+Station Officer | Speedy Gonzalez | 2IC of Trainers
+Station Officer | Kiah Black | Assistant Chief of Fire
+
 ---
 
 # Equipment and Capabilities
@@ -104,9 +106,9 @@ To apply to be a paramedic you must meet the following requirements:
 
 ### How to Apply
 
-If you meet the requirements and applications are open you may apply on the seekr app on a phone.
+If you meet the requirements and applications are open you may apply on the Jobr app on a phone.
 
-![Seekr App](https://i.imgur.com/kvUT7cP.png)
+![Jobr App](https://imgur.com/ZLv5RpL.png)
 
 ::alert{type="info"}
 Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
