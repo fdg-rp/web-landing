@@ -97,8 +97,8 @@ Intensive Care Paramedics (ICPs) are some of the more skilled, and experienced m
 To apply to be a paramedic you must meet the following requirements:
 
 ::list{type="primary"}
-- No staff warnings or timeouts in the last 30 days
-- No bans (active or expired) in the last 60 days
+- No staff warnings or timeouts in the last 1 day
+- No bans (active or expired) in the last 5 days
 - A minimum of 50 hours playtime
 - No Jailable Offences
 - Valid Driver’s License
@@ -111,5 +111,5 @@ If you meet the requirements and applications are open you may apply on the Jobr
 ![Jobr App](https://imgur.com/ZLv5RpL.png)
 
 ::alert{type="info"}
-Click [Here](https://discord.com/invite/UMfASun3A4) to join the FDG Government IC Discord.
+[Join the FDG Government IC Discord](https://discord.com/invite/UMfASun3A4).
 ::
