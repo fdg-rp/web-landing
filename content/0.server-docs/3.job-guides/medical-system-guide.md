@@ -35,7 +35,7 @@ The process of treating patients is vastly different in comparison to the old sy
 1. Once you arrive on scene, retrieve a medical bag from your SAES Vehicle by pressing `E` on the vehicle and clicking `Retrieve Medpack`. You may now place the Medpack next to the patient by pressing `G`.
 2. Examine the patient by opening the interaction menu by pressing `E` on them and selecting `Examine Patient`. The patient's status will appear on the top right of your screen with all the relevant information.
 2. Next you must treat/ stabilise the patient by selecting treatments relevant to the wounds examined by opening the interaction menu on their body and selecting `Treat`. This will give you 4 options being **Primary Care, Braces and Bandages, Remove Clothing & Injections.** You will need to retrieve **Syringes and Bandages** from the Medpack to apply bandages or inject them with anesthetics. 
-5. If your patient was in critical condition, they must now be transported to your local hospital by using an SAES vehicle capable of holding a stretcher. Once at the hospital, escort the stabilised patient on the stretcher and admit them into hospital by pressing `E` at a stretcher bay.
+5. If your patient was in critical condition, they must now be transported to your local hospital by using an SAES vehicle capable of holding a stretcher. Once at the hospital, escort the stabilised patient on the stretcher and admit them into hospital by pressing `F` at a stretcher bay.
 
 ![ICP](https://i.imgur.com/8myUBn6.png)
 
