@@ -25,6 +25,7 @@ Sometimes, frequent crashes are out of your control and are server/cfx based. Bu
 - [Resource-Heavy Modifications](#disable-resource-heavy-modifications)
 - [Backround Applications](#close-unnecessary-background-processes)
 - [Outdated Fivem](#update-fivem)
+- [Early-Exit trap](#early-exit-trap)
 ::
 
 ## *Potential* Fixes
@@ -98,6 +99,33 @@ Ensure that you don't have any resource-intensive programs or unnecessary backgr
 ### Update FiveM
 
 Make sure you are using the latest version of FiveM. Developers frequently release updates and bug fixes that can address crashes and stability issues. Check the official FiveM website or relevant forums to download and install the most recent version.
+
+
+### Early-exit trap
+
+The early-exit trap can be caused by a multitude of reasons. First, go through all the steps above and clear all your mods and attempt to run FiveM in an unmodded state, if the issue persists, here are some of the most common causes/fixes:
+1. Disable Medal clipping
+2. Disable the Steam overlay, or close steam prior to running FiveM
+3. Disable the **new** Discord overlay
+4. Disable or whitelist FiveM from your antivirus, as programs that read process memory can interfere with FiveM's anticheat
+5. Do a deep scan for malware with malwarebytes (including the "Scan for rootkits" option)
+
+::callout{type="warning"}
+#summary
+Modifying your CPU in such a manner **can be dangerous** if not done correctly, exercise extreme caution when doing this. These are solutions that have worked for others, but may not work for you. If you do not want to take this risk, do not.
+:: 
+If the issue persists after trying the above steps, refer to [here](https://www.zdnet.com/article/intel-chip-bug-faq-which-pcs-are-affected-how-to-get-the-patch-and-everything-else-you-need-to-know/). If your processor is listed there, follow the instructions below:
+
+1. Download Intel Extreme Tuner (XTU) from [here](https://www.intel.com/content/www/us/en/download/17881/intel-extreme-tuning-utility-intel-xtu.html)  
+2. Once installed, lower the performance core ratio by 2–6 from the default (e.g. lower from 56x to 50x)  
+3. Lower the core voltage offset by **-0.005V** intervals up to **-0.100V**, testing at each step  
+4. When the issue stops, keep those voltage/ratio settings when playing FiveM
+
+
+Alternatively, if you are confident in updating your BIOS, you may do so, as most motherboard manufacturers pushed a BIOS update to fix the overvoltage issue. No instructions will be provided for this, as it varies from model to model.
+
+
+
 
 ## Still Crashing?
 
