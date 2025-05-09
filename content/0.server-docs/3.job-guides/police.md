@@ -121,7 +121,7 @@ To apply to be a police officer you must meet the following requirements:
 
 ### How to Apply
 
-If you meet the requirements and applications are open you may apply on the seeekr app on a phone. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
+If you meet the requirements and applications are open you may apply on the Jobr app on a phone. You can see if applications are open in the [Government Discord](https://discord.com/invite/UMfASun3A4) in the SAPF Notice Board channel.
 
 ![Jobr App](https://imgur.com/ZLv5RpL.png)
 
