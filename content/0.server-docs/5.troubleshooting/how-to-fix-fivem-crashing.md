@@ -110,10 +110,10 @@ The early-exit trap can be caused by a multitude of reasons. First, go through a
 4. Disable or whitelist FiveM from your antivirus, as programs that read process memory can interfere with FiveM's anticheat
 5. Do a deep scan for malware with malwarebytes (including the "Scan for rootkits" option)
 
-::callout{type="warning"}
-#summary
+::alert{type="warning"}
 Modifying your CPU in such a manner **can be dangerous** if not done correctly, exercise extreme caution when doing this. These are solutions that have worked for others, but may not work for you. If you do not want to take this risk, do not.
-:: 
+::
+
 If the issue persists after trying the above steps, refer to [here](https://www.zdnet.com/article/intel-chip-bug-faq-which-pcs-are-affected-how-to-get-the-patch-and-everything-else-you-need-to-know/). If your processor is listed there, follow the instructions below:
 
 1. Download Intel Extreme Tuner (XTU) from [here](https://www.intel.com/content/www/us/en/download/17881/intel-extreme-tuning-utility-intel-xtu.html)  
