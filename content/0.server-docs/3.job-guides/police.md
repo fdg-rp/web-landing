@@ -126,5 +126,5 @@ If you meet the requirements and applications are open you may apply on the Jobr
 ![Jobr App](https://imgur.com/ZLv5RpL.png)
 
 ::alert{type="info"}
-[Join the FDG Government IC Discord](https://discord.com/invite/UMfASun3A4).
+[Join the FDG Government IC Discord](https://discord.gg/yzpgNUj8aA).
 ::
