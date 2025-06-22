@@ -28,7 +28,7 @@ Example in-game report messages:
 - `/report ive just been killed for no reason`
 - `/report person near me using racial slurs`
 
-![Example of using chat to report](https://cdn.discordapp.com/attachments/631032788849524737/1119921816413147266/reportgif2.gif)
+![Example of using chat to report](https://imgur.com/QMG0ePG.png)
 
 If online staff are available, they will respond to you. You can have a conversation with them by continuing to use the `/report` command as instructed on-screen.
 
@@ -44,27 +44,27 @@ You can access the FDG Support Portal at https://support.fatduckgaming.com.
 
 1. Visit the **FDG Support Portal** at https://support.fatduckgaming.com. You may be asked to log in. If you can't remember your password, click `FORGOT?` and follow the instructions.
 
-![Support Portal login dialog](https://cdn.discordapp.com/attachments/826652389255282728/1132947505303269436/image.png)
+![Support Portal login dialog](https://imgur.com/Zot06tK.png)
 
 2. Click `NEW TICKET` in the top right of the page
 
-![New ticket button on support portal](https://cdn.discordapp.com/attachments/826652389255282728/1132942132068499506/image.png)
+![New ticket button on support portal](hhttps://imgur.com/dIr3oHc.png)
 
 3. If you're alleging the [FDG FiveM rules](/server-docs/rules/fivem-rules) were breached, select the `FiveM` service category. If you're alleging general harassment, select the `Community` service.
 
-![Fivem service category on support portal](https://cdn.discordapp.com/attachments/826652389255282728/1132943297208385608/image.png)
+![Fivem service category on support portal](https://imgur.com/OnJtYCc.png)
 
 4. Select the most appropriate ticket category. Usually, that will be `Rule Breach`. You might also consider `Gang Report` for gang-related rule breaches or `Staff Complaint` for staff misconduct.
 
-![Rule Breach category on support portal](https://cdn.discordapp.com/attachments/826652389255282728/1132944282064519258/image.png)
+![Rule Breach category on support portal](https://imgur.com/6qyjhUV.png)
 
 5. Complete all the required fields and click the green `SUBMIT` at the bottom right of the window. 
 
-![Rule Breach form in support portal](https://cdn.discordapp.com/attachments/826652389255282728/1132945633301508146/image.png)
+![Rule Breach form in support portal](https://imgur.com/ppeQvTf.png)
 
 6. You'll be automatically redirected to your newly created ticket. This is where staff will keep you updated on the progress of your ticket, request additional information and provide you with further instructions. You can send messagess using the text area and green `SEND` button.
 
-![Rule Breach ticket example](https://cdn.discordapp.com/attachments/826652389255282728/1132946077742534676/image.png)
+![Rule Breach ticket example](https://imgur.com/PwyCKiw.png)
 
 ## Tips for Submitting Player Complaints
 
