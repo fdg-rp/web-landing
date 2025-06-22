@@ -75,7 +75,7 @@ All appeals are submitted online via [FDG Support Portal](https://support.fatduc
 
 Login with your FDG account ID and password. Alternatively, When you attempt to connect to the server, the ban message will include an "Appeal Ban" button. Clicking this button will open the [support portal](https://support.fatduckgaming.com) in the browser and automatically log you in.
 
-![ban message](https://cdn.discordapp.com/attachments/654459164952756236/1195348747362762752/image.png)
+![ban message](https://imgur.com/MVqCW1S.png)
 
 #### Complete the Administrative Action Appeal Form
 
@@ -85,11 +85,9 @@ Malicious or low-effort appeals **are automatically denied** and repeated misuse
 
 Ensure this form is completed thoroughly and contains the necessary links to evidence. The form contains helpful instructions to help guide your appeal. Please note this form may change from time-to-time.
 
-![FDG Appeals Form](https://cdn.discordapp.com/attachments/184556449383448576/1197378863462879242/image.png)
+![FDG Appeals Form](https://imgur.com/VzAhwIr.png)
 
 Once complete, click `SUBMIT TICKET`, you should be automatically redirected to your newly opened ticket.
-
-![ban message](https://cdn.discordapp.com/attachments/184556449383448576/1197379073517830224/image.png)
 
 Senior Staff review all administrative appeals. You should periodically check for updates to your appeal by [viewing your ticket](https://support.fatduckgaming.com).
 
@@ -105,15 +103,15 @@ To log into the [support portal](https://support.fatduckgaming.com) and view you
 
 If you cannot remember your password follow the `FORGOT?` prompt when attempting to sign in. This will guide you to enter your account ID and submit a Discord Reset. See below:
 
-![forgot message](https://cdn.discordapp.com/attachments/184556449383448576/1197382425311969390/image.png)
+![forgot message](https://imgur.com/dmVskhL.png)
 
 If you’re still stuck and cannot remember your account ID head to the `bot-commands` channel in the [FDG Discord](https://discord.gg/fatduckgaming), from here you can type `!playtime` and receive your account ID in the response. See below:
 
-![accountid message](https://cdn.discordapp.com/attachments/184556449383448576/1197382658804686858/image.png)
+![accountid message](https://imgur.com/YsVek39.png)
 
 Alternatively, When you attempt to connect to the server, the ban message will include an "Appeal Ban" button. Clicking this button will open the [support portal](https://support.fatduckgaming.com) in the browser and automatically log you in. Should you remain unable to login, contact our team via the [FDG Community Discord](https://discord.gg/fatduckgaming).
 
-![ban message](https://cdn.discordapp.com/attachments/654459164952756236/1195348747362762752/image.png)
+![ban message](https://imgur.com/MVqCW1S.png)
 
 ### My appeal was denied, can I appeal again?
 Maybe. Administrative appeal decisions are generally **final**. You should not appeal again unless instructed to again at a later date. Staff may provide a re-appeal period in the response to your original appeal. Continually submitting appeals unnecessarily may result in your account being banned from accessing FDG Support Services, meaning you'll never be able to submit an appeal again.

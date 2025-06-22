@@ -1,4 +1,3 @@
----
 title: "Robbery & Theft"
 description: "Make some quick cash while evading law enforcement and strong-willed citizens"
 aside: true
@@ -51,9 +50,12 @@ Looking to level up to a more profitable and competitive style of robbery? Time 
 
 
 ## Bank Heists
-Bank Heists are the final test to graduate as a Professional Criminal. This is the most profitable form of robbery and is by far the most rewarding with the most risk. It takes a lot of skill and teamwork to pull off a successful bank heist. Make sure you plan out your heist well and ask other criminals what equipment you need to finish the job. You can have a **MAXIMUM** of `6` people in bank heists.
+Bank Heists are one of the most profitable forms of robbery and is by far more rewarding then store robberies. It takes a lot of skill and teamwork to pull off a successful bank heist. Make sure you plan out your heist well and ask other criminals what equipment you need to finish the job. You can have a **MAXIMUM** of `6` people in bank heists.
 
 
 ![Heists](https://i.imgur.com/xCZ11Ts.png)
 
+## Arsenal Robberies
+Arsenal robberies are the most difficult and profitable heist you can do. Blow into an Arsenal packed with guns and get away from police to keep the loot. Make sure you have a plan and ask others to find out what you need to rob the Arsenal. You can have a **MAXIMUM** of `8` people in Arsenal Robberies.
 
+![Arsenal](https://imgur.com/6ljxjEF.png)
