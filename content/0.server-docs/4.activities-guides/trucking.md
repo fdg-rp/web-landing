@@ -18,11 +18,11 @@ By **basedgod**
 
 1. The first step to Trucking is to obtain your Trucker license. Make your way to the driving school and do your test otherwise you will be penalised when completing jobs. 
 
-2. Next make your way to the Quack Logistics warehouse located at the **Buccaneer Way Docks** and purchase yourself a Truck. You will be limited to what type of vehicle you can buy to skill level. You can retrieve your truck from your nearest garage.
+2. Next make your way to Heavy Haul located at **Paleto Bay** and purchase yourself a Truck. You will be limited to what type of vehicle you can buy to skill level. You can retrieve your truck from your nearest garage. *(out the front)*
 
 3. Once in your vehicle press `F7` to open up the jobs tablet and accept a job suitable for you.
 
-![Quack Logistics](https://i.imgur.com/0yWLCk7.jpg)
+![Quack Logistics](https://cdn.fatduckgaming.com/c2aa0faf-7577-433e-ae49-68087fe84b44_1751009419189.png)
 
 ::alert{type="info"}
 Click [Here](https://docs.fatduckgaming.com/server-docs/getting-started/quick-start-guide) to see a guide on how to obtain a license.
