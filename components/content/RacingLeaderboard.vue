@@ -281,7 +281,9 @@ function focusSearchInput() {
 .search-input:focus::placeholder {
   color: #555;
 }
-.search-box:hover .search-icon {
+.search-box:hover .search-icon,
+.search-input:focus ~ .search-icon,
+.search-box:focus-within .search-icon {
   color: #555;
 }
 .leaderboard-container {
