@@ -1,53 +1,74 @@
 <!-- filepath: d:\FDG\DevWeb\sites\landing\components\content\RacingLeaderboard.vue -->
 <template>
+  <div class="leaderboard-header-row">
+    <h3 class="leaderboard-title">Ranked Leaderboard</h3>
+    <div class="search-box" @click="focusSearchInput">
+      <span class="material-icons-outlined search-icon">search</span>
+      <input type="text" v-model="searchQuery" class="search-input" placeholder="Search" @input="onSearch" ref="searchInputRef" />
+    </div>
+  </div>
   <div class="leaderboard-container">
     <!-- Material Icons font link -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
     <table class="leaderboard-table">
       <thead>
         <tr>
-          <th @click="toggleSort('position')" class="sortable-th ranking-th">
+          <th @click="toggleSort('position')" class="sortable-th ranking-th" @mouseenter="hoveredHeader = 'position'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>#</span>
-              <span class="sort-arrow" v-if="sortKey === 'position'">
-                <span v-if="sortOrder === 'asc'" class="material-icons-outlined arrow-visible">arrow_upward</span>
-                <span v-else class="material-icons-outlined arrow-visible">arrow_downward</span>
+              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'position' }" v-if="sortKey === 'position' || hoveredHeader === 'position'">
+                <span v-if="sortKey === 'position'" class="material-icons-outlined arrow-visible">{{
+                  sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
+                }}</span>
+                <span v-else class="material-icons-outlined arrow-faded">arrow_downward</span>
               </span>
             </span>
           </th>
-          <th @click="toggleSort('name')" class="sortable-th name-th">
+          <th @click="toggleSort('name')" class="sortable-th name-th" @mouseenter="hoveredHeader = 'name'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Name</span>
-              <span class="sort-arrow" v-if="sortKey === 'name'">
-                <span v-if="sortOrder === 'asc'" class="material-icons-outlined arrow-visible">arrow_upward</span>
-                <span v-else class="material-icons-outlined arrow-visible">arrow_downward</span>
+              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'name' }" v-if="sortKey === 'name' || hoveredHeader === 'name'">
+                <span v-if="sortKey === 'name'" class="material-icons-outlined arrow-visible">{{
+                  sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
+                }}</span>
+                <span v-else class="material-icons-outlined arrow-faded">arrow_downward</span>
               </span>
             </span>
           </th>
-          <th @click="toggleSort('wins')" class="sortable-th wins-th">
+          <th @click="toggleSort('wins')" class="sortable-th wins-th" @mouseenter="hoveredHeader = 'wins'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Wins</span>
-              <span class="sort-arrow" v-if="sortKey === 'wins'">
-                <span v-if="sortOrder === 'asc'" class="material-icons-outlined arrow-visible">arrow_upward</span>
-                <span v-else class="material-icons-outlined arrow-visible">arrow_downward</span>
+              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'wins' }" v-if="sortKey === 'wins' || hoveredHeader === 'wins'">
+                <span v-if="sortKey === 'wins'" class="material-icons-outlined arrow-visible">{{
+                  sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
+                }}</span>
+                <span v-else class="material-icons-outlined arrow-faded">arrow_downward</span>
               </span>
             </span>
           </th>
-          <th @click="toggleSort('placements')" class="sortable-th placements-th">
+          <th @click="toggleSort('placements')" class="sortable-th placements-th" @mouseenter="hoveredHeader = 'placements'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Placements</span>
-              <span class="sort-arrow" v-if="sortKey === 'placements'">
-                <span v-if="sortOrder === 'asc'" class="material-icons-outlined arrow-visible">arrow_upward</span>
-                <span v-else class="material-icons-outlined arrow-visible">arrow_downward</span>
+              <span
+                class="sort-arrow"
+                :class="{ 'arrow-force-visible': sortKey === 'placements' }"
+                v-if="sortKey === 'placements' || hoveredHeader === 'placements'"
+              >
+                <span v-if="sortKey === 'placements'" class="material-icons-outlined arrow-visible">{{
+                  sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
+                }}</span>
+                <span v-else class="material-icons-outlined arrow-faded">arrow_downward</span>
               </span>
             </span>
           </th>
-          <th @click="toggleSort('mmr')" class="sortable-th mmr-th">
+          <th @click="toggleSort('mmr')" class="sortable-th mmr-th" @mouseenter="hoveredHeader = 'mmr'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>MMR</span>
-              <span class="sort-arrow" v-if="sortKey === 'mmr'">
-                <span v-if="sortOrder === 'asc'" class="material-icons-outlined arrow-visible">arrow_upward</span>
-                <span v-else class="material-icons-outlined arrow-visible">arrow_downward</span>
+              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'mmr' }" v-if="sortKey === 'mmr' || hoveredHeader === 'mmr'">
+                <span v-if="sortKey === 'mmr'" class="material-icons-outlined arrow-visible">{{
+                  sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
+                }}</span>
+                <span v-else class="material-icons-outlined arrow-faded">arrow_downward</span>
               </span>
             </span>
           </th>
@@ -81,7 +102,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, nextTick } from 'vue';
 
 // Configurable MMR ranges and colors (darker + teal for 1300+)
 const mmrConfig = [
@@ -119,18 +140,35 @@ const racers = ref([
 
 const sortKey = ref('position');
 const sortOrder = ref('desc'); // default for position and mmr
+const hoverKey = ref(null);
+const hoveredHeader = ref(null);
+const searchQuery = ref('');
+const searchInputRef = ref(null);
 
 function toggleSort(key) {
   if (sortKey.value !== key) {
     sortKey.value = key;
-    sortOrder.value = key === 'name' ? 'asc' : 'desc';
+    // Always reset to default order for new column
+    // All columns default to 'desc' except 'name', which should also default to 'desc' for consistency
+    sortOrder.value = 'desc';
   } else {
+    // Only toggle if clicking the same column
     sortOrder.value = sortOrder.value === 'desc' ? 'asc' : 'desc';
   }
+  // No need to reset other columns, as only sortKey is tracked
 }
 
+function onSearch() {
+  // No-op, v-model triggers computed
+}
+
+const filteredRacers = computed(() => {
+  if (!searchQuery.value.trim()) return racers.value;
+  return racers.value.filter((r) => r.name.toLowerCase().includes(searchQuery.value.trim().toLowerCase()));
+});
+
 const sortedRacers = computed(() => {
-  let arr = [...racers.value];
+  let arr = [...filteredRacers.value];
   if (!sortKey.value) {
     arr.sort((a, b) => b.mmr - a.mmr);
     return arr;
@@ -170,9 +208,82 @@ function mmrStyle(mmr) {
     color: '#23232b'
   };
 }
+
+function focusSearchInput() {
+  nextTick(() => {
+    if (searchInputRef.value) searchInputRef.value.focus();
+  });
+}
 </script>
 
 <style scoped>
+.leaderboard-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.7em;
+  margin-top: 1.2em;
+}
+.leaderboard-title {
+  font: ui-sans-serif;
+  line-height: 1.375;
+  font-size: 30px;
+  font-weight: 600;
+  color: #e4e4e7;
+  margin: 0;
+  letter-spacing: -0.025em;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #141416;
+  border: 2px solid #18181b;
+  border-radius: 0.7em;
+  padding: 0.2em 0.8em 0.2em 0.5em;
+  min-width: 210px;
+  max-width: 270px;
+  box-sizing: border-box;
+  transition: border-color 0.18s, box-shadow 0.18s;
+  cursor: text;
+}
+.search-icon {
+  color: #bbb;
+  font-size: 1.3em;
+  margin-right: 0.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.18s;
+  pointer-events: none;
+}
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.08em;
+  width: 100%;
+  padding: 0.2em 0;
+  font-family: inherit;
+  text-align: left;
+}
+.search-input::placeholder {
+  color: #888;
+  text-align: left;
+  transition: color 0.18s;
+}
+.search-box:hover .search-input,
+.search-input:focus {
+  color: #bbb;
+}
+.search-box:hover .search-input::placeholder,
+.search-input:focus::placeholder {
+  color: #555;
+}
+.search-box:hover .search-icon {
+  color: #555;
+}
 .leaderboard-container {
   margin: 2rem 0 0 0;
   border-radius: 1rem;
@@ -330,12 +441,41 @@ function mmrStyle(mmr) {
   vertical-align: middle;
   transition: color 0.2s;
 }
+.sort-arrow {
+  min-width: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.arrow-force-visible {
+  opacity: 1 !important;
+}
+th.sortable-th:hover .sort-arrow {
+  opacity: 1 !important;
+}
 .arrow-visible {
-  color: #bbb;
+  opacity: 1 !important;
+}
+.arrow-icon {
+  color: #888;
   opacity: 1;
+  transition: color 0.2s;
+}
+.arrow-active {
+  color: #bbb !important;
 }
 .arrow-placeholder {
-  display: none;
+  color: #444 !important;
+  opacity: 1;
+}
+.arrow-faded {
+  color: #555;
+  opacity: 0.4;
+}
+th.sortable-th:hover .sort-arrow {
+  opacity: 1 !important;
 }
 .leaderboard-table th.mmr-th,
 .leaderboard-table td:nth-child(3),
@@ -356,12 +496,6 @@ function mmrStyle(mmr) {
   align-items: center;
   justify-content: center;
   gap: 0.3em;
-}
-.sort-arrow {
-  min-width: 1.2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 /* Left align header and cell text for Ranking and Name columns */
 .leaderboard-table th.ranking-th,
