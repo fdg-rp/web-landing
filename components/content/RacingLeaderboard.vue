@@ -443,7 +443,8 @@ th.sortable-th:hover .sort-arrow {
 .leaderboard-table th.wins-th,
 .leaderboard-table td:nth-child(4),
 .leaderboard-table th.placements-th,
-.leaderboard-table td:nth-child(5) {
+.leaderboard-table td:nth-child(5),
+.leaderboard-table td:nth-child(6) {
   text-align: center;
 }
 .leaderboard-table th.ranking-th,
