@@ -8,7 +8,7 @@ navigation: true
 
 # The Sinners
 
-![The Sinners](https://media.discordapp.net/attachments/1003615963721248820/1200771871323459734/image.png)
+![The Sinners](https://app.fatduckgaming.com/assets/jobs/shakers.png)
 
 ## The Tale of the Sinners
 
