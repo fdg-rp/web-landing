@@ -35,6 +35,17 @@
               </span>
             </span>
           </th>
+          <th @click="toggleSort('races')" class="sortable-th races-th" @mouseenter="hoveredHeader = 'races'" @mouseleave="hoveredHeader = null">
+            <span class="th-content">
+              <span>Races</span>
+              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'races' }" v-if="sortKey === 'races' || hoveredHeader === 'races'">
+                <span v-if="sortKey === 'races'" class="material-icons-outlined arrow-visible">{{
+                  sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
+                }}</span>
+                <span v-else class="material-icons-outlined arrow-faded">arrow_downward</span>
+              </span>
+            </span>
+          </th>
           <th @click="toggleSort('wins')" class="sortable-th wins-th" @mouseenter="hoveredHeader = 'wins'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Wins</span>
@@ -72,13 +83,14 @@
               </span>
             </span>
           </th>
-          <th class="awards-th">Awards</th>
+          <!-- Remove Awards column header -->
         </tr>
       </thead>
       <tbody>
         <tr v-for="(racer, idx) in sortedRacers" :key="racer.name" :class="{ 'alt-row': idx % 2 === 1 }">
           <td>{{ mmrRanking.indexOf(racer.name) + 1 }}</td>
           <td>{{ racer.name }}</td>
+          <td>{{ racer.races }}</td>
           <td>{{ racer.wins }}</td>
           <td>{{ racer.placements }}</td>
           <td>
@@ -86,61 +98,53 @@
               {{ racer.mmr }}
             </span>
           </td>
-          <td class="awards-cell">
-            <span v-for="award in racer.awards" :key="award.icon" class="award-icon-wrapper">
-              <img :src="award.icon" :alt="award.text" class="award-icon" />
-              <span class="award-tooltip">
-                <span class="award-tooltip-dot"></span>
-                {{ award.text }}
-              </span>
-            </span>
-          </td>
+          <!-- Remove Awards cell -->
         </tr>
       </tbody>
     </table>
+    <div v-if="loading" class="loading-spinner">
+      <!-- Simple CSS spinner, replace with a better one if needed -->
+      <div class="spinner"></div>
+    </div>
+    <div v-if="error" class="error-message">{{ error }}</div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, nextTick } from 'vue';
+import { ref, computed, nextTick, onMounted } from 'vue';
 
-// Configurable MMR ranges and colors (darker + teal for 1300+)
 const mmrConfig = [
-  { min: 1900, color: '#E03F3F', border: '#F2556A' }, // darker red
-  { min: 1700, color: '#EF6E26', border: '#F9A825' }, // darker orange
-  { min: 1500, color: '#BA34D6', border: '#E089F5' }, // darker pink
-  { min: 1300, color: '#14958C', border: '#38B2AC' }, // teal tones
-  { min: 1100, color: '#2F6FE0', border: '#4C87F2' }, // darker blue
-  { min: 0, color: '#5F5F68', border: '#8D8D98' } // darker grey
+  { min: 1900, color: '#E03F3F', border: '#F2556A' },
+  { min: 1700, color: '#EF6E26', border: '#F9A825' },
+  { min: 1500, color: '#BA34D6', border: '#E089F5' },
+  { min: 1300, color: '#14958C', border: '#38B2AC' },
+  { min: 1100, color: '#2F6FE0', border: '#4C87F2' },
+  { min: 0, color: '#5F5F68', border: '#8D8D98' }
 ];
 
-// Configurable awards icons and tooltips
-const awardIcons = {
-  first: { icon: 'https://cdn-icons-png.flaticon.com/512/8348/8348232.png', text: '1st Place' }
-};
+const API_BASE = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '') || 'https://support.fatduckgaming.com';
 
-const racers = ref([
-  { name: 'Deveraux', mmr: 1950, wins: 12, placements: 20, awards: [awardIcons.first] }, // red
-  { name: 'TestOrange', mmr: 1750, wins: 9, placements: 16, awards: [] }, // orange
-  { name: 'TestPink', mmr: 1550, wins: 7, placements: 12, awards: [] }, // pink
-  { name: 'TestTurquoise', mmr: 1350, wins: 5, placements: 10, awards: [] }, // turquoise
-  { name: 'TestBlue', mmr: 1150, wins: 3, placements: 7, awards: [] }, // blue
-  { name: 'TestGrey', mmr: 900, wins: 1, placements: 2, awards: [] }, // grey
-  { name: 'METRITIS', mmr: 1700, wins: 8, placements: 15, awards: [awardIcons.first] },
-  { name: 'brainlesstay', mmr: 1620, wins: 5, placements: 10, awards: [awardIcons.first] },
-  { name: 'MartiboRS', mmr: 1590, wins: 2, placements: 7, awards: [] },
-  { name: 'OzNat1', mmr: 1500, wins: 1, placements: 5, awards: [] },
-  { name: 'Kaiium_', mmr: 1800, wins: 10, placements: 18, awards: [awardIcons.first] },
-  { name: 'PureRiffery900', mmr: 1400, wins: 0, placements: 2, awards: [] },
-  { name: 'f1zzydrinks', mmr: 1650, wins: 3, placements: 6, awards: [] },
-  { name: 'SoCRiiSPY', mmr: 1750, wins: 7, placements: 13, awards: [awardIcons.first] },
-  { name: 'Denzlle', mmr: 1200, wins: 0, placements: 1, awards: [] },
-  { name: 'suttoGT', mmr: 1100, wins: 0, placements: 0, awards: [] }
-]);
+const racers = ref([]);
+const loading = ref(true);
+const error = ref(null);
+
+onMounted(async () => {
+  loading.value = true;
+  error.value = null;
+  try {
+    const res = await fetch(`${API_BASE}/racing/leaderboard`);
+    if (!res.ok) throw new Error('Failed to fetch leaderboard');
+    const data = await res.json();
+    racers.value = Array.isArray(data) ? data : [];
+  } catch (e) {
+    error.value = e.message || 'Error fetching leaderboard';
+  } finally {
+    loading.value = false;
+  }
+});
 
 const sortKey = ref('position');
-const sortOrder = ref('desc'); // default for position and mmr
-const hoverKey = ref(null);
+const sortOrder = ref('desc');
 const hoveredHeader = ref(null);
 const searchQuery = ref('');
 const searchInputRef = ref(null);
@@ -148,19 +152,13 @@ const searchInputRef = ref(null);
 function toggleSort(key) {
   if (sortKey.value !== key) {
     sortKey.value = key;
-    // Always reset to default order for new column
-    // All columns default to 'desc' except 'name', which should also default to 'desc' for consistency
     sortOrder.value = 'desc';
   } else {
-    // Only toggle if clicking the same column
     sortOrder.value = sortOrder.value === 'desc' ? 'asc' : 'desc';
   }
-  // No need to reset other columns, as only sortKey is tracked
 }
 
-function onSearch() {
-  // No-op, v-model triggers computed
-}
+function onSearch() {}
 
 const filteredRacers = computed(() => {
   if (!searchQuery.value.trim()) return racers.value;
@@ -181,13 +179,14 @@ const sortedRacers = computed(() => {
     arr.sort((a, b) => (sortOrder.value === 'asc' ? a.wins - b.wins : b.wins - a.wins));
   } else if (sortKey.value === 'placements') {
     arr.sort((a, b) => (sortOrder.value === 'asc' ? a.placements - b.placements : b.placements - a.placements));
+  } else if (sortKey.value === 'races') {
+    arr.sort((a, b) => (sortOrder.value === 'asc' ? a.races - b.races : b.races - a.races));
   } else if (sortKey.value === 'position') {
     arr.sort((a, b) => (sortOrder.value === 'asc' ? a.mmr - b.mmr : b.mmr - a.mmr));
   }
   return arr;
 });
 
-// Compute the global MMR ranking for each racer
 const mmrRanking = computed(() => {
   return [...racers.value].sort((a, b) => b.mmr - a.mmr).map((r) => r.name);
 });
@@ -358,7 +357,7 @@ function focusSearchInput() {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.awards-th {
+.races-th {
   width: 10%;
   max-width: 10%;
   min-width: 10%;
@@ -385,47 +384,6 @@ function focusSearchInput() {
   border-radius: 0.2em;
   box-sizing: border-box;
 }
-.award-icon-wrapper {
-  display: inline-block;
-  margin-right: 0.2em;
-  vertical-align: middle;
-  position: relative;
-}
-.award-icon-wrapper:hover .award-tooltip {
-  opacity: 1;
-  pointer-events: auto;
-}
-.award-tooltip {
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  left: 50%;
-  bottom: 135%; /* Increased from 120% for more height above icon */
-  transform: translateX(-50%);
-  background: #23232b;
-  color: #fff;
-  padding: 0.3em 0.7em;
-  border-radius: 0.4em;
-  font-size: 0.95em;
-  white-space: nowrap;
-  z-index: 10;
-  box-shadow: 0 2px 8px #0006;
-  transition: opacity 0.15s;
-}
-/* Remove the small white circle from tooltip */
-.award-tooltip-dot {
-  display: none;
-}
-.award-icon {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
-  vertical-align: middle;
-  border-radius: 0.2em;
-  background: transparent;
-  border: none;
-  margin-bottom: -3px;
-}
 .material-icons-outlined {
   font-family: 'Material Icons Outlined';
   font-size: 1.1em;
@@ -444,7 +402,8 @@ function focusSearchInput() {
   transition: color 0.2s;
 }
 .sort-arrow {
-  min-width: 1.2em;
+  min-width: 0;
+  margin-left: 0.08em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -484,9 +443,7 @@ th.sortable-th:hover .sort-arrow {
 .leaderboard-table th.wins-th,
 .leaderboard-table td:nth-child(4),
 .leaderboard-table th.placements-th,
-.leaderboard-table td:nth-child(5),
-.leaderboard-table th.awards-th,
-.leaderboard-table td.awards-cell {
+.leaderboard-table td:nth-child(5) {
   text-align: center;
 }
 .leaderboard-table th.ranking-th,
@@ -522,32 +479,84 @@ th.sortable-th:hover .sort-arrow {
 /* For centered columns, make .th-content relative, add padding-right to reserve space for the arrow, and absolutely position the sort arrow to the right */
 .leaderboard-table th.mmr-th .th-content,
 .leaderboard-table th.wins-th .th-content,
-.leaderboard-table th.placements-th .th-content {
-  position: relative;
-  justify-content: center;
-  gap: 0;
+.leaderboard-table th.placements-th .th-content,
+.leaderboard-table th.races-th .th-content,
+.leaderboard-table th.name-th .th-content,
+.leaderboard-table th.ranking-th .th-content {
+  position: static;
+  justify-content: flex-start;
+  gap: 0.3em;
 }
 .leaderboard-table th.mmr-th .sort-arrow,
 .leaderboard-table th.wins-th .sort-arrow,
-.leaderboard-table th.placements-th .sort-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  min-width: 1.2em;
+.leaderboard-table th.placements-th .sort-arrow,
+.leaderboard-table th.races-th .sort-arrow,
+.leaderboard-table th.name-th .sort-arrow,
+.leaderboard-table th.ranking-th .sort-arrow {
+  position: static;
+  right: unset;
+  top: unset;
+  transform: none;
+  margin-left: 0.3em;
+}
+/* Loading spinner styles */
+.loading-spinner {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
 }
-
-.leaderboard-table th.wins-th .sort-arrow {
-  right: 0.9em;
+.spinner {
+  width: 2rem;
+  height: 2rem;
+  border: 4px solid #333;
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
 }
-
-.leaderboard-table th.mmr-th .sort-arrow {
-  right: 0.8em;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
-.leaderboard-table th.placements-th .sort-arrow {
-  right: -0.6em;
+/* Error message styles */
+.error-message {
+  color: #e03f3f;
+  background: #141416;
+  border: 2px solid #e03f3f;
+  border-radius: 0.5em;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: 500;
+}
+/* For centered columns, hide the arrow (display: none) unless hovered or sorted, so text is truly centered */
+.leaderboard-table th.mmr-th .sort-arrow,
+.leaderboard-table th.wins-th .sort-arrow,
+.leaderboard-table th.placements-th .sort-arrow,
+.leaderboard-table th.races-th .sort-arrow {
+  display: none;
+}
+.leaderboard-table th.mmr-th:hover .sort-arrow,
+.leaderboard-table th.mmr-th .arrow-force-visible,
+.leaderboard-table th.wins-th:hover .sort-arrow,
+.leaderboard-table th.wins-th .arrow-force-visible,
+.leaderboard-table th.placements-th:hover .sort-arrow,
+.leaderboard-table th.placements-th .arrow-force-visible,
+.leaderboard-table th.races-th:hover .sort-arrow,
+.leaderboard-table th.races-th .arrow-force-visible {
+  display: flex;
+  opacity: 1 !important;
+}
+/* Center .th-content for centered columns */
+.leaderboard-table th.mmr-th .th-content,
+.leaderboard-table th.wins-th .th-content,
+.leaderboard-table th.placements-th .th-content,
+.leaderboard-table th.races-th .th-content {
+  justify-content: center;
+  gap: 0.08em;
 }
 </style>
