@@ -132,7 +132,7 @@ onMounted(async () => {
   loading.value = true;
   error.value = null;
   try {
-    const res = await fetch(`${API_BASE}/racing/leaderboard`);
+    const res = await fetch(`${API_BASE}/support/racing/leaderboard`);
     if (!res.ok) throw new Error('Failed to fetch leaderboard');
     const data = await res.json();
     racers.value = Array.isArray(data) ? data : [];
