@@ -122,7 +122,7 @@ const mmrConfig = [
   { min: 0, color: '#5F5F68', border: '#8D8D98' }
 ];
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '') || 'https://support.fatduckgaming.com';
+const API_BASE = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '') || 'https://api.fatduckgaming.com';
 
 const racers = ref([]);
 const loading = ref(true);
