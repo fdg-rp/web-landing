@@ -33,8 +33,6 @@ Across Blackjack and Keno **1,354,920** individual bets were placed. Averaged, t
 |Blackjack|1,227,570|91|
 |Keno|127,350|9
 
-![Blackjack and Keno Count of Wagers](https://cdn.discordapp.com/attachments/184556449383448576/1128232921636024360/image.png)
-
 Those bets were made by a pool of **4,735** unique visitors, making for an average of **269** bets per unique visitor having placed at least one bet (rounded up). An impressive **19,059** unique players connected to FDG during the FY, **26.5%** of which placed at least one bet during their time.
 
 
@@ -51,8 +49,6 @@ During the FY, a combined total of **$212,717,787,195** was gambled on Blackjack
 |---|---|---|
 |Blackjack|198,800,486,232|93|
 |Keno|13,917,300,963|7
-
-![Blackjack and Keno Sum of Wagers](https://cdn.discordapp.com/attachments/184556449383448576/1128226690447982613/image.png)
 
 An average of **$17,726,482,266** was gambled per month of the FY. **May 2023** seemed to be the month to gamble, seeing the highest amount gambled of all the months in the FY  (**$21,113,021,000**). Followed closely by **June 2023** at **$20,893,932,000**. 
 
@@ -73,8 +69,6 @@ The least amount of money gambled in a month occured in **November 2022** (**$8,
 | 2023 | May | 21,113,021,000 | 
 | 2023 | June | 20,893,932,000 | 
 
-![Money Gambled per Month of FY](https://media.discordapp.net/attachments/184556449383448576/1130308771831369819/Screenshot_2023-07-17_at_11.22.09_am.png)
-
 ## Payouts
 
 :icon{name=noto:glowing-star} **Key Insights**
@@ -91,8 +85,6 @@ A combined total of **$208,951,996,180** was paid out by Black and Keno. That's 
 |Blackjack|198,057,829,000|95|
 |Keno|10,894,167,180|5| 
 
-![Money Gambled per Month of FY](https://media.discordapp.net/attachments/184556449383448576/1130319554648752178/Screenshot_2023-07-17_at_12.06.14_pm.png)
-
 Averaged amongst the **5,050** unique visitors, each visitor received **$41,376,632** in payouts (rounded up).
 
 Blackjack sees a surprising success rate of **51.8%**, seemingly tipping the odds in favor of the player. Keno's success rate of merely **21.8%** appears more expected.
@@ -102,15 +94,9 @@ Blackjack sees a surprising success rate of **51.8%**, seemingly tipping the odd
 |Blackjack|1,227,570|635,305|51.8%|
 |Keno|127,350|27,780|21.8%|
 
-![Blackjack Losing and Winning Bets](https://media.discordapp.net/attachments/184556449383448576/1130324991146201199/Screenshot_2023-07-17_at_12.27.51_pm.png)
-
-![Keno Losing and Winning Bets](https://media.discordapp.net/attachments/184556449383448576/1130325591002984528/Screenshot_2023-07-17_at_12.30.14_pm.png)
-
 The facility made a profit of **$3,765,791,015**. Despite Blackjack's high likelihood to win, the amount of money paid out did not offset the amount of money gambled, removing **$742,657,232** from the economy. Keno voided **$3,023,133,783**.
 
 |Game|Total Money Gambled ($)| Total Payouts ($)|Difference ($)|
 |---|---|---|---|
 |Blackjack|198,800,486,232|198,057,829,000|-$742,657,232|
 |Keno|13,917,300,963|10,894,167,180|-$3,023,133,783|
-
-![Blackjack and Keno Total Wagers and Total Payouts](https://media.discordapp.net/attachments/184556449383448576/1130331457211084862/Screenshot_2023-07-17_at_12.53.34_pm.png)
