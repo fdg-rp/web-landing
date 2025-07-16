@@ -23,24 +23,25 @@ You will be held to a higher standard of roleplay than you may usually be used t
 
 ## Ranks, Perks and Salary
 
-There is significant room for advancement in the police force, many players can spend upwards of a year climbing the ranks so they can the privilege of commanding a department. With advancement comes more perks including higher pay, better vehicles and weapons, and more responsibility for shaping the PD. 
+There is significant room for advancement in the police force, many players can spend upwards of a year climbing the ranks so they can the privilege of commanding a department. 
 
-| **Rank** | **Salary (Per 30 minutes)**  |
-|----------|------------------------------|
-Probationary Constable | $22,000 
-Constable | $24,000
-Senior Constable | $26,000
-Incremental Senior Constable | $28,000
-Leading Senior Constable | $30,000
-Probationary Sergeant | $37,500
-Sergeant | $40,000
-Incremental Sergeant |$45,000
-Senior Sergeant | $50,000
-Inspector | $60,000
-Superintendent | $72,000
-Assistant Commissioner | $76,000
-Deputy Commissioner | $78,000
-Commissioner | $80,000
+---
+| **Rank**                   | **Sector**     | **Salary (Per 30 minutes)**  |
+|----------------------------|----------------|------------------------------|
+Commissioner                 | CoP Office     | $80,000
+Deputy Commissioner          | CoP Office     | $78,000
+Assistant Commissioner       | CoP Office     | $76,000
+Superintendent               | Commander      | $72,000
+Inspector                    | Command Level  | $60,000
+Senior Sergeant              | Supervisor     | $50,000
+Incremental Sergeant         | Supervisor     | $45,000
+Sergeant                     | Supervisor     | $40,000
+Probationary Sergeant        | Supervisor     | $37,500
+Leading Senior Constable     | General Duties | $30,000
+Incremental Senior Constable | General Duties | $28,000
+Senior Constable             | General Duties | $26,000
+Constable                    | General Duties | $24,000
+Probationary Constable       | General Duties | $22,000 
 
 ---
 

@@ -31,7 +31,7 @@ Similarly to the police force, there is much room for advancement in the SAES. A
 
 **SAES Rank Structure**
 | **Rank** | **Sector** |
-|----------|-----------------|
+|----------|------------|
 Director | Command
 Deputy Director | Command
 Inspector | Supervisor
@@ -46,25 +46,23 @@ Cadet | General Duties
 
 ## Current Supervisory Board
 
-| **Rank** | **Name**  | **Sector**  |
-|----------|------------------------------|------------------------------|
-Director | Warren Dooshmittle | Command
-Deputy Director | Darryn Brooks | Command
-Inspector | Marcus Mills | Chief of Fire
-Inspector | Sunny Hart | Chief of Internal Affairs
-Inspector | Elijah Writis | Head of Recruitment
-Station Officer | Esma Writis | 2IC of Recruitment
-Station Officer | Gerald Jenkins | 
-Station Officer | Frank Walker | Chief of ICP
-Station Officer | Derrick Norman | Head of Trainers
-Station Officer | Phoebe Writis | Assistant Chief of ICP
-Station Officer | Speedy Gonzalez | 2IC of Trainers
-Station Officer | Kiah Black | Assistant Chief of Fire
+| **Rank**      | **Name**                | **Sector**                 |
+|---------------|-------------------------|----------------------------|
+Director        | Warren Dooshmittle      | Command
+Deputy Director | Darryn Brooks           | Command
+Inspector       | Marcus Mills            | Chief of Fire
+Inspector       | Elijah Writis           | Head of Recruitment
+Inspector       | Esma Writis             | Head of Trainers
+Station Officer | Phoebe Writis           | Chief of ICP
+Station Officer | Kiah Black              | Assistant Chief of Fire
+Station Officer | Bryce Arnold            | Assistant Chief of ICP
+Station Officer | Penny Cillin            | 2IC of Trainers
+Station Officer | Barry Donk              | 2IC of Recruitment
 
 ---
 
 # Equipment and Capabilities
-As you climb the ranks in the SAES you will gain access to more advanced and interesting assets. Cadets will initially focus on how to become knowledgeable and capable paramedics. At the same time, the more advanced Rescue or Intensive Care Paramedics will at times find themselves extinguishing large vehicle fires or performing surgery.
+As you climb the ranks in the SAES you will gain access to more advanced and interesting assets. Cadets will initially focus on how to become knowledgeable and capable paramedics. At the same time, the more advanced Rescue or Intensive Care Paramedics will at times find themselves extinguishing large Vehicle Fires or dealing with Mass Casualties.
 
 Below are just some of the capabilities that the SAES has at their disposal:
 
@@ -77,7 +75,7 @@ The SAES have access to an advanced fleet of rotary aircraft which they can use 
 
 
 ## Fire and Rescue
-![ICP](https://i.imgur.com/1igiMEa.png)
+![FnR](https://i.imgur.com/1igiMEa.png)
 
 Vehicle accidents are unfortunately all too common in San Andreas and when these incidents arise they are often accompanied by a fiery explosion. The task of extinguishing these blazes falls to the members of the SAES’ Fire and Rescue officers who use a fleet of Fire Trucks to rapidly respond to emergencies and keep members of the public safe. 
 
