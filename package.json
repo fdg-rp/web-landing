@@ -18,8 +18,8 @@
     "eslint": "^9.4.0",
     "nuxt": "^3.11.2",
     "nuxt-og-image": "^3.0.0-rc.53",
-    "sitemap": "^8.0.0",
-    "pinceau": "^0.15.4"
+    "pinceau": "^0.15.4",
+    "sitemap": "^8.0.0"
   },
   "dependencies": {
     "vue-marquee-text-component": "^2.0.1"
