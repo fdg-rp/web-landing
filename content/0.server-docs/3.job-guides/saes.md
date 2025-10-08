@@ -48,16 +48,17 @@ Cadet | General Duties
 
 | **Rank**      | **Name**                | **Sector**                 |
 |---------------|-------------------------|----------------------------|
-Director        | Warren Dooshmittle      | Command
-Deputy Director | Darryn Brooks           | Command
-Inspector       | Marcus Mills            | Chief of Fire
+Director        | Esma Writis             | Command
+Deputy Director | Marcus Mills            | Command
+Inspector       | Kiah Black              | Chief of Fire
 Inspector       | Elijah Writis           | Head of Recruitment
-Inspector       | Esma Writis             | Head of Trainers
-Station Officer | Phoebe Writis           | Chief of ICP
-Station Officer | Kiah Black              | Assistant Chief of Fire
-Station Officer | Bryce Arnold            | Assistant Chief of ICP
-Station Officer | Penny Cillin            | 2IC of Trainers
-Station Officer | Barry Donk              | 2IC of Recruitment
+Inspector       | Sunny Hart              | Head of IA
+Inspector       | Phoebe Writis           | Chief of ICP
+Station Officer | Bryce Arnold            | Assistant Chief of Fire
+Station Officer | Penny Cillin            | Head of Trainers
+Station Officer | Barry Donk              | Assistant Chief of Surgery
+Station Officer | Lani Hayes              | 2IC of Trainers
+Station Officer | Ghee Rum                | 2IC of Recruitment
 
 ---
 
