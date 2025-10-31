@@ -1,4 +1,3 @@
-<!-- filepath: d:\FDG\DevWeb\sites\landing\components\content\RacingLeaderboard.vue -->
 <template>
   <div class="leaderboard-header-row">
     <h3 class="leaderboard-title">Ranked Leaderboard</h3>
