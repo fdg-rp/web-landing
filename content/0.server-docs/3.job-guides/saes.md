@@ -105,9 +105,9 @@ To apply to be a paramedic you must meet the following requirements:
 
 ### How to Apply
 
-If you meet the requirements and applications are open you may apply on the Jobr app on a phone.
+If you meet the requirements and applications are open you may apply on the **QuackBiz App** on a phone.
 
-![Jobr App](https://imgur.com/ZLv5RpL.png)
+![QuackBiz App](https://imgur.com/LDl7jHH.png)
 
 ::alert{type="info"}
 [Join the FDG Government IC Discord](https://discord.com/invite/UMfASun3A4).
