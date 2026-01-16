@@ -1,5 +1,5 @@
 ---
-title: "How to Fix Texture Loss"
+title: "Texture Loss"
 description: "Step by step guide on how to fix texture loss within FiveM and some of the common causes."
 aside: true
 bottom: true
@@ -21,6 +21,11 @@ Texture loss can be caused by numerous reasons. This guide outlines general tips
 - FiveM server issues
 - Game or system glitches
 ::
+
+## Texture Fix Command
+Executing this command within the server can serve as an *temporary* solution to texture loss.
+
+`/fixtextures`
 
 ## Increase Texture Budget
 Increasing your texture budget is probably the most common way to fix texture loss. It's a simple process and often returns good results.
@@ -45,3 +50,15 @@ Always fully quit FiveM when rejoining a server to prevent texture conflicts.
 
 ## Quality Settings
 Instead of giving your computer a run for its money and having your texture quality settings on `Very High` set them to `Medium` or `High` in the settings menu. Some settings will require a game restart.
+
+## Turn off "Extended Distance Scaling"
+
+1. Once inside Fivem Open up the `ESC` Menu and navigate to the `SETTINGS` page.
+
+2. Once inside the `SETTINGS` page navigate to the `ADVANCED GRAPHICS` page and click on it.
+
+3. When in the `ADVANCED GRAPHICS` page you will find `Extended Distance Scaling`.
+
+4. Then lower it all the way to turn it off.
+
+![image-of-extended-distance-scaling-location](https://imgur.com/VRRoidP.jpg)

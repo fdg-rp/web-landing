@@ -85,7 +85,7 @@ etc
 
 ## To Create a New Doc
 
-First, fork the repository. Go to the [reporsitory's content directory](https://github.com/fdg-rp/web-landing/tree/main/content) on GitHub and click `'Add file'`. You can choose to create a file directly in browser or upload a file from your device.
+First, fork the repository. Go to the [repository's content directory](https://github.com/fdg-rp/web-landing/tree/main/content) on GitHub and click `'Add file'`. You can choose to create a file directly in browser or upload a file from your device.
 
 ## To Edit an Existing Doc
 

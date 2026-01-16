@@ -9,5 +9,6 @@ coverage
 dist
 sw.*
 .env
+.env.*
 .output
 built
