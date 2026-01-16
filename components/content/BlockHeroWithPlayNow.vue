@@ -1,33 +1,33 @@
 <script setup lang="ts">
-import type { PropType } from 'vue'
+import type { PropType } from "vue";
 
 defineProps({
   cta: {
     type: Array as PropType<string[]>,
     required: false,
-    default: () => []
+    default: () => [],
   },
   secondary: {
     type: Array as PropType<string[]>,
     required: false,
-    default: () => []
+    default: () => [],
   },
   playNowUrl: {
     type: String,
     required: false,
-    default: 'https://rp.fatduckgaming.com'
+    default: "https://rp.fatduckgaming.com",
   },
   video: {
     type: String,
     required: false,
-    default: ''
+    default: "",
   },
   snippet: {
     type: [Array, String] as PropType<string[] | string>,
     required: false,
-    default: ''
-  }
-})
+    default: "",
+  },
+});
 </script>
 
 <template>
@@ -39,9 +39,7 @@ defineProps({
         </p>
 
         <h1 class="title">
-          <ContentSlot :use="$slots.title" unwrap="p">
-            Hero Title
-          </ContentSlot>
+          <ContentSlot :use="$slots.title" unwrap="p"> Hero Title </ContentSlot>
         </h1>
 
         <p class="description">
@@ -56,19 +54,38 @@ defineProps({
 
         <div class="actions">
           <!-- Prominent Play Now Button -->
-          <a :href="playNowUrl" class="play-now-button" target="_blank" rel="noopener noreferrer">
+          <a
+            :href="playNowUrl"
+            class="play-now-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span class="play-icon">▶</span>
             <span class="play-text">PLAY NOW</span>
           </a>
-          
+
           <!-- Secondary actions below -->
           <div class="secondary-actions">
-            <ContentSlot v-if="$slots.actions" :use="$slots.actions" unwrap="p" />
+            <ContentSlot
+              v-if="$slots.actions"
+              :use="$slots.actions"
+              unwrap="p"
+            />
             <template v-else>
-              <ButtonLink v-if="cta" class="cta" bold size="medium" :href="(cta[1] as any)">
+              <ButtonLink
+                v-if="cta"
+                class="cta"
+                bold
+                size="medium"
+                :href="(cta[1] as any)"
+              >
                 {{ cta[0] }}
               </ButtonLink>
-              <a v-if="secondary" :href="(secondary[1] as any)" class="secondary">
+              <a
+                v-if="secondary"
+                :href="(secondary[1] as any)"
+                class="secondary"
+              >
                 {{ secondary[0] }}
               </a>
             </template>
