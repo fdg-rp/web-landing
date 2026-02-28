@@ -10,7 +10,7 @@ Hello everyone, it’s been a while but we are back and more ready than ever to 
 
 ## **Development Highlights**
 
-Overthe past few months the server as a whole has had a multitude of changes in the development scene.  I have been unable to list every major update as there have been so many, but I have included all of the biggest and best changes made by our Senior Staff & Development team over the Summer\!
+Over the past few months the server as a whole has had a multitude of changes in the development scene.  I have been unable to list every major update as there have been so many, but I have included all of the biggest and best changes made by our Senior Staff & Development team over the Summer\!
 
 ### **🏪 Major Business Update \- Vespucci Markets🏪**   
 
