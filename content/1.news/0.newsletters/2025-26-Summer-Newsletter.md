@@ -6,7 +6,26 @@
 
 Hello everyone, it’s been a while but we are back and more ready than ever to give a run down of the past few action packed months\! Recently, Fat Duck has been packed with major updates that are shaping the future of FDG in a massive way. From shifting toward a more player-driven economy with the introduction of new businesses, to new achievements and community-driven moments, the server has continued evolving.
 
+-- Dog & BaileyG
+
 ![Skyline](https://imgur.com/bdfQiXR.png)
+
+## 🦆 **A Note from Leadership**
+
+Over the past few months FDG has continued to evolve in both structure and direction. While individual updates may stand out on their own, what matters most is the consistency behind them. The focus remains on long-term stability, meaningful player engagement, and building systems that support the community well into the future.
+
+The server grows because of the people who invest time into it, whether through development, roleplay, business ownership, enforcement, creativity, or simply showing up each day. That collective effort is what drives progress.
+
+A special acknowledgement goes to the staff team who continue to dedicate significant time behind the scenes. From development and support to moderation and operations, their consistency and commitment are what allow FDG to keep moving forward.
+
+We appreciate everyone who continues to contribute to the culture and momentum of FDG. There is more to come, and we are committed to ensuring the foundation stays strong as we move forward.
+
+FDG Leadership Team
+
+**![LT](https://i.imgur.com/H2HBtq1.png)** 
+
+## Community Stats - YTD
+**![Stats](https://i.imgur.com/4lUklHr.png)**
 
 ## **Development Highlights**
 
