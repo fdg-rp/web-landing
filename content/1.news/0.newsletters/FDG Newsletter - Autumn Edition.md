@@ -28,7 +28,7 @@ As always, FDG only works because of the people who continue to show up, contrib
 
 ## **Stats**
 
-[https://imgur.com/a/kmqtODW.png](https://imgur.com/a/kmqtODW.png)
+![Stats](https://imgur.com/jfH2EHm.png)
 
 ## **Development Highlights**
 
@@ -36,7 +36,8 @@ To say the developers have gone absolutely ham over the last three months would 
 
 ### **Hunting and Fishing Overhaul - IGWolf**
 
-[https://imgur.com/0DlRLYa.png](https://imgur.com/0DlRLYa.png)   
+![Hunting](https://imgur.com/0DlRLYa.png)   
+
 By far one of the largest updates released this season was the complete overhaul of the hunting and fishing system. Wolf, alongside other developers put a huge amount of work into the system and completely rebuilt it introducing or refreshing:
 
 - A 10 stage, 100 level progression system  
@@ -54,7 +55,7 @@ An absolutely massive amount of work went into the project and it has certainly 
 
 ### **Chopshop DLC Expansion - IGWolf**
 
-[https://imgur.com/a/NGKDfQa.png](https://imgur.com/a/NGKDfQa.png)
+![Chopshop](https://imgur.com/5pVCxJk.png)
 
 The chopshop system has been continuing to grow as well throughout the last season with the introduction of a DLC expansion to it.
 
@@ -86,7 +87,7 @@ The update has massively improved the armour system, allowing slightly damaged a
 
 ###  **Fire System - Teehee**
 
-[https://imgur.com/REWAFKy.png](https://imgur.com/REWAFKy.png)
+![Fires](https://imgur.com/REWAFKy.png)
 
 Teehee introduced a huge and entirely new fire system in this season bringing structure fires and bush fires into FDG. The system gives EMS more to do and includes:
 
@@ -99,7 +100,7 @@ The update has provided EMS and civilians with new opportunities to roleplay.
 
 ### **K9 & Pet Improvements - Teehee (Scripting) & Tay (Design)**
 
-[https://imgur.com/a/M5CqpCo.png](https://imgur.com/a/M5CqpCo.png)
+![K9s](https://imgur.com/KCsdErF.png)
 
 A huge amount of work has also gone into improving K9 and pet systems throughout the season.
 
@@ -129,7 +130,7 @@ An absolutely major shoutout to the development team for the constant work being
 
 ### **Mayor Changes to Mechanics and introduction of Dashcams.**
 
-[https://imgur.com/a/qLO8hTQ.png](https://imgur.com/a/qLO8hTQ.png)
+![Dashcams & Co](https://imgur.com/NX6pREa.png)
 
 The mayor of FDG this season announced the release of dashcams alongside broader economic reform changes in mechanics.
 
@@ -162,7 +163,7 @@ The response has been positive with less use of OOC terms whilst roleplaying cre
 
 ### **☣️ Operation Severed Signal \- Registered Gang Event \- Goltaw ☣️ **
 
-[https://imgur.com/a/vRNdEwe.png](https://imgur.com/a/vRNdEwe.png)  
+![Goltaw Event](https://imgur.com/MnUUoIw.png)  
 One of the most ambitious events in the last season has been seen through Operation Severed Signal. An extremely in depth and large scale event ran for registered gangs by Goltaw.
 
 Serving as a continuation to a previous storyline, Operation Severed Signal put participating gangs into a roleplay mystery around OMNIA, a rogue IAA AI group operating from the shadows. Throughout the storyline gangs had to complete puzzles, investigations and make decisions that influenced how the story progressed.
@@ -177,7 +178,7 @@ To all applicants, good luck and we hope to see you in the team soon.
 
 ## **FDG DayZ**
 
-[https://imgur.com/a/Rkyw1Az.png](https://imgur.com/a/Rkyw1Az.png)
+![DayZ](https://imgur.com/d4YPsNr.png)
 
 One of the biggest milestones for the wider Fat Duck Gaming community this season was the launch of FDG DayZ Open Beta.
 
@@ -192,29 +193,29 @@ A massive shoutout to the development team including LastOnEarth for putting a h
 ### **Syndicated Gang of the Season**
 
 Los Santos Triads  
-[https://imgur.com/a/Eh3a6Pb.png](https://imgur.com/a/Eh3a6Pb.png)
+![Triads](https://imgur.com/CHWwbcN.png)
 
 ### **Registered Gang of the Season**
 
 Cyprus  
-[https://imgur.com/a/mVqpZGC.png](https://imgur.com/a/mVqpZGC.png)
+![Cyprus](https://imgur.com/OyRsgje.png)
 
 ### **Business of the Season**
 
 Kings Pawn Shop  
-[https://imgur.com/a/utXJjHx.png](https://imgur.com/a/utXJjHx.png)
+![KingsPawn](https://imgur.com/a47cE8F.png)
 
 ### **Content Creator of the Season**
 
-Bigchicki \- Check Him Out (hyper link:https://www.twitch.tv/banksyfdg)  
-[https://imgur.com/a/LNalTGm.png](https://imgur.com/a/LNalTGm.png)
+Bigchicki \- [Check Him Out](https://www.twitch.tv/banksyfdg)
+![BigChicki Twitch](https://imgur.com/VwbU1UI.png)
 
 ### **Government department of the Season**
 
 Federal Police  
 Special mention to Jonathan Chang for his groundbreaking investigative abilities, successfully using the ancient forbidden art of “seeing someone once and instantly knowing their full government name, blood type, occupation, gang affiliation and shoe size” within 0.3 seconds
 
-[https://imgur.com/a/NC4aAUu.png](https://imgur.com/a/NC4aAUu.png)
+![Feds](https://imgur.com/e2TdBxf.png)
 
 ## **Final Thoughts**
 
@@ -223,4 +224,6 @@ As another season comes to a close, we'd like to thank everyone who helps make F
 The last few months have been packed with growth, updates and new opportunities, and there's plenty more to come. Thank you for being part of FDG, and we'll see you next season.
 
 - Dog and Bailey
+
+![Dog Bye](https://imgur.com/ZOi1Dlo.png)
 
