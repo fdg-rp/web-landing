@@ -24,7 +24,9 @@ We also want to acknowledge the impact of the recent outages and instability. We
 
 A significant amount of time has been spent migrating services, improving infrastructure and making changes aimed at providing a more stable platform for the community. Some of that work is not exciting or flashy, but it is important. Next time you run into kn0pee, make sure you say “Thank you\!”.
 
-As always, FDG only works because of the people who continue to show up, contribute, create roleplay, report issues, provide feedback and support the community. Thank you to the players, staff, developers and everyone behind the scenes who keeps pushing FDG forward – sutto
+As always, FDG only works because of the people who continue to show up, contribute, create roleplay, report issues, provide feedback and support the community. Thank you to the players, staff, developers and everyone behind the scenes who keeps pushing FDG forward 
+
+-– sutto
 
 ## **Stats**
 
