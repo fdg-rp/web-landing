@@ -43,7 +43,7 @@ jobs:
         username: ${{ secrets.DEPLOY_USERNAME }}
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
-        script: cd app/sites/landing/dist && rm -rf *
+        script: cd ${{ vars.DEPLOY_DIRECTORY }} && rm -rf *
         
     - name: Copy generated files
       uses: appleboy/scp-action@v0.1.7
@@ -53,5 +53,5 @@ jobs:
         key: ${{ secrets.DEPLOY_KEY }}
         port: ${{ secrets.DEPLOY_PORT }}
         source: built/public/*
-        target: app/sites/landing/dist
+        target: ${{ vars.DEPLOY_DIRECTORY }}
         strip_components: 2
