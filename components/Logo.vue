@@ -1,3 +1,3 @@
 <template>
-  <img src="https://app.fatduckgaming.com/assets/logos/fdg_text.png" />
+  <img src="https://cdn.fatduckgaming.com/assets/logos/fdg_text.png" />
 </template>

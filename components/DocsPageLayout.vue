@@ -12,16 +12,16 @@ const fallbackValue = (value: string, fallback = true) => {
 };
 
 const hasBody = computed(
-  () => !page.value || page.value?.body?.children?.length > 0
+  () => !page.value || page.value?.body?.children?.length > 0,
 );
 const hasToc = computed(
-  () => page.value?.toc !== false && page.value?.body?.toc?.links?.length >= 2
+  () => page.value?.toc !== false && page.value?.body?.toc?.links?.length >= 2,
 );
 
 const hasAside = computed(
   () =>
     page.value?.aside !== false &&
-    (tree.value?.length > 1 || tree.value?.[0]?.children?.length)
+    (tree.value?.length > 1 || tree.value?.[0]?.children?.length),
 );
 const bottom = computed(() => fallbackValue("bottom", true));
 const isOpen = ref(false);
@@ -29,7 +29,7 @@ const isOpen = ref(false);
 // Custom OG generation
 const ogImageOptions = {
   siteName: "Fat Duck Gaming",
-  siteLogo: "https://app.fatduckgaming.com/assets/logos/fdg_text.png",
+  siteLogo: "https://cdn.fatduckgaming.com/assets/logos/fdg_text.png",
   icon: false,
 };
 defineOgImage(ogImageOptions);
@@ -126,185 +126,186 @@ onBeforeUnmount(() => {
 
 <style scoped lang="ts">
 css({
-  '.docs-page-content': {
-    position: 'relative',
-    display: 'flex',
-    flexDirection: 'column-reverse',
-    '@lg': {
-      display: 'grid',
-      gap: '{space.8}',
+  ".docs-page-content": {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column-reverse",
+    "@lg": {
+      display: "grid",
+      gap: "{space.8}",
     },
-    '&.has-toc': {
-      '@lg': {
-        gridTemplateColumns: 'minmax(320px, 1fr) minmax(250px, 250px)'
-      }
+    "&.has-toc": {
+      "@lg": {
+        gridTemplateColumns: "minmax(320px, 1fr) minmax(250px, 250px)",
+      },
     },
-    '&.has-aside': {
-      '@lg': {
-        gridTemplateColumns: 'minmax(250px, 250px) minmax(320px, 1fr)'
-      }
+    "&.has-aside": {
+      "@lg": {
+        gridTemplateColumns: "minmax(250px, 250px) minmax(320px, 1fr)",
+      },
     },
-    '&.has-aside.has-toc': {
-      '@lg': {
-        gridTemplateColumns: 'minmax(250px, 250px) minmax(320px, 1fr) minmax(250px, 250px)'
-      }
+    "&.has-aside.has-toc": {
+      "@lg": {
+        gridTemplateColumns:
+          "minmax(250px, 250px) minmax(320px, 1fr) minmax(250px, 250px)",
+      },
     },
   },
-  '.aside-nav': {
-    display: 'none',
-    overflowY: 'auto',
-    '@lg': {
-      display: 'block',
-      position: 'sticky',
-      top: '{docus.header.height}',
+  ".aside-nav": {
+    display: "none",
+    overflowY: "auto",
+    "@lg": {
+      display: "block",
+      position: "sticky",
+      top: "{docus.header.height}",
       // gridColumn: 'span 2/span 2',
-      alignSelf: 'flex-start',
-      height: 'calc(100vh - {docus.header.height})',
-      py: '{space.8}',
-      paddingRight: '{space.8}',
-      '.fluid &&': {
-        borderRight: '1px solid {elements.border.primary.static}',
-      }
-    }
-  },
-  '.page-body': {
-    position: 'relative',
-    display: 'flex',
-    flexDirection: "column",
-    flex: '1 1 0%',
-    py: '{space.8}',
-    width: '100%',
-    // maxWidth: '{docus.readableLine}',
-    mx: 'auto',
-    '.has-toc &&': {
-      paddingTop: '{space.12}',
-      '@lg': {
-        paddingTop: '{space.8}',
-      }
+      alignSelf: "flex-start",
+      height: "calc(100vh - {docus.header.height})",
+      py: "{space.8}",
+      paddingRight: "{space.8}",
+      ".fluid &&": {
+        borderRight: "1px solid {elements.border.primary.static}",
+      },
     },
-    '@lg': {
+  },
+  ".page-body": {
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    flex: "1 1 0%",
+    py: "{space.8}",
+    width: "100%",
+    // maxWidth: '{docus.readableLine}',
+    mx: "auto",
+    ".has-toc &&": {
+      paddingTop: "{space.12}",
+      "@lg": {
+        paddingTop: "{space.8}",
+      },
+    },
+    "@lg": {
       marginTop: 0,
       // gridColumnStart: 2,
     },
     // `.not-prose` can be useful if creating <h1> with a component (404 page is an example)
-    ':deep(h1:not(.not-prose):first-child)': {
+    ":deep(h1:not(.not-prose):first-child)": {
       marginTop: 0,
-      fontSize: '{text.4xl.fontSize}',
-      lineHeight: '{text.4xl.lineHeight}',
-      '@sm': {
-        fontSize: '{text.5xl.fontSize}',
-        lineHeight: '{text.5xl.lineHeight}',
-      }
+      fontSize: "{text.4xl.fontSize}",
+      lineHeight: "{text.4xl.lineHeight}",
+      "@sm": {
+        fontSize: "{text.5xl.fontSize}",
+        lineHeight: "{text.5xl.lineHeight}",
+      },
     },
     // `.not-prose` can be useful if creating <h1> with a component (404 page is an example)
-    ':deep(h1:not(.not-prose)first-child + p)': {
+    ":deep(h1:not(.not-prose)first-child + p)": {
       marginTop: 0,
-      marginBottom: '{space.8}',
-      paddingBottom: '{space.8}',
-      borderBottom: '1px solid {elements.border.primary.static}',
-      color: '{color.gray.500}',
-      '@sm': {
-        fontSize: '{text.lg.fontSize}',
-        lineHeight: '{text.lg.lineHeight}',
+      marginBottom: "{space.8}",
+      paddingBottom: "{space.8}",
+      borderBottom: "1px solid {elements.border.primary.static}",
+      color: "{color.gray.500}",
+      "@sm": {
+        fontSize: "{text.lg.fontSize}",
+        lineHeight: "{text.lg.lineHeight}",
       },
-      '@dark': {
-        color: '{color.gray.400}',
+      "@dark": {
+        color: "{color.gray.400}",
       },
       a: {
-        color: '{color.gray.700}',
-        '@dark': {
-          color: '{color.gray.200}',
+        color: "{color.gray.700}",
+        "@dark": {
+          color: "{color.gray.200}",
         },
         "&:hover": {
-          borderColor: '{color.gray.700}'
-        }
-      }
+          borderColor: "{color.gray.700}",
+        },
+      },
     },
-    '.docs-prev-next': {
-      marginTop: '{space.4}'
-    }
+    ".docs-prev-next": {
+      marginTop: "{space.4}",
+    },
   },
-  '.toc': {
-    position: 'sticky',
-    top: '{docus.header.height}',
-    display: 'flex',
-    mx: 'calc(0px - {space.4})',
-    overflow: 'auto',
-    borderBottom: '1px solid {elements.border.primary.static}',
-    '@sm': {
-      mx: 'calc(0px - {space.6})',
+  ".toc": {
+    position: "sticky",
+    top: "{docus.header.height}",
+    display: "flex",
+    mx: "calc(0px - {space.4})",
+    overflow: "auto",
+    borderBottom: "1px solid {elements.border.primary.static}",
+    "@sm": {
+      mx: "calc(0px - {space.6})",
     },
-    '@lg': {
+    "@lg": {
       mx: 0,
-      alignSelf: 'flex-start',
-      py: '{space.8}',
-      px: '{space.8}',
-      height: 'calc(100vh - {docus.header.height})',
-      maxHeight: 'none',
-      borderBottom: 'none',
-      '.fluid &&': {
-        borderLeft: '1px solid {elements.border.primary.static}',
-      }
+      alignSelf: "flex-start",
+      py: "{space.8}",
+      px: "{space.8}",
+      height: "calc(100vh - {docus.header.height})",
+      maxHeight: "none",
+      borderBottom: "none",
+      ".fluid &&": {
+        borderLeft: "1px solid {elements.border.primary.static}",
+      },
     },
-    '.toc-wrapper': {
-      width: '100%',
-      height: '100%',
-      backdropFilter: '{elements.backdrop.filter}',
-      backgroundColor: '{elements.backdrop.background}',
-      '@lg': {
-        backgroundColor: 'transparent',
-        backdropFilter: 'none'
+    ".toc-wrapper": {
+      width: "100%",
+      height: "100%",
+      backdropFilter: "{elements.backdrop.filter}",
+      backgroundColor: "{elements.backdrop.background}",
+      "@lg": {
+        backgroundColor: "transparent",
+        backdropFilter: "none",
       },
       button: {
-        display: 'flex',
-        alignItems: 'center',
-        width: '100%',
-        height: '100%',
-        py: '{space.4}',
-        px: '{space.4}',
-        '@sm': {
-          px: '{space.6}',
+        display: "flex",
+        alignItems: "center",
+        width: "100%",
+        height: "100%",
+        py: "{space.4}",
+        px: "{space.4}",
+        "@sm": {
+          px: "{space.6}",
         },
-        '@lg': {
-          display: 'none'
+        "@lg": {
+          display: "none",
         },
-        '.title': {
-          fontSize: '{text.sm.fontSize}',
-          lineHeight: '{text.sm.lineHeight}',
-          fontWeight: '{fontWeight.semibold}',
-          marginRight: '{space.1}',
+        ".title": {
+          fontSize: "{text.sm.fontSize}",
+          lineHeight: "{text.sm.lineHeight}",
+          fontWeight: "{fontWeight.semibold}",
+          marginRight: "{space.1}",
         },
-        '.icon': {
-          width: '{space.4}',
-          height: '{space.4}',
-          transition: 'transform 100ms',
-          '&.rotate': {
-            transform: 'rotate(90deg)'
-          }
-        }
-      },
-      '.docs-toc-wrapper': {
-        display: 'none',
-        marginBottom: '{space.4}',
-        '&.opened': {
-          display: 'block',
-          px: '{space.4}',
-          maxHeight: '50vh',
-          overflow: 'auto',
-          '@sm': {
-            px: '{space.6}',
+        ".icon": {
+          width: "{space.4}",
+          height: "{space.4}",
+          transition: "transform 100ms",
+          "&.rotate": {
+            transform: "rotate(90deg)",
           },
-          '@lg': {
-            maxHeight: 'none',
+        },
+      },
+      ".docs-toc-wrapper": {
+        display: "none",
+        marginBottom: "{space.4}",
+        "&.opened": {
+          display: "block",
+          px: "{space.4}",
+          maxHeight: "50vh",
+          overflow: "auto",
+          "@sm": {
+            px: "{space.6}",
+          },
+          "@lg": {
+            maxHeight: "none",
             px: 0,
           },
         },
-        '@lg': {
+        "@lg": {
           marginTop: 0,
-          display: 'block'
-        }
-      }
-    }
-  }
-})
+          display: "block",
+        },
+      },
+    },
+  },
+});
 </style>

@@ -1,6 +1,6 @@
 # FDG Docs
 
-![FDG Logo Text](https://app.fatduckgaming.com/assets/logos/fdg_text.png)
+![FDG Logo Text](https://cdn.fatduckgaming.com/assets/logos/fdg_text.png)
 
 **https://fatduckgaming.com**
 
