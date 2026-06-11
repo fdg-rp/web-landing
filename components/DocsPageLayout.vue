@@ -29,7 +29,7 @@ const isOpen = ref(false);
 // Custom OG generation
 const ogImageOptions = {
   siteName: "Fat Duck Gaming",
-  siteLogo: "https://app.fatduckgaming.com/assets/logos/fdg_text.png",
+  siteLogo: "/img/fdg_logo.png",
   icon: false,
 };
 defineOgImage(ogImageOptions);
