@@ -18,6 +18,15 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     
+    - name: Announce the build on Discord
+      continue-on-error: true
+      uses: ./.github/actions/discord-notify
+      with:
+        webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        title: "Release build started"
+        colour: "5793266"
+        description: "Building the site before it is copied to the server."
+
     - name: Set Node.js 20.x
       uses: actions/setup-node@v4
       with:
@@ -56,3 +65,22 @@ jobs:
         source: built/public/*
         target: ${{ vars.DEPLOY_DIRECTORY }}
         strip_components: 2
+
+    - name: Report the halted deploy on Discord
+      if: failure()
+      continue-on-error: true
+      uses: ./.github/actions/discord-notify
+      with:
+        webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        title: "Deploy halted: build failed"
+        colour: "15548997"
+        description: "The site was not built or copied; nothing on the server changed."
+
+    - name: Report the deployed site on Discord
+      continue-on-error: true
+      uses: ./.github/actions/discord-notify
+      with:
+        webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        title: "Site deployed"
+        colour: "5763719"
+        description: "The generated site has been copied to the web server."

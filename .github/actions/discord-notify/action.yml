@@ -1,0 +1,71 @@
+name: Discord notify
+description: Posts a build status embed to a Discord webhook, if one is configured.
+
+inputs:
+  webhook-url:
+    description: Discord webhook URL. The notification is skipped when this is empty.
+    required: false
+    default: ""
+  title:
+    description: Embed title, e.g. "Release build started".
+    required: true
+  description:
+    description: Embed body.
+    required: false
+    default: ""
+  colour:
+    description: Embed colour as a decimal integer (Discord takes no hex).
+    required: false
+    default: "5793266"
+
+runs:
+  using: composite
+  steps:
+    - name: Post the embed
+      shell: bash
+      env:
+        WEBHOOK_URL: ${{ inputs.webhook-url }}
+        TITLE: ${{ inputs.title }}
+        DESCRIPTION: ${{ inputs.description }}
+        COLOUR: ${{ inputs.colour }}
+        REPOSITORY: ${{ github.repository }}
+        VERSION_TAG: ${{ github.ref_name }}
+        ACTOR: ${{ github.actor }}
+        RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      run: |
+        set -euo pipefail
+
+        # A repository without the secret still releases; it just stays quiet.
+        if [ -z "${WEBHOOK_URL:-}" ]; then
+          echo "No DISCORD_WEBHOOK_URL configured; skipping this notification."
+          exit 0
+        fi
+
+        payload="$(jq -n \
+          --arg title "${TITLE}" \
+          --arg description "${DESCRIPTION}" \
+          --arg repository "${REPOSITORY}" \
+          --arg tag "${VERSION_TAG}" \
+          --arg actor "${ACTOR}" \
+          --arg run_url "${RUN_URL}" \
+          --argjson colour "${COLOUR}" \
+          '{
+            username: "Release pipeline",
+            embeds: [{
+              title: $title,
+              description: $description,
+              url: $run_url,
+              color: $colour,
+              fields: [
+                { name: "Repository", value: $repository, inline: true },
+                { name: "Version", value: $tag, inline: true },
+                { name: "Released by", value: $actor, inline: true }
+              ],
+              timestamp: (now | todateiso8601)
+            }]
+          }')"
+
+        curl --silent --show-error --fail \
+          --header "Content-Type: application/json" \
+          --data "${payload}" \
+          "${WEBHOOK_URL}" > /dev/null
