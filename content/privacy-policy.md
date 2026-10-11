@@ -30,6 +30,19 @@ When you join our Discord server, interact with our Discord applications or bots
 
 We only request the Discord permissions (OAuth2 scopes) required for the feature you are using.
 
+### Our Discord bot and message content
+
+Our Discord bot uses Discord's message content and server members permissions. This means it can read messages in the channels it has access to, and messages you send to it directly. The bot uses this to:
+
+::list
+- **Respond to text commands**, such as account verification, linking your Twitch account and checking your playtime. When you verify or link an account, we store your Discord user ID and any linked usernames against your FDG account.
+- **Forward direct messages to staff.** Messages you send to the bot by DM, along with your Discord username and avatar, are posted to a private staff channel so staff can respond.
+- **Keep our community records up to date**, such as syncing server roles with in-game perks and recording moderation actions (warnings, bans and notes) taken by staff.
+- **Diagnose problems.** Unrecognised commands, including the message text and author, may appear in the bot's technical logs.
+::
+
+The bot does not read, store or analyse general chat for any other purpose, and message content is never sold, shared with advertisers or used to train AI or machine learning models.
+
 ### Information from FiveM and Cfx.re
 
 When you connect to our FiveM server we may collect your game and platform identifiers (such as your Cfx.re, FiveM license, Steam and Discord identifiers), IP address, in-game character data, and gameplay and server logs.
@@ -75,7 +88,9 @@ We only share information:
 
 ## Data Retention
 
-We keep personal information only for as long as it is needed for the purposes described in this policy, or as required by law. Moderation records (such as bans and warnings) may be kept for longer to protect the community. When information is no longer needed it is deleted or de-identified.
+We keep personal information only for as long as it is needed for the purposes described in this policy, or as required by law. Moderation records (such as bans and warnings) and support ticket transcripts may be kept for longer to protect the community and handle appeals. When information is no longer needed it is deleted or de-identified.
+
+Message content collected by our Discord bot is only kept where it forms part of a staff log or support ticket. You can ask us to delete it at any time using the contact details below.
 
 ## Your Rights and Choices
 
