@@ -59,6 +59,10 @@ export default defineAppConfig({
           target: "_blank",
           rel: "noopener",
         },
+        {
+          text: "Privacy Policy",
+          href: "/privacy-policy",
+        },
       ],
     },
   },
