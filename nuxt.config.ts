@@ -26,6 +26,12 @@ export default defineNuxtConfig({
       routes: ["/sitemap.xml", "/alldocs.json", "/"],
     },
   },
+  runtimeConfig: {
+    public: {
+      // Overridden by NUXT_PUBLIC_OG_SITE_LOGO (the test build uses a local file).
+      ogSiteLogo: "https://cdn.fatduckgaming.com/assets/logos/fdg_text.png",
+    },
+  },
   colorMode: {
     preference: "dark",
     fallback: "dark",

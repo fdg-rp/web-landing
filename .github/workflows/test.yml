@@ -1,0 +1,64 @@
+# Builds the site and runs its tests on every pull request (Renovate's
+# dependency updates included) and on pushes to branches other than main,
+# which deploy.yml builds, tests and deploys.
+
+name: Test
+
+on:
+  pull_request:
+  push:
+    branches-ignore: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: yarn
+
+      - name: Install
+        run: yarn install --frozen-lockfile
+
+      - name: Build the site
+        run: yarn test:build
+
+      - name: Test the generated site
+        run: yarn test
+
+      # The page outlines change with content edits, so the snapshot is only
+      # checked when dependencies change (package.json or yarn.lock).
+      - name: Check whether dependencies changed
+        id: deps
+        run: |
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          if [ -z "$base" ] || ! git cat-file -e "$base" 2>/dev/null \
+            || ! git diff --quiet "$base" HEAD -- package.json yarn.lock; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check the page outlines are unchanged
+        if: steps.deps.outputs.changed == 'true'
+        run: yarn test:outline
+
+      - name: Install the test browser
+        run: yarn playwright install --with-deps chromium
+
+      - name: Test the site in a browser
+        run: yarn test:e2e --project=desktop --project=mobile
+
+      - name: Keep the browser test report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 14

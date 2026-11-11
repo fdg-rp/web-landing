@@ -45,6 +45,11 @@ jobs:
         
     - name: List files
       run: ls built/public
+
+    # Checks the generated site before the live one is deleted below: every
+    # page built, the sitemap and search index, links and page outlines.
+    - name: Test the generated site
+      run: yarn test
       
     - name: Remove remote files
       uses: appleboy/ssh-action@v1.0.3
@@ -72,9 +77,9 @@ jobs:
       uses: ./.github/actions/discord-notify
       with:
         webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        title: "Deploy halted: build failed"
+        title: "Deploy halted: build or tests failed"
         colour: "15548997"
-        description: "The site was not built or copied; nothing on the server changed."
+        description: "The site failed to build or its tests failed, so nothing was copied; the live site is unchanged."
 
     - name: Report the deployed site on Discord
       continue-on-error: true

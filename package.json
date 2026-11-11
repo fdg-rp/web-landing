@@ -7,19 +7,27 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test:build": "node test/support/build.mjs",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:all": "yarn test:build && yarn test && yarn test:outline && yarn test:e2e",
+    "test:outline": "vitest run --config vitest.outline.config.ts"
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.15.0",
     "@nuxt/devtools": "^1.3.2",
     "@nuxt/eslint-config": "^0.3.13",
     "@nuxtjs/plausible": "^1.0.0",
+    "@playwright/test": "1.63.0",
     "@types/node": "^20.14.1",
     "eslint": "^9.4.0",
+    "node-html-parser": "^9.0.7",
     "nuxt": "^3.11.2",
     "nuxt-og-image": "^3.0.0-rc.53",
     "pinceau": "^0.15.4",
-    "sitemap": "^8.0.0"
+    "sitemap": "^8.0.0",
+    "vitest": "^3.2.4"
   },
   "dependencies": {
     "vue-marquee-text-component": "^2.0.1"

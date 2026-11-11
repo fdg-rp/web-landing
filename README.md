@@ -31,3 +31,22 @@ The documentation site is open-source! We highly encourage FDG community members
 4. Commit your changes with descriptive commit messages: `git commit -m "Add feature X"`.
 5. Push your changes to your forked repository: `git push origin your-branch-name`.
 6. Submit a pull request from your forked repository to the main FDG Documentation Site repository.
+
+Every pull request is built and tested automatically (the **Test** check). If it fails on a broken link, check the links in the page you changed.
+
+## Testing
+
+The tests check the generated site, so build it first. Nothing in them needs network access.
+
+```bash
+yarn install
+yarn test:build     # generate the site into built/public (about 90 seconds)
+yarn test           # every page built, sitemap, search index, links
+yarn test:outline   # each page's headings and links, against a snapshot
+yarn test:e2e       # the site in a browser, desktop and phone
+yarn test:all       # all of the above
+```
+
+- `test/build/` checks the files in `built/public`. `yarn test` also runs in the deploy, before the live site is replaced.
+- `test/build/outline.test.ts` snapshots every page's headings and links. Editing content changes it on purpose: run `yarn test:outline -u` and review the diff. A dependency update should leave it unchanged.
+- `test/e2e/` runs the site in Chromium with Playwright: pages load without errors, navigation and search work, and pages fit the screen. The site's APIs are answered with fixtures (`test/e2e/fixtures.ts`). The first time, run `yarn playwright install chromium`.

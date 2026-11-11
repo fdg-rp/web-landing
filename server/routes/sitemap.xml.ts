@@ -2,8 +2,10 @@ import { serverQueryContent } from "#content/server";
 import { SitemapStream, streamToPromise } from "sitemap";
 
 export default defineEventHandler(async (event) => {
-  // Fetch all documents
-  const docs = await serverQueryContent(event).find();
+  // Pages only: `_dir.yml` folder settings and `_` partials have no URL.
+  const docs = await serverQueryContent(event)
+    .where({ _partial: false, _draft: false, _extension: "md" })
+    .find();
   const sitemap = new SitemapStream({
     hostname: "https://fatduckgaming.com",
   });

@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-const { data } = await useAsyncData("fdg-announcements", () =>
+const { data } = await useAsyncData("fdg-contributors", () =>
   $fetch("https://api.github.com/repos/fdg-rp/web-landing/contributors")
 );
 </script>

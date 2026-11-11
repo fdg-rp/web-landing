@@ -27,9 +27,11 @@ const bottom = computed(() => fallbackValue("bottom", true));
 const isOpen = ref(false);
 
 // Custom OG generation
+// The logo is fetched at build time; the test build points it at a file in
+// public/ so it never needs the network (see nuxt.config.ts runtimeConfig).
 const ogImageOptions = {
   siteName: "Fat Duck Gaming",
-  siteLogo: "https://cdn.fatduckgaming.com/assets/logos/fdg_text.png",
+  siteLogo: useRuntimeConfig().public.ogSiteLogo,
   icon: false,
 };
 defineOgImage(ogImageOptions);
