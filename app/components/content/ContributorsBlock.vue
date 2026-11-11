@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <UContainer class="pb-24">
     <h1 id="contributors" class="mb-6 text-4xl font-bold tracking-tight text-highlighted">Without you, FDG wouldn't be here.</h1>
     <div class="text-lg text-muted">
       <slot />
@@ -19,7 +19,7 @@
         </div>
       </div>
     </ClientOnly>
-  </div>
+  </UContainer>
 </template>
 
 <script setup>

@@ -1067,6 +1067,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/fa6-brands@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fa6-brands/-/fa6-brands-1.2.6.tgz#16be83b831c8356b428325f25610d69f08eb38da"
+  integrity sha512-twL3X4KWcxAhbc1vz/mIDsVr+CAItk1/EIfxKUVQtpv6O4eydk5KNYqTZWdvJNHGInUgd6vKg21aWfVgb5DXEg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/logos@^1.2.19":
   version "1.2.19"
   resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.2.19.tgz#4b2311667b7c78b98d2e552cd76aaed54bcc596a"

@@ -18,11 +18,8 @@ const categories = computed(() => {
 </script>
 
 <template>
-  <div class="mx-auto max-w-[1200px] py-8">
-    <h1 class="mb-4 text-center text-4xl font-bold text-highlighted sm:text-5xl">Server Documentation</h1>
-    <p class="mx-auto mb-12 max-w-[600px] text-center text-lg text-muted">
-      Choose a category to explore guides, rules, and information about our server
-    </p>
+  <!-- The page header above already shows the title and description. -->
+  <div class="mx-auto max-w-[1200px] py-4">
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <NuxtLink
         v-for="category in categories"

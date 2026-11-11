@@ -47,6 +47,25 @@ function folderRedirects(dir = "content"): Record<string, { redirect: string }> 
   return rules;
 }
 
+/**
+ * Icons named in content/ (front matter, `.navigation.yml`, `:icon{name=}`)
+ * and the social links, which the icon bundler's scan of the code can't see.
+ */
+function contentIcons(dir = "content"): string[] {
+  const icons = new Set(["simple-icons:discord", "simple-icons:tiktok", "simple-icons:github"]);
+  const walk = (d: string) => {
+    for (const e of readdirSync(d, { withFileTypes: true })) {
+      const path = join(d, e.name);
+      if (e.isDirectory()) walk(path);
+      else if (/\.(md|ya?ml)$/.test(e.name)) {
+        for (const m of readFileSync(path, "utf8").matchAll(/(?:icon|name)\s*[=:]\s*["']?([a-z0-9-]+:[a-z0-9-]+)/g)) icons.add(m[1]!);
+      }
+    }
+  };
+  walk(dir);
+  return [...icons].sort();
+}
+
 /** Every page in content/, so each is generated even if nothing links to it. */
 function contentRoutes(dir = "content"): string[] {
   return readdirSync(dir, { withFileTypes: true })
@@ -93,7 +112,7 @@ export default defineNuxtConfig({
   // in the browser.
   icon: {
     provider: "none",
-    clientBundle: { scan: true },
+    clientBundle: { scan: true, icons: contentIcons() },
   },
 
   // Dark by default; the header toggle still switches to light.
@@ -139,14 +158,24 @@ export default defineNuxtConfig({
     // also start with `# <title>`: drop that first heading when it repeats
     // the title, so the page doesn't show it twice. Other headings stay.
     "content:file:afterParse"(ctx) {
-      const page = ctx.content as { title?: string; body?: { type?: string; value?: unknown[] } };
+      const page = ctx.content as { title?: string; description?: string; body?: { type?: string; value?: unknown[] } };
+      // With no `description` in front matter, Content uses the first
+      // paragraph, which the page header would then show above that same
+      // paragraph. Keep it for search engines (seo.description, already set)
+      // but not in the header.
+      const frontMatter = String(ctx.file.body ?? "").match(/^---\n([\s\S]*?)\n---/)?.[1] ?? "";
+      if (!/^description:/m.test(frontMatter)) page.description = "";
+
       const nodes = page.body?.type === "minimark" ? page.body.value : undefined;
       const first = nodes?.[0];
       if (!page.title || !Array.isArray(first) || first[0] !== "h1") return;
       const text = (node: unknown): string =>
         typeof node === "string" ? node : Array.isArray(node) ? node.slice(2).map(text).join("") : "";
       const normal = (value: string) => value.replace(/\s+/g, " ").trim().toLowerCase();
-      if (normal(text(first)) === normal(page.title)) nodes!.shift();
+      if (normal(text(first)) !== normal(page.title)) return;
+      nodes!.shift();
+      // A rule straight under that title would sit under the header's own.
+      if (Array.isArray(nodes![0]) && nodes![0][0] === "hr") nodes!.shift();
     },
 
     // Docus links each page's Markdown version from the page head as

@@ -1,6 +1,6 @@
 <template>
   <div style="padding-bottom: 128px">
-    <slot />
+    <UContainer><slot /></UContainer>
     <ClientOnly>
       <MarqueeText :duration="40" :paused="isPaused" @mouseenter="isPaused = !isPaused" @mouseleave="isPaused = false">
         <div style="display: flex">

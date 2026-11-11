@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-32 text-center">
+  <UContainer as="section" class="pb-32 text-center">
     <slot />
-  </section>
+  </UContainer>
 </template>

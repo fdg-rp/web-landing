@@ -12,7 +12,7 @@ withDefaults(
 </script>
 
 <template>
-  <section class="py-20 sm:py-24 lg:py-32">
+  <UContainer as="section" class="py-20 sm:py-24 lg:py-32">
     <div class="grid gap-16 lg:grid-cols-3 lg:gap-8">
       <div class="lg:col-span-2">
         <h1 class="mb-8 px-8 text-center text-4xl font-bold tracking-tight text-highlighted sm:text-5xl lg:px-0 lg:text-start lg:text-6xl">
@@ -45,7 +45,7 @@ withDefaults(
         <slot name="support" />
       </div>
     </div>
-  </section>
+  </UContainer>
 </template>
 
 <style scoped>

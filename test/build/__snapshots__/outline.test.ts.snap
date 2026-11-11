@@ -1301,7 +1301,6 @@ exports[`keeps every page's outline 1`] = `
   "/privacy-policy": {
     "headings": [
       "h1 Privacy Policy",
-      "h1 Privacy Policy",
       "h2 Information We Collect",
       "h3 Information from Discord",
       "h3 Our Discord bot and message content",
@@ -1405,7 +1404,6 @@ exports[`keeps every page's outline 1`] = `
   "/racing/leaderboard": {
     "headings": [
       "h1 Ranked Season 4: 1st of May – 21st of July",
-      "h1 Ranked Season 4: 1st of May – 21st of July",
       "h3 Ranked Leaderboard",
     ],
     "links": [
@@ -1416,7 +1414,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs": {
     "headings": [
       "h1 Guides & Docs",
-      "h1 Server Documentation",
       "h3 Getting Started",
       "h3 Rules",
       "h3 Job Guides",
@@ -1973,7 +1970,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/administrative/donations-and-subscriptions": {
     "headings": [
       "h1 Donations & Subscriptions",
-      "h1 Donations & Subscriptions",
       "h2 Why Support FDG?",
       "h2 Donation Options",
       "h2 How to Donate or Subscribe",
@@ -2028,7 +2024,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/administrative/gang-applications": {
     "headings": [
-      "h1 Gang Application Guidelines",
       "h1 Gang Application Guidelines",
       "h2 Application Requirements",
       "h2 Opt-in Organisational Rules",
@@ -2136,7 +2131,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/common-commands": {
     "headings": [
       "h1 Common Commands",
-      "h1 Common Commands",
       "h2 How to use in-game Commands",
       "h2 Roleplay Commands",
       "h3 /boot",
@@ -2210,7 +2204,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/getting-started/controls": {
     "headings": [
-      "h1 Controls",
       "h1 Controls",
       "h2 Keyboard Controls",
       "h3 General Keys",
@@ -2322,7 +2315,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/how-to-connect": {
     "headings": [
       "h1 How to Connect",
-      "h1 How to Connect",
       "h2 Discord Verification",
       "h2 Connect to the Server",
       "h3 By Connect URL",
@@ -2376,7 +2368,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/ic-vs-ooc": {
     "headings": [
       "h1 IC vs OOC",
-      "h1 IC vs OOC",
       "h2 IC (In-Character)",
       "h2 OOC (Out-of-Character)",
     ],
@@ -2426,7 +2417,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/getting-started/installation": {
     "headings": [
-      "h1 Installation",
       "h1 Installation",
       "h2 What is FiveM",
       "h2 Installation Steps",
@@ -2481,7 +2471,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/getting-started/minimum-identifiers": {
     "headings": [
-      "h1 Minimum Identifiers",
       "h1 Minimum Identifiers",
       "h2 Discord (Mandatory)",
       "h3 Step 1 — Link Discord to FiveM",
@@ -2538,7 +2527,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/getting-started/quick-start-guide": {
     "headings": [
-      "h1 Quick Start Guide",
       "h1 Quick Start Guide",
       "h2 Table of Contents",
       "h2 Creating Your First Character",
@@ -2708,7 +2696,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/job-guides/open-vs-whitelisted-jobs": {
     "headings": [
       "h1 Open vs Whitelisted Jobs",
-      "h1 Open vs Whitelisted Jobs",
       "h2 About",
       "h2 Whitelisted Jobs",
       "h3 DoJ Jobs",
@@ -2762,7 +2749,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/job-guides/police": {
     "headings": [
-      "h1 Police",
       "h1 Police",
       "h2 About",
       "h2 What to expect?",
@@ -2932,7 +2918,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/content-creators": {
     "headings": [
       "h1 Content Creator Guidelines",
-      "h1 Content Creator Guidelines",
       "h2 Content Creator Perks",
       "h2 Endorsed Content Creator Perks",
       "h2 Eligibility",
@@ -3085,7 +3070,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/opt-in-rules": {
     "headings": [
       "h1 Opt-in Rules",
-      "h1 Opt-in Rules",
       "h2 Organisation Rules (O-Rules)",
       "h2 Business Rules (B-Rules)",
       "h2 Government Rules (G-Rules)",
@@ -3137,7 +3121,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/rules/rules-overview": {
     "headings": [
-      "h1 Rules Overview",
       "h1 Rules Overview",
       "h3 Core FDG Rules",
       "h3 Opt-in FDG Rules",
@@ -3193,7 +3176,6 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/service-guidelines": {
     "headings": [
       "h1 Service Guidelines",
-      "h1 Service Guidelines",
       "h2 Service Disclaimer",
       "h2 Donation & Tebex Guidelines",
     ],
@@ -3243,7 +3225,6 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/rules/verifiedmenu": {
     "headings": [
-      "h1 Verified Menu Guidelines",
       "h1 Verified Menu Guidelines",
       "h2 Verified Menu Perks",
       "h2 Eligibility",
