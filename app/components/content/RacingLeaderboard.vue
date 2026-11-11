@@ -3,19 +3,19 @@
     <h3 class="leaderboard-title">Ranked Leaderboard</h3>
     <div class="search-box" @click="focusSearchInput">
       <span class="material-icons-outlined search-icon">search</span>
-      <input type="text" v-model="searchQuery" class="search-input" placeholder="Search" @input="onSearch" ref="searchInputRef" />
+      <input ref="searchInputRef" v-model="searchQuery" type="text" class="search-input" placeholder="Search" @input="onSearch" >
     </div>
   </div>
   <div class="leaderboard-container">
     <!-- Material Icons font link -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" >
     <table class="leaderboard-table">
       <thead>
         <tr>
-          <th @click="toggleSort('position')" class="sortable-th ranking-th" @mouseenter="hoveredHeader = 'position'" @mouseleave="hoveredHeader = null">
+          <th class="sortable-th ranking-th" @click="toggleSort('position')" @mouseenter="hoveredHeader = 'position'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>#</span>
-              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'position' }" v-if="sortKey === 'position' || hoveredHeader === 'position'">
+              <span v-if="sortKey === 'position' || hoveredHeader === 'position'" class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'position' }">
                 <span v-if="sortKey === 'position'" class="material-icons-outlined arrow-visible">{{
                   sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
                 }}</span>
@@ -23,10 +23,10 @@
               </span>
             </span>
           </th>
-          <th @click="toggleSort('name')" class="sortable-th name-th" @mouseenter="hoveredHeader = 'name'" @mouseleave="hoveredHeader = null">
+          <th class="sortable-th name-th" @click="toggleSort('name')" @mouseenter="hoveredHeader = 'name'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Name</span>
-              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'name' }" v-if="sortKey === 'name' || hoveredHeader === 'name'">
+              <span v-if="sortKey === 'name' || hoveredHeader === 'name'" class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'name' }">
                 <span v-if="sortKey === 'name'" class="material-icons-outlined arrow-visible">{{
                   sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
                 }}</span>
@@ -34,10 +34,10 @@
               </span>
             </span>
           </th>
-          <th @click="toggleSort('races')" class="sortable-th races-th" @mouseenter="hoveredHeader = 'races'" @mouseleave="hoveredHeader = null">
+          <th class="sortable-th races-th" @click="toggleSort('races')" @mouseenter="hoveredHeader = 'races'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Races</span>
-              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'races' }" v-if="sortKey === 'races' || hoveredHeader === 'races'">
+              <span v-if="sortKey === 'races' || hoveredHeader === 'races'" class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'races' }">
                 <span v-if="sortKey === 'races'" class="material-icons-outlined arrow-visible">{{
                   sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
                 }}</span>
@@ -45,10 +45,10 @@
               </span>
             </span>
           </th>
-          <th @click="toggleSort('wins')" class="sortable-th wins-th" @mouseenter="hoveredHeader = 'wins'" @mouseleave="hoveredHeader = null">
+          <th class="sortable-th wins-th" @click="toggleSort('wins')" @mouseenter="hoveredHeader = 'wins'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Wins</span>
-              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'wins' }" v-if="sortKey === 'wins' || hoveredHeader === 'wins'">
+              <span v-if="sortKey === 'wins' || hoveredHeader === 'wins'" class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'wins' }">
                 <span v-if="sortKey === 'wins'" class="material-icons-outlined arrow-visible">{{
                   sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
                 }}</span>
@@ -56,13 +56,13 @@
               </span>
             </span>
           </th>
-          <th @click="toggleSort('placements')" class="sortable-th placements-th" @mouseenter="hoveredHeader = 'placements'" @mouseleave="hoveredHeader = null">
+          <th class="sortable-th placements-th" @click="toggleSort('placements')" @mouseenter="hoveredHeader = 'placements'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>Placements</span>
               <span
+                v-if="sortKey === 'placements' || hoveredHeader === 'placements'"
                 class="sort-arrow"
                 :class="{ 'arrow-force-visible': sortKey === 'placements' }"
-                v-if="sortKey === 'placements' || hoveredHeader === 'placements'"
               >
                 <span v-if="sortKey === 'placements'" class="material-icons-outlined arrow-visible">{{
                   sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
@@ -71,10 +71,10 @@
               </span>
             </span>
           </th>
-          <th @click="toggleSort('mmr')" class="sortable-th mmr-th" @mouseenter="hoveredHeader = 'mmr'" @mouseleave="hoveredHeader = null">
+          <th class="sortable-th mmr-th" @click="toggleSort('mmr')" @mouseenter="hoveredHeader = 'mmr'" @mouseleave="hoveredHeader = null">
             <span class="th-content">
               <span>MMR</span>
-              <span class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'mmr' }" v-if="sortKey === 'mmr' || hoveredHeader === 'mmr'">
+              <span v-if="sortKey === 'mmr' || hoveredHeader === 'mmr'" class="sort-arrow" :class="{ 'arrow-force-visible': sortKey === 'mmr' }">
                 <span v-if="sortKey === 'mmr'" class="material-icons-outlined arrow-visible">{{
                   sortOrder === 'asc' ? 'arrow_upward' : 'arrow_downward'
                 }}</span>
@@ -103,7 +103,7 @@
     </table>
     <div v-if="loading" class="loading-spinner">
       <!-- Simple CSS spinner, replace with a better one if needed -->
-      <div class="spinner"></div>
+      <div class="spinner" />
     </div>
     <div v-if="error" class="error-message">{{ error }}</div>
   </div>
@@ -165,7 +165,7 @@ const filteredRacers = computed(() => {
 });
 
 const sortedRacers = computed(() => {
-  let arr = [...filteredRacers.value];
+  const arr = [...filteredRacers.value];
   if (!sortKey.value) {
     arr.sort((a, b) => b.mmr - a.mmr);
     return arr;

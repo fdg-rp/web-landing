@@ -2,17 +2,12 @@
 //
 // - The site's own APIs get fixed answers, so pages render the same data
 //   every run.
-// - Every other host is blocked: fonts, Twitch images, analytics and the
-//   Iconify icon API are not what these tests check, and a test must not
-//   depend on them.
-// - Icons: the test build has no network either, so it renders each icon as
-//   a 16px <span class="icon"> holding the icon's name. The browser must get
-//   the same (answering the icon API here makes every page a hydration
-//   mismatch), and the name is clipped to that box so pages lay out at the
-//   width they have in production.
+// - Every other host is blocked: Twitch images, YouTube thumbnails and
+//   analytics are not what these tests check, and a test must not depend
+//   on them. (Fonts and icons are bundled into the build.)
 // - Console errors, Vue warnings (hydration mismatches show up here first
 //   after an upgrade) and uncaught exceptions are collected in `problems`,
-//   which every test asserts is empty when it ends.
+//   which is asserted empty when every test ends (an automatic fixture).
 
 import { test as base, expect, type Page } from "@playwright/test";
 
@@ -48,19 +43,11 @@ function isFromBlockedHost(text: string, origin: string): boolean {
  * and still catch anything new. Remove an entry when its cause is fixed (the
  * test then makes sure it stays fixed).
  */
-const KNOWN_PROBLEMS: { path: string; problem: string; why: string }[] = [
-  {
-    path: "/",
-    problem: "console.error: Hydration completed but contains mismatches.",
-    why:
-      "Pinceau (Docus 1.x's styling) hashes the header and footer Container " +
-      "classes differently on the server and in the browser. Goes away with " +
-      "the Docus upgrade, which drops Pinceau.",
-  },
-];
+const KNOWN_PROBLEMS: { path: string; problem: string; why: string }[] = [];
 
 export const test = base.extend<{ problems: string[] }>({
-  problems: async ({ page, baseURL }, use) => {
+  // Automatic: every test gets it, whether or not it asks for `problems`.
+  problems: [async ({ page, baseURL }, use) => {
     const origin = new URL(baseURL!).origin;
     const problems: string[] = [];
     page.on("pageerror", (error) => problems.push(`uncaught: ${error.message}`));
@@ -71,20 +58,13 @@ export const test = base.extend<{ problems: string[] }>({
       if (kind === "warning" && /\[Vue warn\]|[Hh]ydration/.test(text)) problems.push(`warning: ${text}`);
     });
     await offline(page, origin);
-    await page.addInitScript(() => {
-      document.addEventListener("DOMContentLoaded", () => {
-        const style = document.createElement("style");
-        style.textContent = "span.icon { overflow: hidden; }";
-        document.head.append(style);
-      });
-    });
     await use(problems);
     const path = new URL(page.url()).pathname;
     const unexpected = problems.filter(
       (problem) => !KNOWN_PROBLEMS.some((known) => known.path === path && known.problem === problem),
     );
     expect(unexpected, "errors on the page").toEqual([]);
-  },
+  }, { auto: true }],
 });
 
 export { expect };

@@ -15,7 +15,7 @@ describe("sitemap.xml", () => {
   const locs = () => [...read().matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
 
   it("is a sitemap", () => {
-    expect(read()).toMatch(/^<\?xml[^>]*\?><urlset /);
+    expect(read()).toMatch(/^<\?xml[^>]*\?>(<\?xml-stylesheet[^>]*\?>)?\s*<urlset /);
   });
 
   it("lists every page, and only pages", () => {

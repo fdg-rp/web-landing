@@ -17,7 +17,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 Multiple Characters",
       "h3 Build your Worth",
       "h3 Public Casino",
-      "h1 twemoji:sparkling-heart Keen to support FDG?",
+      "h1 Keen to support FDG?",
       "h2 FDG Trailers",
       "h3 4K Loadscreen",
       "h3 FDG THREAT",
@@ -25,7 +25,6 @@ exports[`keeps every page's outline 1`] = `
       "h1 Without you, FDG wouldn't be here.",
     ],
     "links": [
-      "/",
       "/server-docs",
       "/server-docs/administrative/contribute-to-docs",
       "/server-docs/administrative/donations-and-subscriptions",
@@ -46,6 +45,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -56,7 +56,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
-      "/news/articles/vehicle-business-rework",
+      "/privacy-policy",
     ],
   },
   "/lore/characters/bonk": {
@@ -74,6 +74,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -84,6 +85,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/characters/chad-realist": {
@@ -99,6 +101,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -109,6 +112,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/characters/gerald": {
@@ -125,6 +129,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -135,6 +140,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/characters/phuck-cib": {
@@ -149,6 +155,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -175,6 +182,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -185,6 +193,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/characters/wong": {
@@ -200,6 +209,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -210,6 +220,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/home": {
@@ -239,6 +250,8 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/news/articles/vehicle-business-rework",
+      "/privacy-policy",
       "/server-docs/administrative/contribute-to-docs",
       "/server-docs/rules/rules-overview",
     ],
@@ -256,6 +269,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -266,6 +280,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/brothers-mc": {
@@ -281,6 +296,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -291,6 +307,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/genesis-corporation": {
@@ -306,6 +323,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -316,6 +334,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/los-santos-outlaws": {
@@ -331,6 +350,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -341,6 +361,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/lost-mc": {
@@ -355,6 +376,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -380,6 +402,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -390,6 +413,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/the-sinners": {
@@ -405,6 +429,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -415,6 +440,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/ufasele-brothers": {
@@ -434,6 +460,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -444,6 +471,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/underdogs": {
@@ -459,6 +487,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -469,10 +498,12 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
     ],
   },
   "/lore/illegal-orgs/vandals": {
     "headings": [
+      "h1 The Vandals",
       "h1 EXCLUSIVE UPDATE: VANDALS - THE CREW WHO STOPPED THE TRAINS",
       "h3 On April 17, 2023, we highlighted a group making waves in Southside, often referred to as The Vandals. Over half a year has passed, and now they rank among the most aggressive factions in the San Andreas region. We believe it's time for an update. Dive into this in-depth article to uncover the truths about this notorious gang. If you missed our initial exposé on The Vandals during their early days as a graffiti crew, you can view it below.",
       "h2 Their Story Since:",
@@ -490,6 +521,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/characters/phuck-cib",
       "/lore/characters/rocco",
       "/lore/characters/wong",
+      "/lore/home",
       "/lore/illegal-orgs/black-hand",
       "/lore/illegal-orgs/brothers-mc",
       "/lore/illegal-orgs/genesis-corporation",
@@ -500,6 +532,7 @@ exports[`keeps every page's outline 1`] = `
       "/lore/illegal-orgs/ufasele-brothers",
       "/lore/illegal-orgs/underdogs",
       "/lore/illegal-orgs/vandals",
+      "/privacy-policy",
       "/racing/leaderboard",
     ],
   },
@@ -517,6 +550,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -530,10 +564,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/articles/dangers-of-non-https-links": {
     "headings": [
+      "h1 Dangers of Non-HTTPS Links",
       "h1 The Dangers of Non-HTTPS Links",
       "h2 What is HTTPS?",
       "h2 Why HTTPS Matters",
@@ -547,6 +583,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -560,10 +597,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/articles/exploring-the-allure-of-fivem": {
     "headings": [
+      "h1 Exploring the Allure of FiveM",
       "h1 Exploring the Allure of FiveM: Unleashing the Power of Escapism through Customisable Gaming Experiences",
       "h2 Introduction",
       "h2 Freedom to Create and Customize",
@@ -581,6 +620,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -594,6 +634,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/articles/fat-duck-dictionary": {
@@ -633,6 +674,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -646,11 +688,13 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
       "/server-docs/administrative/donations-and-subscriptions",
     ],
   },
   "/news/articles/quack-casino-financial-report-2022-2023": {
     "headings": [
+      "h1 Quack Casino EOFY Report 2022-23",
       "h1 Quack Casino: End of Financial Year Report 2022/23",
       "h2 Definitions",
       "h2 Bets Placed",
@@ -664,6 +708,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -677,23 +722,26 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/articles/vehicle-business-rework": {
     "headings": [
+      "h1 Vehicle Business Rework",
       "h1 Closing Dealerships",
       "h1 Illegal Car Mods",
       "h1 Locations of the Businesses",
       "h1 Changes to the Job",
     ],
     "links": [
-      "/lore/characters/bob-squash",
+      "/lore/home",
       "/news/articles/civilian-content-uplift",
       "/news/articles/dangers-of-non-https-links",
       "/news/articles/exploring-the-allure-of-fivem",
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -735,10 +783,13 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
+      "/server-docs/troubleshooting/network-diagnostics",
     ],
   },
   "/news/newsletters/2023-01-july": {
     "headings": [
+      "h1 July 2024 Newsletter",
       "h1 FDG Newsletter - July Edition",
       "h2 Introduction",
       "h2 Development",
@@ -767,6 +818,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -780,10 +832,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/2023-05-may": {
     "headings": [
+      "h1 May 2023 Newsletter",
       "h1 FDG Newsletter - May 2023",
       "h2 Community Events",
       "h2 Milestones",
@@ -799,6 +853,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -812,10 +867,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/2023-10-october": {
     "headings": [
+      "h1 October 2023 Newsletter",
       "h1 FDG Newsletter - October 2023",
       "h3 We're back! Sorry for the delay.",
       "h2 Community Events",
@@ -829,6 +886,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -842,10 +900,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/2023-11-november": {
     "headings": [
+      "h1 November 2023 Newsletter",
       "h1 FDG Newsletter - November 2023",
       "h2 Community Events",
       "h2 Featured Community Members",
@@ -859,6 +919,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -872,10 +933,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/2024-01-march": {
     "headings": [
+      "h1 2024 Q1 Newsletter",
       "h1 FDG Newsletter - First of 2024",
       "h3 A bigger and better Newsletter",
       "h2 Introduction",
@@ -892,6 +955,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -905,10 +969,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/2024-01-september": {
     "headings": [
+      "h1 August / September 2024 Newsletter",
       "h1 FDG Newsletter - August / September Edition",
       "h2 Introduction",
       "h2 Development",
@@ -937,6 +1003,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -950,7 +1017,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
-      "/server-docs",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/2025-26-summer-newsletter": {
@@ -982,6 +1049,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -995,6 +1063,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/fdg-newsletter-autumn-edition": {
@@ -1032,6 +1101,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -1045,6 +1115,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/newsletters/fdg-newsletter-winter-edition": {
@@ -1079,6 +1150,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -1092,6 +1164,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/service-reports/02-01-25-dispatch-release-gone-haywire": {
@@ -1111,6 +1184,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -1124,10 +1198,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/service-reports/02-08-24-the-case-of-the-very-rude-message": {
     "headings": [
+      "h1 Post-Incident Review: The Case of the Very Rude Message - 2 August 2024",
       "h1 Post-Incident Review: The Case of the Very Rude Message",
       "h2 Timeline of Events",
       "h2 Actions Taken and Future Prevention",
@@ -1140,6 +1216,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -1153,10 +1230,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/service-reports/11-05-24-database-problem": {
     "headings": [
+      "h1 Database.exe cannot be found - 11 May 2024",
       "h1 Incident Report: Databse.exe Cannot Be Found",
       "h2 Introduction",
       "h2 Timeline & Events",
@@ -1169,6 +1248,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -1182,10 +1262,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/news/service-reports/23-11-24-mfa-rollout-gone-wrong": {
     "headings": [
+      "h1 The MFA Rollout Gone Wrong - 23 Nov 2024",
       "h1 Incident Report: Session Tokens and Recursive Chaos – The MFA Rollout Gone Wrong",
       "h2 Summary",
       "h2 What Happened?",
@@ -1199,6 +1281,7 @@ exports[`keeps every page's outline 1`] = `
       "/news/articles/fat-duck-dictionary",
       "/news/articles/quack-casino-financial-report-2022-2023",
       "/news/articles/vehicle-business-rework",
+      "/news/home",
       "/news/newsletters/2023-01-july",
       "/news/newsletters/2023-05-may",
       "/news/newsletters/2023-10-october",
@@ -1212,10 +1295,12 @@ exports[`keeps every page's outline 1`] = `
       "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
       "/news/service-reports/11-05-24-database-problem",
       "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
+      "/privacy-policy",
     ],
   },
   "/privacy-policy": {
     "headings": [
+      "h1 Privacy Policy",
       "h1 Privacy Policy",
       "h2 Information We Collect",
       "h3 Information from Discord",
@@ -1235,12 +1320,91 @@ exports[`keeps every page's outline 1`] = `
       "h2 Contact Us",
     ],
     "links": [
+      "/lore/characters/bob-squash",
+      "/lore/characters/bonk",
+      "/lore/characters/chad-realist",
+      "/lore/characters/gerald",
+      "/lore/characters/phuck-cib",
+      "/lore/characters/rocco",
+      "/lore/characters/wong",
+      "/lore/home",
+      "/lore/illegal-orgs/black-hand",
+      "/lore/illegal-orgs/brothers-mc",
+      "/lore/illegal-orgs/genesis-corporation",
+      "/lore/illegal-orgs/los-santos-outlaws",
+      "/lore/illegal-orgs/lost-mc",
+      "/lore/illegal-orgs/slovak-mafia",
+      "/lore/illegal-orgs/the-sinners",
+      "/lore/illegal-orgs/ufasele-brothers",
+      "/lore/illegal-orgs/underdogs",
+      "/lore/illegal-orgs/vandals",
+      "/news/articles/civilian-content-uplift",
+      "/news/articles/dangers-of-non-https-links",
+      "/news/articles/exploring-the-allure-of-fivem",
+      "/news/articles/fat-duck-dictionary",
+      "/news/articles/quack-casino-financial-report-2022-2023",
+      "/news/articles/vehicle-business-rework",
+      "/news/home",
+      "/news/newsletters/2023-01-july",
+      "/news/newsletters/2023-05-may",
+      "/news/newsletters/2023-10-october",
+      "/news/newsletters/2023-11-november",
+      "/news/newsletters/2024-01-march",
+      "/news/newsletters/2024-01-september",
+      "/news/newsletters/2025-26-summer-newsletter",
+      "/news/newsletters/fdg-newsletter-autumn-edition",
+      "/news/newsletters/fdg-newsletter-winter-edition",
+      "/news/service-reports/02-01-25-dispatch-release-gone-haywire",
+      "/news/service-reports/02-08-24-the-case-of-the-very-rude-message",
+      "/news/service-reports/11-05-24-database-problem",
+      "/news/service-reports/23-11-24-mfa-rollout-gone-wrong",
       "/privacy-policy",
+      "/racing/leaderboard",
+      "/server-docs",
+      "/server-docs/activities-guides/diving",
+      "/server-docs/activities-guides/farming",
+      "/server-docs/activities-guides/fishing",
+      "/server-docs/activities-guides/hunting",
+      "/server-docs/activities-guides/racing",
+      "/server-docs/activities-guides/robbery-and-theft",
+      "/server-docs/activities-guides/trucking",
+      "/server-docs/administrative/appeals",
+      "/server-docs/administrative/contribute-to-docs",
+      "/server-docs/administrative/donations-and-subscriptions",
+      "/server-docs/administrative/gang-applications",
+      "/server-docs/administrative/player-complaints",
+      "/server-docs/getting-started/common-commands",
+      "/server-docs/getting-started/controls",
+      "/server-docs/getting-started/how-to-clip",
+      "/server-docs/getting-started/how-to-connect",
+      "/server-docs/getting-started/ic-vs-ooc",
+      "/server-docs/getting-started/installation",
+      "/server-docs/getting-started/minimum-identifiers",
+      "/server-docs/getting-started/quick-start-guide",
+      "/server-docs/getting-started/voice-chat",
+      "/server-docs/job-guides/medical-system-guide",
+      "/server-docs/job-guides/open-vs-whitelisted-jobs",
+      "/server-docs/job-guides/police",
+      "/server-docs/job-guides/saes",
+      "/server-docs/rules/community-wide-rules",
+      "/server-docs/rules/content-creators",
+      "/server-docs/rules/fivem-rules",
+      "/server-docs/rules/graphic-modifications",
+      "/server-docs/rules/opt-in-rules",
       "/server-docs/rules/rules-overview",
+      "/server-docs/rules/service-guidelines",
+      "/server-docs/rules/verifiedmenu",
+      "/server-docs/troubleshooting/how-to-clear-fivem-cache",
+      "/server-docs/troubleshooting/how-to-fix-fivem-crashing",
+      "/server-docs/troubleshooting/how-to-fix-texture-loss",
+      "/server-docs/troubleshooting/how-to-fix-ui-lag",
+      "/server-docs/troubleshooting/how-to-get-citizenfx-log",
+      "/server-docs/troubleshooting/network-diagnostics",
     ],
   },
   "/racing/leaderboard": {
     "headings": [
+      "h1 Ranked Season 4: 1st of May – 21st of July",
       "h1 Ranked Season 4: 1st of May – 21st of July",
       "h3 Ranked Leaderboard",
     ],
@@ -1251,6 +1415,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs": {
     "headings": [
+      "h1 Guides & Docs",
       "h1 Server Documentation",
       "h3 Getting Started",
       "h3 Rules",
@@ -1260,7 +1425,6 @@ exports[`keeps every page's outline 1`] = `
       "h3 Troubleshooting",
     ],
     "links": [
-      "/news/newsletters/2024-01-september",
       "/server-docs",
       "/server-docs/activities-guides",
       "/server-docs/activities-guides/diving",
@@ -1311,6 +1475,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/diving": {
     "headings": [
+      "h1 Diving",
       "h1 Diving Guide",
       "h2 What do I need to get started?",
       "h2 How do I use my equipment?",
@@ -1319,6 +1484,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 How do I scavenge for loot?",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1363,6 +1529,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/farming": {
     "headings": [
+      "h1 Farming",
       "h1 Farming Guide",
     ],
     "links": [
@@ -1410,6 +1577,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/fishing": {
     "headings": [
+      "h1 Fishing",
       "h1 About",
       "h2 Getting started",
       "h1 How to Fish",
@@ -1418,6 +1586,7 @@ exports[`keeps every page's outline 1`] = `
       "h1 Tips & Tricks",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1462,6 +1631,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/hunting": {
     "headings": [
+      "h1 Hunting",
       "h1 Hunting Guide",
       "h2 About",
       "h2 Getting Started",
@@ -1475,6 +1645,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Tips & Tricks",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1519,6 +1690,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/racing": {
     "headings": [
+      "h1 Racing",
       "h1 Racing Guide",
       "h2 Racing Scene",
       "h2 How to Create a Race",
@@ -1529,6 +1701,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Tips & Tricks",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1573,6 +1746,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/robbery-and-theft": {
     "headings": [
+      "h1 Robbery And Theft",
       "h2 title: "Robbery & Theft" description: "Make some quick cash while evading law enforcement and strong-willed citizens" aside: true bottom: true toc: true",
       "h1 Robbery & Theft Guide",
       "h2 About",
@@ -1583,6 +1757,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Arsenal Robberies",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1627,6 +1802,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/activities-guides/trucking": {
     "headings": [
+      "h1 Trucking",
       "h1 About",
       "h1 Getting Started",
       "h1 Courier Deliveries",
@@ -1639,6 +1815,7 @@ exports[`keeps every page's outline 1`] = `
       "h1 Tips & Tricks",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1683,6 +1860,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/administrative/appeals": {
     "headings": [
+      "h1 Appeals",
       "h1 Appealing Administrative Decisions",
       "h2 Submitting an Appeal",
       "h3 Step 1 - Consider Your Eligibility",
@@ -1694,6 +1872,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 My appeal was denied, can I appeal again?",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1738,6 +1917,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/administrative/contribute-to-docs": {
     "headings": [
+      "h1 Contribute to Docs",
       "h1 Contribute to the FDG Docs",
       "h2 Design Principles",
       "h2 Syntax",
@@ -1747,6 +1927,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 To Edit an Existing Doc",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1792,6 +1973,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/administrative/donations-and-subscriptions": {
     "headings": [
       "h1 Donations & Subscriptions",
+      "h1 Donations & Subscriptions",
       "h2 Why Support FDG?",
       "h2 Donation Options",
       "h2 How to Donate or Subscribe",
@@ -1801,6 +1983,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Discord Roles",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1846,10 +2029,12 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/administrative/gang-applications": {
     "headings": [
       "h1 Gang Application Guidelines",
+      "h1 Gang Application Guidelines",
       "h2 Application Requirements",
       "h2 Opt-in Organisational Rules",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1894,6 +2079,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/administrative/player-complaints": {
     "headings": [
+      "h1 Player Complaints",
       "h1 Rule Breaches & Player Complaints",
       "h2 How to Report a Rule Breach",
       "h3 Submitting an In-Game Report Message",
@@ -1904,6 +2090,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 Submit ASAP",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -1949,6 +2136,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/common-commands": {
     "headings": [
       "h1 Common Commands",
+      "h1 Common Commands",
       "h2 How to use in-game Commands",
       "h2 Roleplay Commands",
       "h3 /boot",
@@ -1977,6 +2165,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 /t",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2022,6 +2211,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/controls": {
     "headings": [
       "h1 Controls",
+      "h1 Controls",
       "h2 Keyboard Controls",
       "h3 General Keys",
       "h3 Roleplay Keys",
@@ -2032,6 +2222,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 The ALT Wheel Menu",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2076,6 +2267,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/getting-started/how-to-clip": {
     "headings": [
+      "h1 How to Clip",
       "h1 How to Clip FiveM",
       "h2 About",
       "h2 Nvidia Shadowplay",
@@ -2084,6 +2276,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 How to Setup Medal.tv",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2129,6 +2322,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/how-to-connect": {
     "headings": [
       "h1 How to Connect",
+      "h1 How to Connect",
       "h2 Discord Verification",
       "h2 Connect to the Server",
       "h3 By Connect URL",
@@ -2136,6 +2330,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 By FiveM Server Browser",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2181,10 +2376,12 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/ic-vs-ooc": {
     "headings": [
       "h1 IC vs OOC",
+      "h1 IC vs OOC",
       "h2 IC (In-Character)",
       "h2 OOC (Out-of-Character)",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2230,6 +2427,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/installation": {
     "headings": [
       "h1 Installation",
+      "h1 Installation",
       "h2 What is FiveM",
       "h2 Installation Steps",
       "h3 Download GTA:V",
@@ -2238,6 +2436,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 Launch FiveM & Link Rockstar Account",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2283,6 +2482,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/minimum-identifiers": {
     "headings": [
       "h1 Minimum Identifiers",
+      "h1 Minimum Identifiers",
       "h2 Discord (Mandatory)",
       "h3 Step 1 — Link Discord to FiveM",
       "h3 Step 2 — Verify in the FDG Discord",
@@ -2293,6 +2493,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Summary",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2338,6 +2539,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/getting-started/quick-start-guide": {
     "headings": [
       "h1 Quick Start Guide",
+      "h1 Quick Start Guide",
       "h2 Table of Contents",
       "h2 Creating Your First Character",
       "h3 Changing Outfits",
@@ -2357,6 +2559,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Renting Property",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2401,10 +2604,12 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/getting-started/voice-chat": {
     "headings": [
+      "h1 Voice Chat",
       "h1 Voice Chat (VC)",
       "h2 Setting Up Voice Chat",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2449,6 +2654,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/job-guides/medical-system-guide": {
     "headings": [
+      "h1 Medical System Guide",
       "h2 About",
       "h2 What’s Changed?",
       "h1 How it Works",
@@ -2456,6 +2662,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Special Equipment",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2501,6 +2708,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/job-guides/open-vs-whitelisted-jobs": {
     "headings": [
       "h1 Open vs Whitelisted Jobs",
+      "h1 Open vs Whitelisted Jobs",
       "h2 About",
       "h2 Whitelisted Jobs",
       "h3 DoJ Jobs",
@@ -2509,6 +2717,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 How to Apply for Whitelisted Jobs",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2554,6 +2763,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/job-guides/police": {
     "headings": [
       "h1 Police",
+      "h1 Police",
       "h2 About",
       "h2 What to expect?",
       "h2 Ranks, Perks and Salary",
@@ -2568,6 +2778,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 How to Apply",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2612,6 +2823,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/job-guides/saes": {
     "headings": [
+      "h1 Emergency Services",
       "h1 San Andreas Emergency Services",
       "h2 About",
       "h2 What to expect?",
@@ -2626,6 +2838,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 How to Apply",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2670,6 +2883,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/rules/community-wide-rules": {
     "headings": [
+      "h1 Community-Wide Rules",
       "h1 Community-Wide Rules (C-Rules)",
     ],
     "links": [
@@ -2718,12 +2932,14 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/content-creators": {
     "headings": [
       "h1 Content Creator Guidelines",
+      "h1 Content Creator Guidelines",
       "h2 Content Creator Perks",
       "h2 Endorsed Content Creator Perks",
       "h2 Eligibility",
       "h2 Content Creator/Streamer Guidelines - Terms and Conditions",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2768,6 +2984,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/rules/fivem-rules": {
     "headings": [
+      "h1 FiveM Rules",
       "h1 FiveM Rules (F-Rules)",
     ],
     "links": [
@@ -2815,12 +3032,14 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/rules/graphic-modifications": {
     "headings": [
+      "h1 Graphic Modifications",
       "h1 Graphic Modifications Guidlines",
       "h2 Verified Graphic Modification Decisions",
       "h3 Currently Banned",
       "h3 Currently Allowed",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2866,12 +3085,14 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/opt-in-rules": {
     "headings": [
       "h1 Opt-in Rules",
+      "h1 Opt-in Rules",
       "h2 Organisation Rules (O-Rules)",
       "h2 Business Rules (B-Rules)",
       "h2 Government Rules (G-Rules)",
       "h2 Cayo Perico Rules (PVP-Rules)",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2917,6 +3138,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/rules-overview": {
     "headings": [
       "h1 Rules Overview",
+      "h1 Rules Overview",
       "h3 Core FDG Rules",
       "h3 Opt-in FDG Rules",
       "h2 Third-party Rules",
@@ -2925,6 +3147,7 @@ exports[`keeps every page's outline 1`] = `
       "h3 Appeals",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -2970,10 +3193,12 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/service-guidelines": {
     "headings": [
       "h1 Service Guidelines",
+      "h1 Service Guidelines",
       "h2 Service Disclaimer",
       "h2 Donation & Tebex Guidelines",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -3019,6 +3244,7 @@ exports[`keeps every page's outline 1`] = `
   "/server-docs/rules/verifiedmenu": {
     "headings": [
       "h1 Verified Menu Guidelines",
+      "h1 Verified Menu Guidelines",
       "h2 Verified Menu Perks",
       "h2 Eligibility",
       "h2 Applying for Verified Menu",
@@ -3028,6 +3254,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Text Marker",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -3072,6 +3299,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/troubleshooting/how-to-clear-fivem-cache": {
     "headings": [
+      "h1 Clearing FiveM Cache",
       "h1 How to clear FiveM Cache",
     ],
     "links": [
@@ -3119,6 +3347,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/troubleshooting/how-to-fix-fivem-crashing": {
     "headings": [
+      "h1 FiveM Crashing Fixes",
       "h1 How to Potentially Fix FiveM Crashing",
       "h2 Causes of FiveM Crashes",
       "h2 Potential Fixes",
@@ -3132,6 +3361,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Still Crashing?",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -3176,6 +3406,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/troubleshooting/how-to-fix-texture-loss": {
     "headings": [
+      "h1 Texture Loss",
       "h1 How to fix Texture Loss",
       "h2 Causes of Texture Loss",
       "h2 Texture Fix Command",
@@ -3186,6 +3417,7 @@ exports[`keeps every page's outline 1`] = `
       "h2 Turn off "Extended Distance Scaling"",
     ],
     "links": [
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",
@@ -3230,6 +3462,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/troubleshooting/how-to-fix-ui-lag": {
     "headings": [
+      "h1 UI Lag",
       "h1 How to fix UI Lag",
     ],
     "links": [
@@ -3277,6 +3510,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/troubleshooting/how-to-get-citizenfx-log": {
     "headings": [
+      "h1 Gathering CitizenFX.log",
       "h1 How to get your CitizenFX.log File to Report In-game Bugs",
     ],
     "links": [
@@ -3324,6 +3558,7 @@ exports[`keeps every page's outline 1`] = `
   },
   "/server-docs/troubleshooting/network-diagnostics": {
     "headings": [
+      "h1 Network Diagnostics",
       "h1 Network Diagnostics Using WinMTR",
       "h2 Step 1: Download WinMTR.zip",
       "h2 Step 2: Extract WinMTR.zip Contents to Desktop",
@@ -3334,6 +3569,8 @@ exports[`keeps every page's outline 1`] = `
       "h2 Step 7: Take a Screenshot and Attach to FDG Support Ticket",
     ],
     "links": [
+      "/news/home",
+      "/privacy-policy",
       "/server-docs",
       "/server-docs/activities-guides/diving",
       "/server-docs/activities-guides/farming",

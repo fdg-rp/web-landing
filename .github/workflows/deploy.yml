@@ -27,10 +27,10 @@ jobs:
         colour: "5793266"
         description: "Building the site before it is copied to the server."
 
-    - name: Set Node.js 20.x
+    - name: Set Node.js 22.x
       uses: actions/setup-node@v4
       with:
-        node-version: 20.x
+        node-version: 22.x
         cache: yarn
       
     - name: Run install

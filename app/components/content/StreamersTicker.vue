@@ -1,12 +1,12 @@
 <template>
   <div style="padding-bottom: 128px">
-    <ContentSlot :use="$slots.default" />
+    <slot />
     <ClientOnly>
       <MarqueeText :duration="40" :paused="isPaused" @mouseenter="isPaused = !isPaused" @mouseleave="isPaused = false">
         <div style="display: flex">
-          <div class="streamer-card" v-for="s in streamers" :key="s.href" @click="gotoStreamer(s.href)">
+          <div v-for="s in streamers" :key="s.href" class="streamer-card" @click="gotoStreamer(s.href)">
             <div>
-              <img :src="s.img" class="streamer-card-img" />
+              <img :src="s.img" class="streamer-card-img" >
             </div>
             <div>
               <div class="streamer-card-title">
@@ -100,44 +100,20 @@ const streamers = [
 ];
 </script>
 
-<style scoped lang="ts">
-css({
-    '.streamer-card': {
-        position: 'relative',
-        padding: '2rem',
-        border: '1px solid #9146FF',
-        background: '#9146FF33',
-        borderRadius: '1rem',
-        marginLeft: '2rem',
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        '&:hover': {
-          background: '#9146FF88',
-          cursor: 'pointer',
-          transition: 'background 0.25s'
-        }
-    },
-    '.streamer-card-title': {
-        marginBottom: '0.5rem',
-        fontSize: '1.125rem',
-        lineHeight: '1.75rem',
-        fontWeight: '600',
-        // color: '#FBFBFB'
-    },
-    '.streamer-card-subtitle': {
-        marginBottom: '0.5rem',
-        fontSize: '0.875rem',
-        lineHeight: '1.25rem',
-        fontWeight: '500',
-        color: '#ADA9A4'
-    },
-    '.streamer-card-img': {
-        width: '50px',
-        height: '50px',
-        marginRight: '1rem',
-        borderRadius: '50px'
-    }
-
-})
+<style scoped>
+.streamer-card {
+  position: relative;
+  padding: 2rem;
+  border: 1px solid #9146ff;
+  background: #9146ff33;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.streamer-card:hover { background: #9146ff88; cursor: pointer; transition: background 0.25s; }
+.streamer-card-title { margin-bottom: 0.5rem; font-size: 1.125rem; line-height: 1.75rem; font-weight: 600; }
+.streamer-card-subtitle { margin-bottom: 0.5rem; font-size: 0.875rem; line-height: 1.25rem; font-weight: 500; color: #ada9a4; }
+.streamer-card-img { width: 50px; height: 50px; margin-right: 1rem; border-radius: 50px; }
 </style>

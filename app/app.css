@@ -1,0 +1,11 @@
+/* Site styles on top of Docus (imported after Tailwind and Nuxt UI). */
+
+@import "@fontsource-variable/inter";
+
+/* Tailwind only builds the classes it finds: include the site's components. */
+@source "./components";
+
+@theme {
+  /* Inter, as the site has always used. */
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}

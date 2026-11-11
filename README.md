@@ -50,3 +50,5 @@ yarn test:all       # all of the above
 - `test/build/` checks the files in `built/public`. `yarn test` also runs in the deploy, before the live site is replaced.
 - `test/build/outline.test.ts` snapshots every page's headings and links. Editing content changes it on purpose: run `yarn test:outline -u` and review the diff. A dependency update should leave it unchanged.
 - `test/e2e/` runs the site in Chromium with Playwright: pages load without errors, navigation and search work, and pages fit the screen. The site's APIs are answered with fixtures (`test/e2e/fixtures.ts`). The first time, run `yarn playwright install chromium`.
+
+The site needs Node 22. `yarn lint` checks the code.

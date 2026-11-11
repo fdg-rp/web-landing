@@ -1,8 +1,9 @@
 # web-landing
 
 The public site at https://fatduckgaming.com: FDG's landing page, server
-docs, news and lore. A static Nuxt 3 site on the Docus 1.x theme. Pages are
-Markdown in `content/`. Site components are in `components/content/`.
+docs, news and lore. A static site on Docus 5 (a Nuxt 4 layer on Nuxt UI 4,
+Tailwind 4 and Nuxt Content 3), built with Node 22. Pages are Markdown in
+`content/`; the site's own components are in `app/components/`.
 
 - Deploys on every push to `main` (`.github/workflows/deploy.yml`): it
   generates the site, runs `yarn test`, deletes the live files and copies
@@ -11,51 +12,42 @@ Markdown in `content/`. Site components are in `components/content/`.
 - Pull requests run `.github/workflows/test.yml`: build, `yarn test`, the
   outline snapshot when dependencies changed, and the browser tests.
 
+## How the site is put together
+
+- `nuxt.config.ts` holds what Docus doesn't do for a static host: folder
+  URLs redirect to a page (`navigation.redirect` in a folder's
+  `.navigation.yml`, else its first page), every page is prerendered, each
+  page's Markdown version is copied to `<page>.md`, and a page's leading
+  `# Title` is dropped when it repeats the title Docus already shows.
+- Content written for Docus 1 still works: `::alert`, `::list`,
+  `::card-grid`/`::card`, `::callout`, `::block-hero`, `:ellipsis` and
+  `:video-player` are components in `app/components/content/` (`::card`
+  and `::callout` map to `FdgCard`/`FdgCallout`, past Nuxt UI's own).
+- Folder settings (icon, title, redirect) are in `.navigation.yml`. A
+  section's menu order follows file names, so each section's `0.home.md`
+  comes first and its tab opens it.
+- Inter is bundled from npm; no font or icon is fetched from a font service
+  at build time except Iconify icons, which `@nuxt/icon` bundles.
+- The server must send `.wasm` files as `application/wasm` (Content's
+  search database runs in the browser).
+
 ## Testing
 
-See "Testing" in `README.md`. Before you commit, run `yarn test:build`,
-then `yarn test`, then `yarn test:e2e`. If you changed content, also run
-`yarn test:outline -u` and review the snapshot diff.
+See "Testing" in `README.md`. Before you commit, run `yarn lint`,
+`yarn test:build`, then `yarn test` and `yarn test:e2e`. If you changed
+content, also run `yarn test:outline -u` and review the snapshot diff.
 
-Every test runs offline. The site makes three network calls: GitHub
+The tests run offline. The site makes three network calls: GitHub
 contributors and announcements while it builds, and the racing leaderboard
 in the browser. The test build bakes no data from the first two, and the
 browser tests answer the third with a fixture. Don't add a test that needs
 the network.
 
-## Known issues
+## Dependencies
 
-These are recorded in the tests and should be fixed by the upgrade below:
-
-- The home page has a hydration mismatch. Pinceau, the styling engine in
-  Docus 1.x, hashes the `Container` classes differently on the server and
-  in the browser. It's an accepted problem in `test/e2e/fixtures.ts`
-  (`KNOWN_PROBLEMS`): remove that entry once the mismatch is gone.
-- `yarn lint` fails: ESLint 9 no longer reads `.eslintrc.cjs`.
-- Icons load from the public Iconify API at build time and in the browser.
-- `components/SearchOverlay.vue` and `components/Overlay.vue` are not used:
-  search is Docus's own.
-
-## Upgrading dependencies
-
-Most packages are a major version or more behind. The upgrade is two steps,
-each on its own branch and each judged by the tests:
-
-1. **Within Docus 1.x.** Update Nuxt to the latest 3.x, `nuxt-og-image` to
-   the last version that supports this setup, and the smaller packages
-   (`sitemap`, `@nuxtjs/plausible`, `@nuxt/devtools`). Also move ESLint to
-   `eslint.config.mjs` and Vitest to the latest version: Vitest 4 and later
-   need a newer Vite than Nuxt 3.12 provides. `yarn test:outline` must pass
-   unchanged.
-2. **Docus 1 → current `docus` on Nuxt 4 and Nuxt Content 3.** Pinceau is
-   gone in this version, so this step means rewriting the theme overrides
-   (`components/DocsPageLayout.vue`, `components/DocsToc.vue`, `app.config.ts`,
-   the `css({...})` styles in `components/content/`). The routes and server
-   routes move to Content 3's collections API (`server/routes/*.ts`,
-   `ServerDocsCategoryGrid.vue`). Here the outline snapshot is a review aid,
-   not a gate: expect markup changes, but no page, heading or link should
-   disappear.
-
-Before starting either step, refresh the snapshot on `main` (`yarn
-test:build && yarn test:outline -u`), so the only differences are ones the
-upgrade causes.
+Everything is on its latest major except, on purpose: `@playwright/test`
+(pinned to the browser build the cloud sessions have), `@types/node` (the
+Node 22 the site runs on), `better-sqlite3` (Docus wants 12.x) and
+TypeScript 5. After a dependency update, `yarn test:outline` should pass
+unchanged; refresh the snapshot on `main` first (`yarn test:build && yarn
+test:outline -u`) so it only shows what the update changed.
