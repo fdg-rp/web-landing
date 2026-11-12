@@ -12,3 +12,6 @@ sw.*
 .env.*
 .output
 built
+test-results/
+playwright-report/
+.data

@@ -1,0 +1,82 @@
+# Builds the site and runs its tests on every pull request (Dependabot's
+# dependency updates included) and on pushes to branches other than main,
+# which deploy.yml builds, tests and deploys.
+
+name: Test
+
+on:
+  pull_request:
+  push:
+    branches-ignore: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: yarn
+
+      - name: Install
+        run: yarn install --frozen-lockfile
+
+      - name: Build the site
+        run: yarn test:build
+
+      - name: Test the generated site
+        run: yarn test
+
+      # A dependency update (package.json or yarn.lock changed) must not
+      # change any page's headings or links. The base commit is built too and
+      # its outlines become the snapshot, so content edits merged since the
+      # committed snapshot was refreshed can't fail the check.
+      - name: Check whether dependencies changed
+        id: deps
+        run: |
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          if [ -n "$base" ] && git cat-file -e "$base" 2>/dev/null \
+            && ! git diff --quiet "$base" HEAD -- package.json yarn.lock; then
+            echo "base=$base" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Record the base commit's page outlines
+        id: base
+        if: steps.deps.outputs.base
+        run: |
+          git worktree add --detach "$RUNNER_TEMP/base" "${{ steps.deps.outputs.base }}"
+          cd "$RUNNER_TEMP/base"
+          if [ ! -f vitest.outline.config.ts ]; then
+            echo "The base commit has no outline test; skipping the comparison."
+            exit 0
+          fi
+          yarn install --frozen-lockfile
+          yarn test:build
+          yarn test:outline -u
+          cp test/build/__snapshots__/outline.test.ts.snap "$GITHUB_WORKSPACE/test/build/__snapshots__/"
+          echo "recorded=true" >> "$GITHUB_OUTPUT"
+
+      - name: Check the page outlines are unchanged
+        if: steps.base.outputs.recorded == 'true'
+        run: yarn test:outline
+
+      - name: Install the test browser
+        run: yarn playwright install --with-deps chromium
+
+      - name: Test the site in a browser
+        run: yarn test:e2e --project=desktop --project=mobile
+
+      - name: Keep the browser test report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 14

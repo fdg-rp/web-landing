@@ -1,0 +1,23 @@
+/* Site styles on top of Docus (imported after Tailwind and Nuxt UI). */
+
+@import "@fontsource-variable/inter";
+
+/* Tailwind only builds the classes it finds: include the site's components. */
+@source "./components";
+
+@theme {
+  /* Inter, as the site has always used. */
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* The page width the site has always had (Docus 5 defaults to 90rem). */
+:root {
+  --ui-container: 80rem;
+}
+
+/* An :icon in a heading is as big as its text, as in Docus 1. */
+:is(h1, h2, h3) .iconify {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
