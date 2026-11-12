@@ -6,7 +6,7 @@
 // and baked into the page, so they are not checked here: the test build
 // runs without network access.
 
-import { expect, leaderboard, test } from "./fixtures";
+import { expect, leaderboard, leaderboardDown, test } from "./fixtures";
 
 test.describe("home page", () => {
   test("loads in dark mode with the hero", async ({ page }) => {
@@ -74,6 +74,13 @@ test.describe("racing leaderboard", () => {
     const rows = page.locator(".leaderboard-table tbody tr");
     await expect(rows).toHaveCount(leaderboard.length);
     await expect(rows.first()).toContainText(leaderboard[0].name);
+  });
+
+  test("points to Discord when the API is down", async ({ page }) => {
+    await leaderboardDown(page);
+    await page.goto("/racing/leaderboard");
+    await expect(page.getByRole("status")).toContainText("unavailable right now");
+    await expect(page.getByRole("status").getByRole("link")).toHaveAttribute("href", /discord\.gg/);
   });
 });
 

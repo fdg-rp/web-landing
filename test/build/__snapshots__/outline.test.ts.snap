@@ -760,7 +760,7 @@ exports[`keeps every page's outline 1`] = `
   "/news/home": {
     "headings": [
       "h1 News",
-      "h2 Recent Annoucments",
+      "h2 Recent Announcements",
     ],
     "links": [
       "/news/articles/civilian-content-uplift",

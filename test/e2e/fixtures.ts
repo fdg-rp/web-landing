@@ -16,6 +16,13 @@ export const leaderboard = [
   { name: "Test Driver Two", races: 8, wins: 1, placements: 4, mmr: 1120 },
 ];
 
+/** Answers the leaderboard API with a server error (an outage). */
+export async function leaderboardDown(page: Page) {
+  await page.route("https://api.fatduckgaming.com/support/racing/leaderboard", (route) =>
+    route.fulfill({ status: 523, body: "" }),
+  );
+}
+
 async function offline(page: Page, origin: string) {
   await page.route("**/*", (route) => {
     const url = new URL(route.request().url());

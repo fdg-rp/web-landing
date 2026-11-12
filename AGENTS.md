@@ -6,11 +6,20 @@ Tailwind 4 and Nuxt Content 3), built with Node 22. Pages are Markdown in
 `content/`; the site's own components are in `app/components/`.
 
 - Deploys on every push to `main` (`.github/workflows/deploy.yml`): it
-  generates the site, runs `yarn test`, deletes the live files and copies
-  the build to the server. A failing test stops the deploy before anything
-  is deleted.
+  generates the site, runs `yarn test`, uploads the build to a staging
+  folder on the server (`~/.deploy/web-landing-next`), then syncs it into
+  the live folder with `rsync --checksum --delete` (a wipe-and-copy from the
+  staged files where the host has no rsync). Top-level dotfiles in the live
+  folder (`.well-known/`) are kept. Nothing live changes until the upload
+  has finished.
 - Pull requests run `.github/workflows/test.yml`: build, `yarn test`, the
-  outline snapshot when dependencies changed, and the browser tests.
+  browser tests and, when `package.json` or `yarn.lock` changed, an outline
+  check against a build of the base commit (so content edits never fail a
+  dependency PR).
+- Renovate (`renovate.json`) groups updates and merges patch and minor ones
+  itself once the Test check passes, which deploys them. Majors wait for a
+  person. The four held-back packages below are capped there too. The
+  Renovate GitHub app has to be installed on the repo for any of it to run.
 
 ## How the site is put together
 

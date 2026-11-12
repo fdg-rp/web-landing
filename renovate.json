@@ -1,8 +1,54 @@
 {
-    "extends": [
-      "@nuxtjs"
-    ],
-    "lockFileMaintenance": {
-      "enabled": true
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Dependency updates for the FDG site. Patch and minor updates merge themselves once the Test check passes (merging to main deploys the site); major updates wait for a person.",
+  "extends": ["config:recommended", ":semanticCommitsDisabled"],
+  "timezone": "Australia/Brisbane",
+  "schedule": ["before 6am on monday"],
+  "prConcurrentLimit": 5,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "description": "Merge patch and minor updates when the Test check passes.",
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin"],
+      "automerge": true
+    },
+    {
+      "description": "Nuxt, Docus and their modules move together.",
+      "groupName": "Nuxt and Docus",
+      "matchPackageNames": ["nuxt", "docus", "@nuxt/**", "@nuxtjs/**", "nuxt-*"]
+    },
+    {
+      "description": "Icon and font packages change together and often.",
+      "groupName": "icons and fonts",
+      "matchPackageNames": ["@iconify-json/**", "@fontsource-variable/**"]
+    },
+    {
+      "description": "GitHub Actions used by the workflows.",
+      "groupName": "GitHub Actions",
+      "matchManagers": ["github-actions"]
+    },
+    {
+      "description": "Held back on purpose (see AGENTS.md): types for the Node 22 the site runs on.",
+      "matchPackageNames": ["@types/node"],
+      "allowedVersions": "22.x"
+    },
+    {
+      "description": "Held back on purpose (see AGENTS.md): Docus requires better-sqlite3 12.x.",
+      "matchPackageNames": ["better-sqlite3"],
+      "allowedVersions": "12.x"
+    },
+    {
+      "description": "Held back on purpose (see AGENTS.md): TypeScript 7 is not yet checked against Nuxt 4.",
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "5.x"
+    },
+    {
+      "description": "Held back on purpose (see AGENTS.md): pinned to the browser build Claude's cloud sessions have.",
+      "matchPackageNames": ["@playwright/test"],
+      "enabled": false
     }
+  ]
 }

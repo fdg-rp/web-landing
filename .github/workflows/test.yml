@@ -34,19 +34,37 @@ jobs:
       - name: Test the generated site
         run: yarn test
 
-      # The page outlines change with content edits, so the snapshot is only
-      # checked when dependencies change (package.json or yarn.lock).
+      # A dependency update (package.json or yarn.lock changed) must not
+      # change any page's headings or links. The base commit is built too and
+      # its outlines become the snapshot, so content edits merged since the
+      # committed snapshot was refreshed can't fail the check.
       - name: Check whether dependencies changed
         id: deps
         run: |
           base="${{ github.event.pull_request.base.sha || github.event.before }}"
-          if [ -z "$base" ] || ! git cat-file -e "$base" 2>/dev/null \
-            || ! git diff --quiet "$base" HEAD -- package.json yarn.lock; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          if [ -n "$base" ] && git cat-file -e "$base" 2>/dev/null \
+            && ! git diff --quiet "$base" HEAD -- package.json yarn.lock; then
+            echo "base=$base" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Record the base commit's page outlines
+        id: base
+        if: steps.deps.outputs.base
+        run: |
+          git worktree add --detach "$RUNNER_TEMP/base" "${{ steps.deps.outputs.base }}"
+          cd "$RUNNER_TEMP/base"
+          if [ ! -f vitest.outline.config.ts ]; then
+            echo "The base commit has no outline test; skipping the comparison."
+            exit 0
+          fi
+          yarn install --frozen-lockfile
+          yarn test:build
+          yarn test:outline -u
+          cp test/build/__snapshots__/outline.test.ts.snap "$GITHUB_WORKSPACE/test/build/__snapshots__/"
+          echo "recorded=true" >> "$GITHUB_OUTPUT"
+
       - name: Check the page outlines are unchanged
-        if: steps.deps.outputs.changed == 'true'
+        if: steps.base.outputs.recorded == 'true'
         run: yarn test:outline
 
       - name: Install the test browser

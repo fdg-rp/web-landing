@@ -105,7 +105,14 @@
       <!-- Simple CSS spinner, replace with a better one if needed -->
       <div class="spinner" />
     </div>
-    <div v-if="error" class="error-message">{{ error }}</div>
+    <div v-if="error" class="error-message" role="status">
+      <p class="error-title">The leaderboard is unavailable right now.</p>
+      <p>
+        Standings are still posted in
+        <a href="https://discord.gg/s4JrbFmZvK" target="_blank" rel="noopener noreferrer">the district racing Discord</a>.
+        Try again in a little while.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -524,14 +531,24 @@ th.sortable-th:hover .sort-arrow {
 }
 /* Error message styles */
 .error-message {
-  color: #e03f3f;
-  background: #141416;
-  border: 2px solid #e03f3f;
+  color: var(--ui-text-muted);
+  background: var(--ui-bg-elevated);
+  border: 1px solid var(--ui-border);
   border-radius: 0.5em;
-  padding: 0.75rem 1rem;
+  padding: 1.25rem 1rem;
   margin: 1rem 0;
   text-align: center;
-  font-weight: 500;
+}
+.error-message p {
+  margin: 0;
+}
+.error-message .error-title {
+  color: var(--ui-text-highlighted);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.error-message a {
+  color: var(--ui-primary);
 }
 /* For centered columns, hide the arrow (display: none) unless hovered or sorted, so text is truly centered */
 .leaderboard-table th.mmr-th .sort-arrow,
