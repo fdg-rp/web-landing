@@ -1,6 +1,6 @@
 <template>
   <UContainer class="pb-24">
-    <h1 id="contributors" class="mb-6 text-4xl font-bold tracking-tight text-highlighted">Without you, FDG wouldn't be here.</h1>
+    <h2 id="contributors" class="mb-6 text-4xl font-bold tracking-tight text-highlighted">Without you, FDG wouldn't be here.</h2>
     <div class="text-lg text-muted">
       <slot />
     </div>
@@ -14,7 +14,7 @@
       <div class="contributors">
         <div v-for="i in data" :key="i.html_url">
           <a :href="i.html_url" target="_blank" rel="noopener noreferrer">
-            <img :src="i.avatar_url" >
+            <img :src="i.avatar_url" :alt="i.login" loading="lazy">
           </a>
         </div>
       </div>

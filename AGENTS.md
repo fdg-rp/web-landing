@@ -29,6 +29,12 @@ Tailwind 4 and Nuxt Content 3), built with Node 22. Pages are Markdown in
   `.navigation.yml`, else its first page), every page is prerendered, each
   page's Markdown version is copied to `<page>.md`, and a page's leading
   `# Title` is dropped when it repeats the title Docus already shows.
+- SEO and AI tools: `llms.txt` (summary, notes and sections) is set in
+  `nuxt.config.ts` under `llms`; the home page's Organization JSON-LD is
+  `seo.schema` in `app/app.config.ts`. A page's `description` front matter
+  feeds its meta description, share image, JSON-LD and `llms.txt`, so give
+  every page one. A folder's redirect page carries a canonical link to the
+  page it opens.
 - Content written for Docus 1 still works: `::alert`, `::list`,
   `::card-grid`/`::card`, `::callout`, `::block-hero`, `:ellipsis` and
   `:video-player` are components in `app/components/content/` (`::card`

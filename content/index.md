@@ -1,5 +1,6 @@
 ---
-title: Home
+title: Australian FiveM Roleplay Server
+description: Fat Duck Gaming (FDG) is a free, not-pay-to-win Australian FiveM roleplay server with 20+ careers, criminal organisations, emergency services and a friendly community.
 navigation: false
 layout: page
 main:
@@ -39,7 +40,7 @@ Shape your destiny and forge unforgettable connections in a sprawling Australian
  ::
 
 #support
- :video-player{src="https://www.youtube.com/watch?v=HQJYDB36bt8"}
+ :video-player{src="https://www.youtube.com/watch?v=HQJYDB36bt8" title="Fat Duck Gaming trailer"}
 ::
 
 ::card-grid
@@ -169,21 +170,21 @@ FDG Trailers
 4K Loadscreen
 #description
 :icon{name="logos:twitch"} @METRITIS\_
-:video-player{src="https://www.youtube.com/watch?v=cK63YnPnMmk"}
+:video-player{src="https://www.youtube.com/watch?v=cK63YnPnMmk" title="FDG 4K loadscreen"}
 ::
 ::card
 #title
 FDG THREAT
 #description
 :icon{name="logos:twitch"} @Cruisey32
-:video-player{src="https://www.youtube.com/watch?v=wJAIEkZfVj8"}
+:video-player{src="https://www.youtube.com/watch?v=wJAIEkZfVj8" title="FDG THREAT trailer"}
 ::
 ::card
 #title
 A Slovak Movie
 #description
 :icon{name="logos:twitch"} @SoCRiiSPY
-:video-player{src="https://www.youtube.com/watch?v=RA4aDIp8750"}
+:video-player{src="https://www.youtube.com/watch?v=RA4aDIp8750" title="A Slovak Movie"}
 ::
 ::div
 :icon{name="noto:film-projector"} See more on [YouTube](https://www.youtube.com/@fatduckgamingloadscreens6344).

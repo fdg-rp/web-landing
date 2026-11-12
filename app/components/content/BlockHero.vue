@@ -2,7 +2,9 @@
   ::block-hero from Docus 1 (also the base of ::block-hero-with-play-now):
   title, description and #extra on the left two thirds, #support on the
   right, then the call-to-action links. `cta` and `secondary` are
-  [label, url] pairs from the front matter.
+  [label, url] pairs from the front matter. The title is the page's <h1>
+  only with the Play now button (the home page's own hero); any other hero
+  is a section of its page, an <h2>.
 -->
 <script setup lang="ts">
 withDefaults(
@@ -15,9 +17,9 @@ withDefaults(
   <UContainer as="section" class="py-20 sm:py-24 lg:py-32">
     <div class="grid gap-16 lg:grid-cols-3 lg:gap-8">
       <div class="lg:col-span-2">
-        <h1 class="mb-8 px-8 text-center text-4xl font-bold tracking-tight text-highlighted sm:text-5xl lg:px-0 lg:text-start lg:text-6xl">
+        <component :is="playNowUrl ? 'h1' : 'h2'" class="mb-8 px-8 text-center text-4xl font-bold tracking-tight text-highlighted sm:text-5xl lg:px-0 lg:text-start lg:text-6xl">
           <slot name="title" mdc-unwrap="p" />
-        </h1>
+        </component>
         <p class="mb-12 px-2 text-center text-lg text-muted lg:text-start">
           <slot name="description" mdc-unwrap="p" />
         </p>

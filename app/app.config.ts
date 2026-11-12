@@ -3,6 +3,22 @@ export default defineAppConfig({
     title: "Fat Duck Gaming",
     titleTemplate: "%s · Fat Duck Gaming",
     description: "Australia's favourite FiveM community",
+    // JSON-LD on the home page: FDG as an organisation, with its profiles,
+    // so search engines and AI tools know what the site is about.
+    schema: {
+      type: "Organization",
+      organization: {
+        name: "Fat Duck Gaming",
+        url: "https://fatduckgaming.com",
+        logo: "https://fatduckgaming.com/img/fdg_logo.png",
+        sameAs: [
+          "https://discord.gg/fatduckgaming",
+          "https://tiktok.com/@officialfatduckgaming",
+          "https://www.youtube.com/@fatduckgamingloadscreens6344",
+          "https://github.com/fdg-rp",
+        ],
+      },
+    },
   },
   header: {
     title: "Fat Duck Gaming",

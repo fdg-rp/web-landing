@@ -1,6 +1,6 @@
 // The FDG site: a Docus layer (https://docus.dev) over the Markdown in
 // content/, generated as static files into built/public.
-import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 
 /** The first page in a content folder, in the order the menu lists it. */
@@ -78,6 +78,39 @@ function contentRoutes(dir = "content"): string[] {
     });
 }
 
+/** The sections of /llms.txt: content pages grouped by top-level folder. */
+function llmsSections() {
+  const section = (title: string, description: string, path: string) => ({
+    title,
+    description,
+    contentCollection: "docs",
+    contentFilters: [
+      { field: "extension", operator: "=", value: "md" },
+      { field: "path", operator: "LIKE", value: `${path}%` },
+    ],
+  });
+  return [
+    section("Guides & Docs", "How to join and play, the server rules, jobs, activities and staff processes.", "/server-docs"),
+    section("News", "Newsletters, articles and service reports.", "/news"),
+    section("Racing", "The street racing scene and its leaderboard.", "/racing"),
+    section("Lore", "An out-of-character wiki of the server's characters and organisations.", "/lore"),
+    section("Other", "Site policies.", "/privacy-policy"),
+  ];
+}
+
+/**
+ * The page a folder URL redirects to is a bare `<meta http-equiv=refresh>`.
+ * Give it a canonical link and a plain link to its target, so crawlers
+ * index the target rather than an empty page.
+ */
+function redirectPage(to: string): string {
+  const url = `https://fatduckgaming.com${to}`;
+  return `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Redirecting…</title>` +
+    `<link rel="canonical" href="${url}"><meta name="robots" content="noindex, follow">` +
+    `<meta http-equiv="refresh" content="0; url=${to}"></head>` +
+    `<body><a href="${to}">${url}</a></body></html>`;
+}
+
 export default defineNuxtConfig({
   extends: ["docus"],
 
@@ -127,6 +160,20 @@ export default defineNuxtConfig({
     components: {
       map: { card: "FdgCard", callout: "FdgCallout" },
     },
+  },
+
+  // /llms.txt, the index AI tools read: a summary of what FDG is, then the
+  // pages by section, guides first (each links its Markdown version).
+  llms: {
+    description:
+      "Fat Duck Gaming (FDG) is a free, not-pay-to-win Australian FiveM roleplay server for GTA V. " +
+      "This site has the server's guides and rules, news, community lore and the racing leaderboard.",
+    notes: [
+      "Join the server at https://rp.fatduckgaming.com, with `connect 3y3jjr` in the FiveM F8 console, or by searching for Fat Duck Gaming in the FiveM server browser.",
+      "The server rules are at https://fatduckgaming.com/server-docs/rules/rules-overview; the community is on Discord at https://discord.gg/fatduckgaming.",
+      "Support: https://support.fatduckgaming.com. Donations are optional: FDG is free to play.",
+    ],
+    sections: llmsSections(),
   },
 
   // Docus offers an MCP server for AI tools; this site doesn't need one.
@@ -185,6 +232,10 @@ export default defineNuxtConfig({
     "nitro:init"(nitro) {
       nitro.hooks.hook("prerender:done", () => {
         const out = nitro.options.output.publicDir;
+        for (const [from, { redirect }] of Object.entries(folderRedirects())) {
+          const file = join(out, from, "index.html");
+          if (existsSync(file)) writeFileSync(file, redirectPage(redirect));
+        }
         const raw = join(out, "raw");
         if (!existsSync(raw)) return;
         const copy = (dir: string) => {

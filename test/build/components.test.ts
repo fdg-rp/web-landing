@@ -15,6 +15,21 @@ describe("home page", () => {
     expect(playNow.length).toBeGreaterThan(0);
   });
 
+  it("has one h1, and describes FDG to search engines", () => {
+    const home = builtPage("/");
+    expect(home.querySelectorAll("h1")).toHaveLength(1);
+    expect(home.querySelector('meta[name="description"]')?.getAttribute("content")).toMatch(/FiveM/);
+    const schema = home.querySelectorAll('script[type="application/ld+json"]').map((s) => s.text).join("");
+    expect(schema).toContain('"@type":"Organization"');
+    expect(schema).toContain("https://discord.gg/fatduckgaming");
+  });
+
+  it("names each video", () => {
+    const buttons = builtPage("/").querySelectorAll('button[aria-label^="Play video"]');
+    expect(buttons.length).toBeGreaterThan(0);
+    for (const b of buttons) expect(b.getAttribute("aria-label")).toMatch(/^Play video: ./);
+  });
+
   it("shows the contributors block", () => {
     expect(builtPage("/").querySelector("#contributors")?.text).toContain("FDG");
   });
