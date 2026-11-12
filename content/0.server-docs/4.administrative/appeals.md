@@ -1,6 +1,6 @@
 ---
 title: "Appeals"
-description: "Learn how account owners can elect to appeal administrative decisions"
+description: "How to appeal a ban or other staff decision on FDG: checking eligibility, gathering evidence and submitting your appeal."
 aside: true
 bottom: true
 toc: true

@@ -1,3 +1,7 @@
+---
+description: "FDG's plan to add new civilian careers and rework old ones, legal and illegal, over 12 months, starting with a new trucking career."
+---
+
 # Civilian Content Uplift
 Hi everyone, we've recently began work on our **Civilian Content Uplift**, where we plan to introduce new careers, and rework old ones.
 This will apply to **all legal and illegal civilian activites** and will rollout with frequent updates over the next 12 months.

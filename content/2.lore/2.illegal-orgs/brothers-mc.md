@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Brothers Motorcycle Club, an FDG street gang founded by six brothers on loyalty and ruthlessness."
 ---
 
 # Brothers Motorcycle Club

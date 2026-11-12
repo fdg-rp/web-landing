@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Ufasele Brothers, an FDG gang founded by brothers Cece, Matu and Kefe from Apia, Samoa."
 ---
 
 # Ufasele Brothers

@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Chad The Realest, played by F1zzydrinks: Mayor of Los Santos and host of the Real Talk Podcast."
 ---
 
 # Chad The Realest

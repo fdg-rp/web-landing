@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Slovak Mafia, a family who fled Hungary in the 1960s and became a household name in Los Santos."
 ---
 
 # The Slovak Mafia

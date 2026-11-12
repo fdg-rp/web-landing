@@ -1,3 +1,7 @@
+---
+description: "FDG's Winter 2026 newsletter: trucking overhaul, Smash & Grab, widebodies and lootboxes, skill rewards, the FDG Portal and Racing Season 5."
+---
+
 # **FDG Newsletter \- Winter Edition**
 
 ![Newsletter Banner](https://i.imgur.com/UVZxSfF.png) 

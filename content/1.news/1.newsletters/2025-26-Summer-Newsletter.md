@@ -1,3 +1,7 @@
+---
+description: "FDG's Summer 2025-26 newsletter: Vespucci Markets businesses, the Chop Shop, achievements and Quack Score, business auctions and community stats."
+---
+
 # **FDG Newsletter \- Summer Edition** 
 
 ![Newsletter Banner](https://i.imgur.com/UVZxSfF.png)

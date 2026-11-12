@@ -1,6 +1,6 @@
 ---
 title: "Racing"
-description: "Introduction on how to create and host races"
+description: "How to create, host and join street races on FDG with the racing app, and the racing clubs that run events for prizes."
 aside: true
 bottom: true
 toc: true

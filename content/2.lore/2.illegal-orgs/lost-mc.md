@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Lost Motorcycle Club, from friends running a Flywheels garage to an illegal trade in Sandy Shores."
 ---
 
 # Lost Motorcycle Club

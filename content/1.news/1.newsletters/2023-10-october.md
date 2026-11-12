@@ -1,6 +1,6 @@
 ---
 title: "October 2023 Newsletter"
-description: "The long-overdue October 2023 FDG newsletter"
+description: "FDG's October 2023 newsletter, back after a break: everything since May, community events, featured members and staff promotions."
 aside: true
 bottom: true
 toc: true

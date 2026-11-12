@@ -54,6 +54,15 @@ describe("content pages", () => {
   });
 });
 
+describe("descriptions", () => {
+  // The description is the search result snippet, the share text and the
+  // page's line in llms.txt: every page sets its own.
+  it.each(pages.map((p) => [p.file, p] as const))("%s has a description", (_, page) => {
+    expect(page.description?.length ?? 0).toBeGreaterThanOrEqual(50);
+    expect(page.description!.length).toBeLessThanOrEqual(170);
+  });
+});
+
 describe("site-wide files", () => {
   it("serves a 404 page", () => {
     expect(builtFileFor("/404.html")).toBeDefined();

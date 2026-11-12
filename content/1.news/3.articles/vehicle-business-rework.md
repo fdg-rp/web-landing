@@ -1,3 +1,7 @@
+---
+description: "Why FDG is closing player car dealerships and turning mechanic businesses into a one-stop shop for buying, servicing and repairing cars."
+---
+
 Dear Community
 
 # Closing Dealerships

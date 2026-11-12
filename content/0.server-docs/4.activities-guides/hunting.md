@@ -1,6 +1,6 @@
 ---
 title: "Hunting"
-description: "Introduction to hunting"
+description: "How to start hunting on FDG: finding Bonk the Hunter, tracking and skinning wildlife, and selling what you catch for legal income."
 aside: true
 bottom: true
 toc: true

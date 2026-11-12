@@ -1,6 +1,6 @@
 ---
 title: "Network Diagnostics"
-description: "How to perform network diagnostics using WinMTR"
+description: "How to run WinMTR trace route and ping tests to the FDG server and share the results when reporting connection issues."
 aside: true
 bottom: true
 toc: true

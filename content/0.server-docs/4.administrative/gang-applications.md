@@ -1,6 +1,6 @@
 ---
 title: "Gang Application Guidelines"
-description: "The guidelines and information for Gang Applications."
+description: "How to apply to become a registered gang on FDG, what an application needs, and the rules you must follow until it is approved."
 aside: true
 bottom: true
 toc: true

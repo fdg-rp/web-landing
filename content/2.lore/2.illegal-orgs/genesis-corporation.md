@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Genesis Corporation, a family business on FDG taken over by four brothers and a sister after their father's death."
 ---
 
 # Genesis Corporation

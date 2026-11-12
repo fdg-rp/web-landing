@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Los Santos Outlaws, a cartel-like group from the Grapeseed farms led by Tarkin Growl."
 ---
 
 # Los Santos Outlaws

@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Sum Ting Wong, played by Bungle: leader of the Umbrella Corporation, owner of Wongs Noodles and one of Los Santos' best-known citizens."
 ---
 
 # Sum Ting Wong

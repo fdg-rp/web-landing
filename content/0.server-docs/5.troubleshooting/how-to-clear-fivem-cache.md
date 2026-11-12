@@ -1,6 +1,6 @@
 ---
 title: "Clearing FiveM Cache"
-description: "Step-by-step guide on how to clear FiveM cache"
+description: "Step-by-step: how to safely clear your FiveM cache to fix performance and loading problems, and what clearing it removes."
 aside: true
 bottom: true
 toc: true

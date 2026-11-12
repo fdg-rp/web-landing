@@ -1,6 +1,6 @@
 ---
 title: "November 2023 Newsletter"
-description: "Two in a row?! The November 2023 FDG newsletter,"
+description: "FDG's November 2023 newsletter: a new fishing script and other development, community events, content creator of the month and staff news."
 aside: true
 bottom: true
 toc: true
