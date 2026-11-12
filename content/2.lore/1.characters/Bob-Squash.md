@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Bob Squash, played by Metritis: a notorious FDG criminal known for orange vehicles and leaving a wake of destruction and chaos."
 ---
 
 # Bob Squash

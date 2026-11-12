@@ -1,6 +1,6 @@
 ---
 title: "Gathering CitizenFX.log"
-description: "How to get your CitizenFX.log file to report in game bugs"
+description: "How to find your CitizenFX.log file in FiveM's application data and send it to FDG staff with a bug report."
 aside: true
 bottom: true
 toc: true

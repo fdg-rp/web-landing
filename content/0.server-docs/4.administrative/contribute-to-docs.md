@@ -1,6 +1,6 @@
 ---
 title: "Contribute to Docs"
-description: "How you can contribute to the FDG Docs"
+description: "How anyone can improve the FDG guides and docs: the design principles and syntax, and how to create or edit a page on GitHub."
 aside: true
 bottom: true
 toc: true

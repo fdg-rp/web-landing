@@ -1,3 +1,7 @@
+---
+description: "FDG's Autumn 2026 newsletter: hunting and fishing overhaul, Chop Shop expansion, armour rework, fire system, K9 improvements and racing updates."
+---
+
 # **FDG Newsletter \- Autumn Edition**
 
 ![Newsletter Banner](https://i.imgur.com/UVZxSfF.png) 

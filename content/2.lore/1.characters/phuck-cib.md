@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Phuck Cib, played by Snakey: a violent criminal entrepreneur known for carrying huge amounts of ammunition. Approach at your own risk."
 ---
 
 # Phuck Cib

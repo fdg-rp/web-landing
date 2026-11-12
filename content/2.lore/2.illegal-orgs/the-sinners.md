@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of The Sinners, a Southside gang born from Azor's revenge after a shooting at his uncle's garage."
 ---
 
 # The Sinners

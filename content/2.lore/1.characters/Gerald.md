@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Gerald Winston, played by Starlord_NZ: a 100-year-old man with dementia, easily startled and good friends with Rocco."
 ---
 
 # Gerald Winston

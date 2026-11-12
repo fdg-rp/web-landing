@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Rocco, played by SoCRiiSPY: a 73-year-old Italian man who distrusts banks, deals only in cash and is friends with Gerald."
 ---
 
 # Rocco

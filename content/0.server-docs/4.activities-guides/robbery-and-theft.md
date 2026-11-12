@@ -1,5 +1,6 @@
+---
 title: "Robbery & Theft"
-description: "Make some quick cash while evading law enforcement and strong-willed citizens"
+description: "A guide to crime on FDG: store robberies, theft and other high-risk ways to make quick cash while evading police and citizens."
 aside: true
 bottom: true
 toc: true

@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of the Underdogs, an FDG gang formed in Bolingbroke Penitentiary that rose to defy San Andreas."
 ---
 
 # Underdogs

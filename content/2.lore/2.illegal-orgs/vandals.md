@@ -1,6 +1,6 @@
 ---
 title: "The Vandals"
-description: "An update to the original Vandals lore, told in the style of a news article." 
+description: "The lore of The Vandals, the Southside crew who stopped the trains, told as a news article."
 aside: true
 bottom: true
 toc: true

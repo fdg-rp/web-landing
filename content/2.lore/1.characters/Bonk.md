@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "Bonk, played by Martibo: a sloth of unknown origins, gang mascot and self-styled best getaway driver in the city."
 ---
 
 # Bonk

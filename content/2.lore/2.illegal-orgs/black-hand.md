@@ -4,6 +4,7 @@ aside: true
 bottom: true
 toc: true
 navigation: true
+description: "The lore of The Black Hand, a secret society on FDG that claims its roots in the bullet that changed the world."
 ---
 
 # The Black Hand

@@ -1,3 +1,7 @@
+---
+description: "A light-hearted incident report on the dispatch script release that got stuck in an infinite loop: what went wrong, the fallout and lessons learned."
+---
+
 # Incident Report: The Infinite Loop Fiasco  
 
 ## Summary  

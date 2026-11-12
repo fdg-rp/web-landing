@@ -1,6 +1,6 @@
 ---
 title: "Diving"
-description: "Search the deep seas for lost property and rare items to sell at a profit"
+description: "How diving and scavenging work on FDG: finding lost property and rare items under the sea, and selling them for up to $9,000 each."
 aside: true
 bottom: true
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "Medical System Guide"
-description: "Master the intricacies of FDG's improved medical system with this comprehensive guide, offering step-by-step instructions and practical examples for seamless integration and effective utilisation within your roleplay."
+description: "How FDG's reworked medical system works for paramedics: examining patients, their condition and wounds, treatment and special equipment."
 aside: true
 bottom: true
 toc: true

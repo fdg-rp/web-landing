@@ -1,6 +1,6 @@
 ---
 title: "UI Lag"
-description: "How to fix UI Lag"
+description: "Fix lag when opening your inventory, phone or other menus in FiveM by turning on the UI lag fix in FiveM's game settings."
 aside: true
 bottom: true
 toc: true

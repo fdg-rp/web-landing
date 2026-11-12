@@ -1,6 +1,6 @@
 ---
 title: "FiveM Crashing Fixes"
-description: "Tips and tricks to potentially fix FiveM crashing"
+description: "Common causes of FiveM crashes and tips to fix them, from drivers and game files to settings, before you contact FDG support."
 aside: true
 bottom: true
 toc: true
