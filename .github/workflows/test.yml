@@ -1,4 +1,4 @@
-# Builds the site and runs its tests on every pull request (Renovate's
+# Builds the site and runs its tests on every pull request (Dependabot's
 # dependency updates included) and on pushes to branches other than main,
 # which deploy.yml builds, tests and deploys.
 

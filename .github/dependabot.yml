@@ -1,0 +1,45 @@
+# Dependency updates for the FDG site. Dependabot opens pull requests; the
+# Test workflow checks each one (a full build, the page checks, the browser
+# tests and, for dependency changes, the page outlines against the base
+# branch). Nothing merges itself: merge a green PR to deploy it.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Australia/Brisbane
+    open-pull-requests-limit: 5
+    groups:
+      # Nuxt, Docus and their modules move together.
+      nuxt-and-docus:
+        patterns: ["nuxt", "docus", "@nuxt/*", "@nuxtjs/*", "nuxt-*"]
+      # Icon and font packages change often and together.
+      icons-and-fonts:
+        patterns: ["@iconify-json/*", "@fontsource-variable/*"]
+      # Everything else that is a minor or patch update, in one PR.
+      minor-and-patch:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+    ignore:
+      # Held back on purpose (see AGENTS.md).
+      - dependency-name: "@types/node" # the Node 22 the site runs on
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "better-sqlite3" # Docus requires 12.x
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "typescript" # 7 not yet checked against Nuxt 4
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@playwright/test" # pinned to the cloud sessions' browser
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Australia/Brisbane
+    groups:
+      github-actions:
+        patterns: ["*"]

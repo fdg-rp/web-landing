@@ -16,10 +16,11 @@ Tailwind 4 and Nuxt Content 3), built with Node 22. Pages are Markdown in
   browser tests and, when `package.json` or `yarn.lock` changed, an outline
   check against a build of the base commit (so content edits never fail a
   dependency PR).
-- Renovate (`renovate.json`) groups updates and merges patch and minor ones
-  itself once the Test check passes, which deploys them. Majors wait for a
-  person. The four held-back packages below are capped there too. The
-  Renovate GitHub app has to be installed on the repo for any of it to run.
+- Dependabot (`.github/dependabot.yml`) opens update PRs on Mondays:
+  Nuxt/Docus, icons and fonts, other minor and patch updates, and GitHub
+  Actions each grouped into one PR. Nothing merges itself; merge a PR once
+  its Test check is green (merging deploys). The four held-back packages
+  below are excluded there.
 
 ## How the site is put together
 
