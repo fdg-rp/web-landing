@@ -1,26 +1,15 @@
-<!-- Docus share image, with the FDG text logo (public/img) in place of the site name. -->
+<!--
+  Docus's home page share image, with the FDG text logo (public/img) in
+  place of the site name. Docus's own version also downloads the header logo
+  from the live site and inlines it as SVG, which breaks on a PNG logo (and
+  ties the build to the live site), so that part is left out.
+-->
 <script lang="ts" setup>
 const { title, description } = defineProps<{ title?: string, description?: string }>()
 
 const appConfig = useAppConfig()
 const { name: siteName } = useSiteConfig()
 const primaryColor = appConfig.ui?.colors?.primary ?? 'emerald'
-const logoPath = appConfig.header?.logo?.dark || appConfig.header?.logo?.light
-
-const logoSvg = await fetchLogoSvg(logoPath)
-
-async function fetchLogoSvg(path?: string): Promise<string> {
-  if (!path) return ''
-  try {
-    const { url: siteUrl } = useSiteConfig()
-    const url = path.startsWith('http') ? path : `${siteUrl}${path}`
-    const svg = await $fetch<string>(url, { responseType: 'text' })
-    return svg.replace('<svg', '<svg width="48" height="48"')
-  }
-  catch {
-    return ''
-  }
-}
 </script>
 
 <template>
@@ -31,16 +20,6 @@ async function fetchLogoSvg(path?: string): Promise<string> {
     <div class="absolute top-0 right-0 w-[350px] h-[350px] bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.22)_0%,rgba(255,255,255,0.08)_35%,transparent_65%)]" />
 
     <div class="flex-1 flex flex-col justify-center w-full">
-      <div
-        v-if="logoSvg"
-        class="flex justify-center mb-8"
-      >
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div
-          class="w-[48px] h-[48px]"
-          v-html="logoSvg"
-        />
-      </div>
       <div
         v-if="title"
         class="flex justify-center mb-6"
