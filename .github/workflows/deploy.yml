@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     
     - name: Announce the build on Discord
       continue-on-error: true
@@ -28,7 +28,7 @@ jobs:
         description: "Building the site before it is copied to the server."
 
     - name: Set Node.js 22.x
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
         node-version: 22.x
         cache: yarn
@@ -55,7 +55,7 @@ jobs:
     # in the deploy user's home), so a failed or slow upload never touches
     # what visitors see.
     - name: Upload the site to a staging folder
-      uses: appleboy/scp-action@v0.1.7
+      uses: appleboy/scp-action@v1.0.0
       with:
         host: ${{ secrets.DEPLOY_HOST }}
         username: ${{ secrets.DEPLOY_USERNAME }}
@@ -70,7 +70,7 @@ jobs:
     # which takes a second. Top-level dotfiles in the live folder (such as
     # .well-known/) are left alone, as the old `rm -rf *` did.
     - name: Swap the staged site in
-      uses: appleboy/ssh-action@v1.0.3
+      uses: appleboy/ssh-action@v1.2.5
       env:
         LIVE: ${{ vars.DEPLOY_DIRECTORY }}
       with:
