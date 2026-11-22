@@ -2199,14 +2199,15 @@
     unwasm "^0.5.3"
     vfile "^6.0.3"
 
-"@nuxtjs/plausible@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/plausible/-/plausible-4.0.0.tgz#429188ef8eb2f6ee16e398f584b5c387c7762f90"
-  integrity sha512-R2G9BktBVSCG0nDNBSVlC8jDbsYBgrbqmn8wWisiIF9lKfRq99NwIvtw/DLuwexJT5pCYPvBflIof4NS4ZX8Xg==
+"@nuxtjs/plausible@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/plausible/-/plausible-4.1.0.tgz#d1bdaee6dd4e6fba5d5ff4adc561f50af3e8096b"
+  integrity sha512-0x7ZgYHXolATfn5h5fBg8VAmjBqR1YAY8LnP1ENDmkZ9Q89DcIUe2zQt8UDpnBKHsLn67Fi6dMeKfgfFPNQjQQ==
   dependencies:
-    "@nuxt/kit" "^4.5.2"
-    "@plausible-analytics/tracker" "^0.4.5"
+    "@nuxt/kit" "^4.6.4"
+    "@plausible-analytics/tracker" "^0.4.7"
     defu "^6.1.7"
+    h3 "^1.15.11"
     ufo "^1.6.4"
 
 "@nuxtjs/robots@^6.2.4":
@@ -2682,7 +2683,7 @@
     napi-wasm "^1.1.0"
     picomatch "^4.0.4"
 
-"@plausible-analytics/tracker@^0.4.5":
+"@plausible-analytics/tracker@^0.4.7":
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/@plausible-analytics/tracker/-/tracker-0.4.7.tgz#af8f0960799beed6798d7553914ba3e6a8b8ab63"
   integrity sha512-majmq1uion4uLo88Tr0eMCMfi7TY00okp3I0Vql9egFaAz6DYCW4bJaV3t5LB3BfcvW5exJpmqzROU0a1b6nAA==
