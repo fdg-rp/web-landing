@@ -30,11 +30,11 @@
     "@types/node": "^22",
     "better-sqlite3": "^12",
     "docus": "^5.15.0",
-    "eslint": "^10.14.0",
+    "eslint": "^10.15.0",
     "node-html-parser": "^9.0.7",
     "nuxt": "^4.6.4",
     "typescript": "^5",
-    "vitest": "^5.1.0"
+    "vitest": "^5.1.1"
   },
   "dependencies": {
     "vue-marquee-text-component": "^2.0.1"
