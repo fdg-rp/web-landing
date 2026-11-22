@@ -25,7 +25,7 @@
     "@iconify-json/noto-v1": "^1.2.5",
     "@iconify-json/twemoji": "^1.2.5",
     "@nuxt/eslint": "^1",
-    "@nuxtjs/plausible": "^4.0.0",
+    "@nuxtjs/plausible": "^4.1.0",
     "@playwright/test": "1.63.0",
     "@types/node": "^22",
     "better-sqlite3": "^12",
